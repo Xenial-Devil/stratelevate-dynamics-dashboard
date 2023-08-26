@@ -1,0 +1,86 @@
+@import "./fonts/font.css";
+.scroll-top {
+  right: 30px;
+}
+
+.scroll-to-top div:first-of-type {
+  left: auto !important;
+  right: 30px;
+}
+
+.scroll-top {
+  position: fixed;
+  bottom: 5%;
+  right: 30px;
+  display: none;
+  z-index: 99;
+}
+
+.btn.btn-icon {
+  padding: 0.715rem 0.736rem;
+}
+
+.btn-primary {
+  border-color: #7367f0 !important;
+  background-color: #7367f0 !important;
+}
+
+.container-xxl {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.dark .authentication-basic:before {
+  width: 238px;
+  height: 233px;
+  content: " ";
+  position: absolute;
+  top: -55px;
+  left: -40px;
+  background-color: #333333;
+  z-index: -5;
+  border-radius: 0.5rem;
+}
+
+.dark .authentication-basic:after {
+  width: 180px;
+  height: 180px;
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  bottom: -30px;
+  right: -56px;
+  background-color: #333333;
+  z-index: -5;
+  border-radius: 0.5rem;
+}
+
+.authentication-basic:before {
+  width: 238px;
+  height: 233px;
+  content: " ";
+  position: absolute;
+  top: -55px;
+  left: -40px;
+  background-color: #cbcbcb;
+  z-index: -5;
+  border-radius: 0.5rem;
+}
+
+.authentication-basic:after {
+  width: 180px;
+  height: 180px;
+  content: " ";
+  position: absolute;
+  z-index: -1;
+  bottom: -30px;
+  right: -56px;
+  background-color: #cbcbcb;
+  z-index: -5;
+  border-radius: 0.5rem;
+}/*# sourceMappingURL=style.css.map */
