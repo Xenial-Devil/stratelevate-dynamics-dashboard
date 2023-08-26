@@ -1,8 +1,8 @@
 // ** React Imports
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 // ** Next Import
-import Link from 'next/link'
+import { Link } from 'react-router-dom'
 
 // ** MUI Components
 import Box from '@mui/material/Box'
@@ -12,44 +12,46 @@ import CardContent from '@mui/material/CardContent'
 import { styled, useTheme } from '@mui/material/styles'
 import MuiCard from '@mui/material/Card'
 import FormHelperText from '@mui/material/FormHelperText'
-
+import userImageEffect from '../../../../components/useImageEffect';
+import logo_dark from '../../../../img/Dark.svg';
+import logo_lite from '../../../../img/Light.svg';
 // ** Third Party Imports
 import Cleave from 'cleave.js/react'
 import { useForm, Controller } from 'react-hook-form'
 
 // ** Configs
-import themeConfig from 'src/configs/themeConfig'
+import themeConfig from '../../../../configs/themeConfig'
 
 // ** Layout Import
-import BlankLayout from 'src/@core/layouts/BlankLayout'
+import BlankLayout from '../../../../@core/layouts/BlankLayout'
 
 // ** Demo Imports
-import AuthIllustrationV1Wrapper from 'src/views/pages/auth/AuthIllustrationV1Wrapper'
+import AuthIllustrationV1Wrapper from '../../../../views/pages/auth/AuthIllustrationV1Wrapper'
 
 // ** Custom Styled Component
-import CleaveWrapper from 'src/@core/styles/libs/react-cleave'
+import CleaveWrapper from '../../../../@core/styles/libs/react-cleave'
 
 // ** Util Import
-import { hexToRGBA } from 'src/@core/utils/hex-to-rgba'
+import { hexToRGBA } from '../../../../@core/utils/hex-to-rgba'
 
 // ** Styles
 import 'cleave.js/dist/addons/cleave-phone.us'
 
 // ** Styled Components
 const Card = styled(MuiCard)(({ theme }) => ({
-  [theme.breakpoints.up('sm')]: { width: '25rem' }
+  [theme.breakpoints.up('sm')]: { width: '27rem' }
 }))
 
 const LinkStyled = styled(Link)(({ theme }) => ({
   textDecoration: 'none',
-  color: `${theme.palette.primary.main} !important`
+  color: `${theme.palette.primary.main} `
 }))
 
 const CleaveInput = styled(Cleave)(({ theme }) => ({
   maxWidth: 48,
   textAlign: 'center',
-  height: '48px !important',
-  fontSize: '150% !important',
+  height: '48px ',
+  fontSize: '150% ',
   marginTop: theme.spacing(2),
   marginBottom: theme.spacing(2),
   '&:not(:last-child)': {
@@ -70,13 +72,27 @@ const defaultValues = {
   val6: ''
 }
 
-const TwoStepsV1 = () => {
+const TwoSteps = () => {
   // ** State
   const [isBackspace, setIsBackspace] = useState(false)
 
   // ** Hooks
   const theme = useTheme()
 
+  const { isNightMode, logo, toggle } = userImageEffect();
+  const [moode, setMoode] = useState('light');
+  useEffect(() => {
+    const storedDarkMode = localStorage.getItem('darkMode');
+    const newNightMode = JSON.parse(storedDarkMode);
+    if (newNightMode) {
+      logo.current = logo_dark;
+      setMoode('dark');
+    }
+    else {
+      logo.current = logo_lite;
+      setMoode('light');
+    }
+  }, [logo, toggle, moode]);
   const {
     control,
     handleSubmit,
@@ -126,6 +142,7 @@ const TwoStepsV1 = () => {
         rules={{ required: true }}
         render={({ field: { value, onChange } }) => (
           <Box
+            data-id={`otp-input-${index+1}`}
             type='tel'
             maxLength={1}
             value={value}
@@ -133,8 +150,9 @@ const TwoStepsV1 = () => {
             component={CleaveInput}
             onKeyDown={handleKeyDown}
             onChange={event => handleChange(event, onChange)}
+            className='!text-black dark:!text-white !placeholder-gray-700 dark:!placeholder-gray-300 !border-1 !border-gray-500 dark:!border-gray-400'
             options={{ blocks: [1], numeral: true, numeralPositiveOnly: true }}
-            sx={{ [theme.breakpoints.down('sm')]: { px: `${theme.spacing(2)} !important` } }}
+            sx={{ [theme.breakpoints.down('sm')]: { px: `${theme.spacing(2)} ` } }}
           />
         )}
       />
@@ -142,53 +160,23 @@ const TwoStepsV1 = () => {
   }
 
   return (
-    <Box className='content-center'>
+    <Box className='content-center !bg-white dark:!bg-[#434343] !rounded-2xl !min-w-[27rem]'>
       <AuthIllustrationV1Wrapper>
-        <Card>
-          <CardContent sx={{ p: theme => `${theme.spacing(10.5, 8, 8)} !important` }}>
-            <Box sx={{ mb: 8, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <svg width={34} viewBox='0 0 32 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                <path
-                  fillRule='evenodd'
-                  clipRule='evenodd'
-                  fill={theme.palette.primary.main}
-                  d='M0.00172773 0V6.85398C0.00172773 6.85398 -0.133178 9.01207 1.98092 10.8388L13.6912 21.9964L19.7809 21.9181L18.8042 9.88248L16.4951 7.17289L9.23799 0H0.00172773Z'
-                />
-                <path
-                  fill='#161616'
-                  opacity={0.06}
-                  fillRule='evenodd'
-                  clipRule='evenodd'
-                  d='M7.69824 16.4364L12.5199 3.23696L16.5541 7.25596L7.69824 16.4364Z'
-                />
-                <path
-                  fill='#161616'
-                  opacity={0.06}
-                  fillRule='evenodd'
-                  clipRule='evenodd'
-                  d='M8.07751 15.9175L13.9419 4.63989L16.5849 7.28475L8.07751 15.9175Z'
-                />
-                <path
-                  fillRule='evenodd'
-                  clipRule='evenodd'
-                  fill={theme.palette.primary.main}
-                  d='M7.77295 16.3566L23.6563 0H32V6.88383C32 6.88383 31.8262 9.17836 30.6591 10.4057L19.7824 22H13.6938L7.77295 16.3566Z'
-                />
-              </svg>
-              <Typography variant='h3' sx={{ ml: 2.5, fontWeight: 700 }}>
-                {themeConfig.templateName}
-              </Typography>
+        <Card className='!bg-white dark:!bg-[#434343] !min-w-[27rem]'>
+          <CardContent sx={{ p: theme => `${theme.spacing(6.5, 8, 8)} ` }}>
+            <Box sx={{ mb: 4, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <img src={logo.current} alt='logo' />
             </Box>
-            <Box sx={{ mb: 6 }}>
-              <Typography variant='h4' sx={{ mb: 1.5 }}>
-                Two-Step Verification 💬
+            <Box sx={{ mb: 4 }}>
+              <Typography variant='h4' sx={{ mb: 1 }} className='!text-[#2f2b3dc7] dark:!text-[#d0d4f1c7]'>
+                Two-Step Verification
               </Typography>
-              <Typography sx={{ mb: 1.5, color: 'text.secondary' }}>
+              <Typography sx={{ mb: 1, color: 'text.secondary' }} className='!text-[#2f2b3dc7] dark:!text-[#d0d4f1c7]'>
                 We sent a verification code to your mobile. Enter the code from the mobile in the field below.
               </Typography>
-              <Typography variant='h6'>******9763</Typography>
+              <Typography variant='h6' className='!text-[#2f2b3dc7] dark:!text-[#d0d4f1c7]'>******9763</Typography>
             </Box>
-            <Typography sx={{ fontWeight: 500, color: 'text.secondary' }}>Type your 6 digit security code</Typography>
+            <Typography sx={{ fontWeight: 500, color: 'text.secondary' }} className='!text-[#2f2b3dc7] dark:!text-[#d0d4f1c7]'>Type your 6 digit security code</Typography>
             <form onSubmit={handleSubmit(() => true)}>
               <CleaveWrapper
                 sx={{
@@ -197,7 +185,7 @@ const TwoStepsV1 = () => {
                   justifyContent: 'space-between',
                   ...(errorsArray.length && {
                     '& .invalid:focus': {
-                      borderColor: theme => `${theme.palette.error.main} !important`,
+                      borderColor: theme => `${theme.palette.error.main} `,
                       boxShadow: theme => `0 1px 3px 0 ${hexToRGBA(theme.palette.error.main, 0.4)}`
                     }
                   })
@@ -215,7 +203,7 @@ const TwoStepsV1 = () => {
               </Button>
             </form>
             <Box sx={{ mt: 4, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <Typography sx={{ color: 'text.secondary' }}>Didn't get the code?</Typography>
+              <Typography className='!text-[#2f2b3dc7] dark:!text-[#d0d4f1c7]'>Didn't get the code?</Typography>
               <Typography component={LinkStyled} href='/' onClick={e => e.preventDefault()} sx={{ ml: 1 }}>
                 Resend
               </Typography>
@@ -226,6 +214,6 @@ const TwoStepsV1 = () => {
     </Box>
   )
 }
-TwoStepsV1.getLayout = page => <BlankLayout>{page}</BlankLayout>
+TwoSteps.getLayout = page => <BlankLayout>{page}</BlankLayout>
 
-export default TwoStepsV1
+export default TwoSteps

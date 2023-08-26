@@ -19,6 +19,8 @@ import Login from './Pages/Login';
 import ForgotPassword from './Pages/pages/auth/forgot-password-v1';
 import ResetPassword from './Pages/pages/auth/reset-password-v1';
 import Register from './Pages/pages/auth/register-v1';
+import TwoSteps from './Pages/pages/auth/two-steps-v1';
+import AppCalendar from './Pages/apps/calendar';
 function App() {
   const [randomValue, setRandomValue] = useState(0);
   // Use the custom hook to get the values
@@ -72,6 +74,12 @@ function App() {
           </div>
           <div className='flex justify-center items-center'>
             <Register/>
+          </div>
+          <div className='flex justify-center items-center'>
+            <TwoSteps />
+          </div>
+          <div className='flex justify-center items-center'>
+            <AppCalendar />
           </div>
         </div>
         <ScrolltoTop />

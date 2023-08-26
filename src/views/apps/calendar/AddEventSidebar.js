@@ -13,17 +13,17 @@ import FormControl from '@mui/material/FormControl'
 import FormControlLabel from '@mui/material/FormControlLabel'
 
 // ** Custom Component Import
-import CustomTextField from 'src/@core/components/mui/text-field'
+import CustomTextField from '../../../@core/components/mui/text-field'
 
 // ** Third Party Imports
 import DatePicker from 'react-datepicker'
 import { useForm, Controller } from 'react-hook-form'
 
 // ** Icon Imports
-import Icon from 'src/@core/components/icon'
+import Icon from '../../../@core/components/icon'
 
 // ** Styled Components
-import DatePickerWrapper from 'src/@core/styles/libs/react-datepicker'
+import DatePickerWrapper from '../../../@core/styles/libs/react-datepicker'
 
 const capitalize = string => string && string[0].toUpperCase() + string.slice(1)
 

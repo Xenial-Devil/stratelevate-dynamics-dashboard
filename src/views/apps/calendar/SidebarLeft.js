@@ -11,10 +11,10 @@ import FormControlLabel from '@mui/material/FormControlLabel'
 import DatePicker from 'react-datepicker'
 
 // ** Icons Imports
-import Icon from 'src/@core/components/icon'
+import Icon from '../../../@core/components/icon'
 
 // ** Styled Component
-import DatePickerWrapper from 'src/@core/styles/libs/react-datepicker'
+import DatePickerWrapper from '../../../@core/styles/libs/react-datepicker'
 
 const SidebarLeft = props => {
   const {
