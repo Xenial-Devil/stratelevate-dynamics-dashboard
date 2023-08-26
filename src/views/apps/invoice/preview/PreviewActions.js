@@ -1,51 +1,29 @@
-// ** Next Import
-import Link from 'next/link'
+// ** React Imports
+import { Link } from 'react-router-dom'
 
-// ** MUI Imports
-import Card from '@mui/material/Card'
-import Button from '@mui/material/Button'
-import CardContent from '@mui/material/CardContent'
+// ** Reactstrap Imports
+import { Card, CardBody, Button } from 'reactstrap'
 
-// ** Icon Imports
-import Icon from 'src/@core/components/icon'
-
-const PreviewActions = ({ id, toggleSendInvoiceDrawer, toggleAddPaymentDrawer }) => {
+const PreviewActions = ({ id, setSendSidebarOpen, setAddPaymentOpen }) => {
   return (
-    <Card>
-      <CardContent>
-        <Button fullWidth variant='contained' onClick={toggleSendInvoiceDrawer} sx={{ mb: 2, '& svg': { mr: 2 } }}>
-          <Icon fontSize='1.125rem' icon='tabler:send' />
+    <Card className='invoice-action-wrapper'>
+      <CardBody>
+        <Button color='primary' block className='mb-75' onClick={() => setSendSidebarOpen(true)}>
           Send Invoice
         </Button>
-        <Button fullWidth sx={{ mb: 2 }} color='secondary' variant='tonal'>
+        <Button color='secondary' block outline className='mb-75'>
           Download
         </Button>
-        <Button
-          fullWidth
-          sx={{ mb: 2 }}
-          target='_blank'
-          variant='tonal'
-          component={Link}
-          color='secondary'
-          href={`/apps/invoice/print/${id}`}
-        >
+        <Button color='secondary' tag={Link} to='/apps/invoice/print' target='_blank' block outline className='mb-75'>
           Print
         </Button>
-        <Button
-          fullWidth
-          sx={{ mb: 2 }}
-          variant='tonal'
-          component={Link}
-          color='secondary'
-          href={`/apps/invoice/edit/${id}`}
-        >
-          Edit Invoice
+        <Button tag={Link} to={`/apps/invoice/edit/${id}`} color='secondary' block outline className='mb-75'>
+          Edit
         </Button>
-        <Button fullWidth variant='contained' sx={{ '& svg': { mr: 2 } }} onClick={toggleAddPaymentDrawer}>
-          <Icon fontSize='1.125rem' icon='tabler:currency-dollar' />
+        <Button color='success' block onClick={() => setAddPaymentOpen(true)}>
           Add Payment
         </Button>
-      </CardContent>
+      </CardBody>
     </Card>
   )
 }
