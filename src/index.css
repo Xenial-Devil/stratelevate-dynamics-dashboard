@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.activemenu {
+  @apply !bg-[#151515];
+  @apply !border-l-4 !border-gray-300;
+}
+
+.activemenu a {
+  @apply !text-white;
+}
+
+.activesub {
+  @apply !bg-[#151515];
+  @apply !border-l-4 !border-gray-300;
+}
+
+.activesub a {
+  @apply !text-white;
+}
+
+.activesub svg {
+  @apply !fill-[#5e5e5e];
+}
+
+.gauge-component-class svg .value-text text {
+  text-shadow: none !important;
+  @apply !fill-black dark:!fill-white;
+}
+.gauge-component-class svg .pointer path {
+  @apply !fill-black dark:!fill-white;
+}
+
+.gauge-component-class svg .marker text {
+  text-shadow: none !important;
+  @apply !fill-black dark:!fill-white;
+}
+
+.gauge-component-class svg .mark-value text {
+  text-shadow: none !important;
+  font-size: 12px !important;
+  text-anchor: middle !important;
+  @apply !fill-black dark:!fill-white;
+}
+
+.apexcharts-text{
+  @apply !fill-black dark:!fill-white;
+}
+.apexcharts-legend-text{
+  @apply !text-black dark:!text-white;
+}
+.apexcharts-toolbar svg{
+  @apply !fill-black dark:!fill-white;
+}
+.apexcharts-menu.apexcharts-menu-open{
+  @apply dark:!bg-gray-800;
+  @apply !text-black dark:!text-white;
+}
+.apexcharts-theme-light .apexcharts-menu-item:hover {
+  @apply dark:!bg-gray-500;
+}
+.apexcharts-tooltip, .apexcharts-tooltip .apexcharts-tooltip-series-group.active .apexcharts-tooltip.apexcharts-theme-light{
+  @apply dark:!bg-gray-800;
+  @apply !text-black dark:!text-white;
+  @apply dark:!border-gray-950;
+}
+.apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
+  @apply dark:!bg-gray-800;
+  @apply !text-black dark:!text-white;
+  @apply dark:!border-b-[1px];
+  @apply dark:!border-gray-950;
+}
+.apexcharts-xaxistooltip.apexcharts-xaxistooltip-bottom.apexcharts-theme-light{
+  @apply dark:!bg-gray-800;
+  @apply !text-black dark:!text-white;
+  @apply dark:!border-b-[1px];
+  @apply dark:!border-gray-950;
+}
+.apexcharts-xaxistooltip-bottom:after {
+  @apply dark:!border-b-gray-800
+}
+.apexcharts-xaxistooltip-bottom:before {
+  @apply dark:!border-b-gray-950
+}
+
+.Mui-selected{
+  @apply !text-black dark:!text-white;
+  @apply !bg-gray-300 dark:!bg-gray-800;
+  @apply !font-semibold;
+}
+.datepicker-picker, .datepicker-header .datepicker-title, .datepicker-header .datepicker-controls, .datepicker-header .datepicker-controls button {
+  @apply dark:!bg-[#202020]
+} 
+.datepicker-main .datepicker-view .days .days-of-week .dow{
+  @apply !text-gray-700 dark:!text-gray-300;
+}
+.datepicker-cell{
+  @apply !text-black dark:!text-white;
+  @apply hover:!bg-gray-300 dark:hover:!bg-gray-800;
+  @apply !py-[.375rem];
+}
+.datepicker-cell.disabled{
+  @apply !text-gray-400 dark:!text-gray-600;
+  @apply hover:bg-transparent;
+  @apply !cursor-not-allowed
+}
+.range-end, .range-start{
+  @apply !bg-blue-600;
+}
+.mb-3{
+  margin-bottom: 1rem !important;
+}
+.divider .divider-text:before {
+  @apply right-full;
+}
+
+.divider .divider-text:before,
+.divider .divider-text:after {
+  @apply content-[""] absolute w-screen border-t-gray-700 border-t border-solid top-2/4 dark:border-t-gray-300 dark:border-t;
+}
+
+.divider .divider-text:after {
+  @apply left-full;
+}
+.MuiInputLabel-formControl{
+  @apply !text-gray-700 dark:!text-gray-300;
+}
+.MuiInputBase-input{
+  @apply !text-black dark:!text-white  !placeholder-gray-700 dark:!placeholder-gray-300 !border-2;
+}
+.MuiInputBase-colorPrimary{
+  @apply !border-gray-500 dark:!border-gray-400;
+}
