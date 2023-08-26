@@ -27,8 +27,8 @@ import img5 from '../../../img/avatars/9-small.png'
 import img6 from '../../../img/avatars/11-small.png'
 
 // ** Styles Imports
-import '@styles/react/libs/react-select/_react-select.scss'
-import '@styles/react/libs/flatpickr/flatpickr.scss'
+import '../../../scss/react/libs/react-select/_react-select.scss'
+import '../../../scss/react/libs/flatpickr/flatpickr.scss'
 
 const AddEventSidebar = props => {
   // ** Props

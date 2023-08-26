@@ -3,7 +3,7 @@ import { lazy } from 'react'
 
 const Login = lazy(() => import('../../pages/Login'))
 
-const Register = lazy(() => import('../../views/pages/authentication/Register'))
+const Register = lazy(() => import('../../Pages/pages/auth/register-v1'))
 // const RegisterBasic = lazy(() => import('../../views/pages/authentication/RegisterBasic'))
 // const RegisterCover = lazy(() => import('../../views/pages/authentication/RegisterCover'))
 // const RegisterMultiSteps = lazy(() => import('../../views/pages/authentication/register-multi-steps'))

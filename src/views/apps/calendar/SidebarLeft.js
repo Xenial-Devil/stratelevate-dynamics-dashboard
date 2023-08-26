@@ -8,7 +8,7 @@ import classnames from 'classnames'
 import { Card, CardBody, Button, Input, Label } from 'reactstrap'
 
 // ** illustration import
-import illustration from '@src/assets/images/pages/calendar-illustration.png'
+import illustration from '../../../img/pages/calendar-illustration.png'
 
 // ** Filters Checkbox Array
 const filters = [
