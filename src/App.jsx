@@ -18,6 +18,7 @@ import ApexScatterChart from './components/Chart/ApexScatterChart';
 import Login from './Pages/Login';
 import ForgotPassword from './Pages/pages/auth/forgot-password-v1';
 import ResetPassword from './Pages/pages/auth/reset-password-v1';
+import Register from './Pages/pages/auth/register-v1';
 function App() {
   const [randomValue, setRandomValue] = useState(0);
   // Use the custom hook to get the values
@@ -68,6 +69,9 @@ function App() {
           </div>
           <div className='flex justify-center items-center'>
             <ResetPassword/>
+          </div>
+          <div className='flex justify-center items-center'>
+            <Register/>
           </div>
         </div>
         <ScrolltoTop />

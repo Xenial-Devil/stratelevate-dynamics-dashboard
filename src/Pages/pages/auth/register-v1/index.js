@@ -1,8 +1,8 @@
 // ** React Imports
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 // ** Next Import
-import Link from 'next/link'
+import {Link} from 'react-router-dom'
 
 // ** MUI Components
 import Box from '@mui/material/Box'
@@ -16,25 +16,26 @@ import { styled, useTheme } from '@mui/material/styles'
 import MuiCard from '@mui/material/Card'
 import InputAdornment from '@mui/material/InputAdornment'
 import MuiFormControlLabel from '@mui/material/FormControlLabel'
+import userImageEffect from '../../../../components/useImageEffect';
+// import DefaultPalette from '../../../../@core/components/mui/customtheme';
 
+import logo_dark from '../../../../img/Dark.svg';
+import logo_lite from '../../../../img/Light.svg';
 // ** Custom Component Import
-import CustomTextField from 'src/@core/components/mui/text-field'
+import CustomTextField from '../../../../@core/components/mui/text-field'
 
 // ** Icon Imports
-import Icon from 'src/@core/components/icon'
-
-// ** Configs
-import themeConfig from 'src/configs/themeConfig'
+import Icon from '../../../../@core/components/icon'
 
 // ** Layout Import
-import BlankLayout from 'src/@core/layouts/BlankLayout'
+import BlankLayout from '../../../../@core/layouts/BlankLayout'
 
 // ** Demo Imports
-import AuthIllustrationV1Wrapper from 'src/views/pages/auth/AuthIllustrationV1Wrapper'
+import AuthIllustrationV1Wrapper from '../../../../views/pages/auth/AuthIllustrationV1Wrapper'
 
 // ** Styled Components
 const Card = styled(MuiCard)(({ theme }) => ({
-  [theme.breakpoints.up('sm')]: { width: '25rem' }
+  [theme.breakpoints.up('sm')]: { width: '27rem' }
 }))
 
 const LinkStyled = styled(Link)(({ theme }) => ({
@@ -50,7 +51,7 @@ const FormControlLabel = styled(MuiFormControlLabel)(({ theme }) => ({
   }
 }))
 
-const RegisterV1 = () => {
+const Register = () => {
   // ** States
   const [values, setValues] = useState({
     password: '',
@@ -60,6 +61,20 @@ const RegisterV1 = () => {
   // ** Hook
   const theme = useTheme()
 
+  const { isNightMode, logo, toggle } = userImageEffect();
+  const [moode, setMoode] = useState('light');
+  useEffect(() => {
+    const storedDarkMode = localStorage.getItem('darkMode');
+    const newNightMode = JSON.parse(storedDarkMode);
+    if (newNightMode) {
+      logo.current = logo_dark;
+      setMoode('dark');
+    }
+    else {
+      logo.current = logo_lite;
+      setMoode('light');
+    }
+  }, [logo, toggle, moode]);
   const handleChange = prop => event => {
     setValues({ ...values, [prop]: event.target.value })
   }
@@ -69,48 +84,18 @@ const RegisterV1 = () => {
   }
 
   return (
-    <Box className='content-center'>
+    <Box className='content-center !bg-white dark:!bg-[#434343] !rounded-2xl !min-w-[27rem]'>
       <AuthIllustrationV1Wrapper>
-        <Card>
-          <CardContent sx={{ p: theme => `${theme.spacing(10.5, 8, 8)} !important` }}>
-            <Box sx={{ mb: 8, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              <svg width={34} viewBox='0 0 32 22' fill='none' xmlns='http://www.w3.org/2000/svg'>
-                <path
-                  fillRule='evenodd'
-                  clipRule='evenodd'
-                  fill={theme.palette.primary.main}
-                  d='M0.00172773 0V6.85398C0.00172773 6.85398 -0.133178 9.01207 1.98092 10.8388L13.6912 21.9964L19.7809 21.9181L18.8042 9.88248L16.4951 7.17289L9.23799 0H0.00172773Z'
-                />
-                <path
-                  fill='#161616'
-                  opacity={0.06}
-                  fillRule='evenodd'
-                  clipRule='evenodd'
-                  d='M7.69824 16.4364L12.5199 3.23696L16.5541 7.25596L7.69824 16.4364Z'
-                />
-                <path
-                  fill='#161616'
-                  opacity={0.06}
-                  fillRule='evenodd'
-                  clipRule='evenodd'
-                  d='M8.07751 15.9175L13.9419 4.63989L16.5849 7.28475L8.07751 15.9175Z'
-                />
-                <path
-                  fillRule='evenodd'
-                  clipRule='evenodd'
-                  fill={theme.palette.primary.main}
-                  d='M7.77295 16.3566L23.6563 0H32V6.88383C32 6.88383 31.8262 9.17836 30.6591 10.4057L19.7824 22H13.6938L7.77295 16.3566Z'
-                />
-              </svg>
-              <Typography variant='h3' sx={{ ml: 2.5, fontWeight: 700 }}>
-                {themeConfig.templateName}
-              </Typography>
+        <Card className='!bg-white dark:!bg-[#434343] !min-w-[27rem]'>
+          <CardContent sx={{ p: theme => `${theme.spacing(6.5, 8, 8)} !important` }}>
+            <Box sx={{ mb: 4, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              <img src={logo.current} alt='logo' />
             </Box>
-            <Box sx={{ mb: 6 }}>
-              <Typography variant='h4' sx={{ mb: 1.5 }}>
-                Adventure starts here 🚀
+            <Box sx={{ mb: 4 }}>
+              <Typography variant='h4' sx={{ mb: 1.5 }} className='!text-[#2f2b3dc7] dark:!text-[#d0d4f1c7]'>
+                Adventure starts here
               </Typography>
-              <Typography sx={{ color: 'text.secondary' }}>Make your app management easy and fun!</Typography>
+              <Typography className='!text-[#2f2b3dc7] dark:!text-[#d0d4f1c7]'>Make your app management easy and fun!</Typography>
             </Box>
             <form noValidate autoComplete='off' onSubmit={e => e.preventDefault()}>
               <CustomTextField
@@ -146,36 +131,35 @@ const RegisterV1 = () => {
                 }}
               />
               <FormControlLabel
-                control={<Checkbox />}
+                control={<Checkbox className='!text-[#2f2b3dc7] dark:!text-[#d0d4f1c7]' />}
                 label={
                   <Box sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', justifyContent: 'center' }}>
-                    <Typography sx={{ color: 'text.secondary' }}>I agree to </Typography>
+                    <Typography className='!text-[#2f2b3dc7] dark:!text-[#d0d4f1c7]'>I agree to </Typography>
                     <Typography component={LinkStyled} href='/' onClick={e => e.preventDefault()} sx={{ ml: 1 }}>
                       privacy policy & terms
                     </Typography>
                   </Box>
                 }
               />
-              <Button fullWidth type='submit' variant='contained' sx={{ mb: 4 }}>
+              <Button fullWidth type='submit' variant='contained' sx={{ mb: 2 }}>
                 Sign up
               </Button>
-              <Box sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', justifyContent: 'center' }}>
-                <Typography sx={{ color: 'text.secondary', mr: 2 }}>Already have an account?</Typography>
+              <Box sx={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', justifyContent: 'center' }} >
+                <Typography sx={{ color: 'text.secondary', mr: 2 }} className='!text-[#2f2b3dc7] dark:!text-[#d0d4f1c7]'>Already have an account?</Typography>
                 <Typography
                   component={LinkStyled}
-                  href='/pages/auth/login-v1'
-                  sx={{ fontSize: theme.typography.body1.fontSize }}
+                  href='#'
                 >
                   Sign in instead
                 </Typography>
               </Box>
               <Divider
                 sx={{
-                  color: 'text.disabled',
                   '& .MuiDivider-wrapper': { px: 6 },
                   fontSize: theme.typography.body2.fontSize,
                   my: theme => `${theme.spacing(6)} !important`
                 }}
+                className='!text-[#2f2b3dc7] dark:!text-[#d0d4f1c7] before:!border-t-[#2f2b3dc7] before:dark:!border-t-[#d0d4f1c7] after:!border-t-[#2f2b3dc7] after:dark:!border-t-[#d0d4f1c7] !my-8'
               >
                 or
               </Divider>
@@ -205,6 +189,6 @@ const RegisterV1 = () => {
     </Box>
   )
 }
-RegisterV1.getLayout = page => <BlankLayout>{page}</BlankLayout>
+Register.getLayout = page => <BlankLayout>{page}</BlankLayout>
 
-export default RegisterV1
+export default Register

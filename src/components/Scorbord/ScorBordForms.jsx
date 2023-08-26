@@ -4,7 +4,7 @@ import MeasureDetailsForm from './components/MeasureDetailsForm'
 const ScorBordForms = () => {
     return (
         <div className='flex w-full flex-col gap-4'>
-            <CreateTypes />
+            {/* <CreateTypes /> */}
             <MeasureDetailsForm />
         </div>
     )
