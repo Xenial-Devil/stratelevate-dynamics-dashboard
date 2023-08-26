@@ -2,7 +2,7 @@
 import { Fragment, useState } from 'react'
 
 // ** Custom Components
-import Avatar from '@components/avatar'
+import Avatar from '../../../@core/components/avatar'
 
 // ** Third Party Components
 import { X } from 'react-feather'
@@ -16,15 +16,15 @@ import { useForm, Controller } from 'react-hook-form'
 import { Button, Modal, ModalHeader, ModalBody, Label, Input, Form } from 'reactstrap'
 
 // ** Utils
-import { selectThemeColors, isObjEmpty } from '@utils'
+import { selectThemeColors, isObjEmpty } from '../../../utility/Utils'
 
 // ** Avatar Images
-import img1 from '@src/assets/images/avatars/1-small.png'
-import img2 from '@src/assets/images/avatars/3-small.png'
-import img3 from '@src/assets/images/avatars/5-small.png'
-import img4 from '@src/assets/images/avatars/7-small.png'
-import img5 from '@src/assets/images/avatars/9-small.png'
-import img6 from '@src/assets/images/avatars/11-small.png'
+import img1 from '../../../img/avatars/1-small.png'
+import img2 from '../../../img/avatars/3-small.png'
+import img3 from '../../../img/avatars/5-small.png'
+import img4 from '../../../img/avatars/7-small.png'
+import img5 from '../../../img/avatars/9-small.png'
+import img6 from '../../../img/avatars/11-small.png'
 
 // ** Styles Imports
 import '@styles/react/libs/react-select/_react-select.scss'
