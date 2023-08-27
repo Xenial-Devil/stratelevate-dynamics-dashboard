@@ -8,9 +8,9 @@ import reportWebVitals from './reportWebVitals';
 import { store } from './redux/store'
 import { Provider } from 'react-redux'
 // ** Fake Database
-//import './@fake-db'
+import './@fake-db'
 // import { Suspense, lazy } from 'react'
-// import { createRoot } from 'react-dom/client'
+ import { createRoot } from 'react-dom/client'
 // import { BrowserRouter } from 'react-router-dom'
 // const webpack = require("webpack");
 // const config = require("./webpack.config.js");
@@ -73,7 +73,7 @@ import { Provider } from 'react-redux'
 //     },
 // });
 // ** Service Worker
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <Provider store={store}>
