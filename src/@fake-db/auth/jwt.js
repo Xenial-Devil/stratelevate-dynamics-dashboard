@@ -5,7 +5,7 @@ import jwt from 'jsonwebtoken'
 import mock from '../mock'
 
 // ** Default AuthConfig
-import defaultAuthConfig from 'src/configs/auth'
+import defaultAuthConfig from '../../configs/auth'
 
 const users = [
   {

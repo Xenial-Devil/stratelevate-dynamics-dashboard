@@ -16,6 +16,7 @@ import Calendar from '../../../views/apps/calendar/Calendar'
 import SidebarLeft from '../../../views/apps/calendar/SidebarLeft'
 import CalendarWrapper from '../../../@core/styles/libs/fullcalendar'
 import AddEventSidebar from '../../../views/apps/calendar/AddEventSidebar'
+//import { store } from '../../../redux/store'
 
 // ** Actions
 import {
@@ -36,17 +37,15 @@ const calendarsColor = {
   Holiday: 'success',
   ETC: 'info'
 }
-
 const AppCalendar = () => {
   // ** States
+  const store = useSelector(state => state.calendar);
   const [calendarApi, setCalendarApi] = useState(null)
   const [leftSidebarOpen, setLeftSidebarOpen] = useState(false)
   const [addEventSidebarOpen, setAddEventSidebarOpen] = useState(false)
-
   // ** Hooks
   const { settings } = useSettings()
   const dispatch = useDispatch()
-  const store = useSelector(state => state.calendar)
 
   // ** Vars
   const leftSidebarWidth = 300

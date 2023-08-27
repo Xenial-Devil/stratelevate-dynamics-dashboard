@@ -11,6 +11,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/server": "11.10.0",
     "@emotion/styled": "^11.11.0",
+    "@esbuild-plugins/node-globals-polyfill": "^0.2.3",
     "@fullcalendar/bootstrap5": "6.1.6",
     "@fullcalendar/common": "5.11.4",
     "@fullcalendar/core": "6.1.6",
@@ -37,10 +38,13 @@
     "axios-mock-adapter": "1.21.4",
     "babel-eslint": "10.1.0",
     "bootstrap-icons": "^1.10.5",
+    "buffer": "^6.0.3",
     "chart.js": "4.3.0",
     "cleave.js": "^1.6.0",
     "clipboard-copy": "4.0.1",
     "clsx": "1.2.1",
+    "crypto": "^1.0.1",
+    "crypto-browserify": "^3.12.0",
     "date-fns": "2.30.0",
     "draft-js": "0.11.7",
     "flowbite": "^1.8.1",
@@ -53,6 +57,8 @@
     "keen-slider": "6.8.5",
     "next": "13.3.2",
     "nprogress": "0.2.0",
+    "path": "^0.12.7",
+    "path-browserify": "^1.0.1",
     "payment": "2.4.6",
     "prismjs": "1.29.0",
     "react": "^18.2.0",
@@ -75,15 +81,21 @@
     "reactstrap": "^9.2.0",
     "recharts": "2.5.0",
     "redux-thunk": "^2.4.2",
+    "resolve-url-loader": "^5.0.0",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "stream": "^0.0.2",
+    "stream-browserify": "^3.0.0",
     "stylis": "4.1.4",
     "stylis-plugin-rtl": "2.1.1",
     "tailwind-scrollbar": "^3.0.4",
     "tailwind-scrollbar-variants": "^1.1.1",
     "web-vitals": "^2.1.4",
-    "yup": "1.1.1"
+    "yup": "1.1.1",
+    "zlib-browserify": "^0.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
+    "dev": "vite",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -112,6 +124,7 @@
     "@iconify/tools": "2.2.6",
     "@iconify/types": "2.0.0",
     "@iconify/utils": "2.1.5",
+    "@vitejs/plugin-react": "^4.0.4",
     "autoprefixer": "^10.4.14",
     "eslint": "8.36.0",
     "eslint-config-next": "13.3.2",
@@ -121,6 +134,13 @@
     "eslint-plugin-import": "2.27.5",
     "postcss": "^8.4.27",
     "prettier": "2.8.4",
-    "tailwindcss": "^3.3.3"
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9",
+    "vite-plugin-svgr": "^3.2.0",
+    "vite-tsconfig-paths": "^4.2.0"
+  },
+  "browser": {
+    "crypto": false,
+    "stream": false
   }
 }

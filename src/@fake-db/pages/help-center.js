@@ -2,7 +2,7 @@
 import mock from '../mock'
 
 // ** ThemeConfig Import
-import themeConfig from 'src/configs/themeConfig'
+import themeConfig from '../../configs/themeConfig'
 
 const data = {
   popularArticles: [

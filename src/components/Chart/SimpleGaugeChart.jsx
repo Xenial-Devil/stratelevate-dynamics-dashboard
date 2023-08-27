@@ -49,7 +49,7 @@ const SimpleGaugeChart = ({ value }) => {
                                 }
                             },
                         ]
-                    }} value={90}
+                    }} value={value}
                     minValue={0}
                     maxValue={100}
                     pointer={{ type: "arrow", elastic: true }}

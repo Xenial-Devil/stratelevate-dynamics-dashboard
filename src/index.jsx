@@ -5,10 +5,23 @@ import './scss/style.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 // // ** React Imports
+import { store } from './redux/store'
+import { Provider } from 'react-redux'
+// ** Fake Database
+import './@fake-db'
 // import { Suspense, lazy } from 'react'
 // import { createRoot } from 'react-dom/client'
 // import { BrowserRouter } from 'react-router-dom'
+const webpack = require("webpack");
+const config = require("./webpack.config.js");
 
+webpack(config, (err, stats) => {
+    if (err) {
+        console.error(err);
+    } else {
+        console.log(stats.toString());
+    }
+});
 // // ** Redux Imports
 // import { store } from './redux/store'
 // import { Provider } from 'react-redux'
@@ -51,12 +64,20 @@ import reportWebVitals from './reportWebVitals';
 // import './@core/assets/fonts/feather/iconfont.css'
 // import './@core/scss/core.scss'
 // import './assets/scss/style.scss'
-
+import * as serviceWorker from './serviceWorker'
+// defineConfig({
+//     resolve: {
+//         fallback: {
+//             'crypto': require.resolve('crypto-browserify'),
+//             'stream':require.resolve('stream-browserify'),
+//         },
+//     },
+// });
 // ** Service Worker
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-    <App />
+        <App />
     </React.StrictMode>
 );
 
