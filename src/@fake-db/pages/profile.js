@@ -7,9 +7,9 @@ const data = {
     joiningDate: 'April 2021',
     fullName: 'Belle Ferguson',
     designation: 'UX Designer',
-    profileImg: '../../img/avatars/14.png',
+    profileImg: '/images/avatars/14.png',
     designationIcon: 'tabler:color-swatch',
-    coverImg: '../../img/pages/profile-banner.png'
+    coverImg: '/images/pages/profile-banner.png'
   },
   profile: {
     about: [
@@ -38,31 +38,31 @@ const data = {
         isFriend: false,
         connections: '45',
         name: 'Cecilia Payne',
-        avatar: '../../img/avatars/8.png'
+        avatar: '/images/avatars/8.png'
       },
       {
         isFriend: true,
         connections: '1.32k',
         name: 'Curtis Fletcher',
-        avatar: '../../img/avatars/3.png'
+        avatar: '/images/avatars/3.png'
       },
       {
         isFriend: true,
         connections: '125',
         name: 'Alice Stone',
-        avatar: '../../img/avatars/12.png'
+        avatar: '/images/avatars/12.png'
       },
       {
         isFriend: false,
         connections: '456',
         name: 'Darrell Barnes',
-        avatar: '../../img/avatars/7.png'
+        avatar: '/images/avatars/7.png'
       },
       {
         isFriend: false,
         connections: '1.2k',
         name: 'Eugenia Moore',
-        avatar: '../../img/avatars/6.png'
+        avatar: '/images/avatars/6.png'
       }
     ],
     teamsTech: [
@@ -71,35 +71,35 @@ const data = {
         ChipColor: 'error',
         chipText: 'Developer',
         title: 'React Developers',
-        avatar: '../../img/icons/project-icons/react-label.png'
+        avatar: '/images/icons/project-icons/react-label.png'
       },
       {
         members: 122,
         chipText: 'Support',
         ChipColor: 'primary',
         title: 'Support Team',
-        avatar: '../../img/icons/project-icons/support-label.png'
+        avatar: '/images/icons/project-icons/support-label.png'
       },
       {
         members: 7,
         ChipColor: 'info',
         chipText: 'Designer',
         title: 'UI Designer',
-        avatar: '../../img/icons/project-icons/figma-label.png'
+        avatar: '/images/icons/project-icons/figma-label.png'
       },
       {
         members: 289,
         ChipColor: 'error',
         chipText: 'Developer',
         title: 'Vue.js Developers',
-        avatar: '../../img/icons/project-icons/vue-label.png'
+        avatar: '/images/icons/project-icons/vue-label.png'
       },
       {
         members: 24,
         chipText: 'Marketing',
         ChipColor: 'secondary',
         title: 'Digital Marketing',
-        avatar: '../../img/icons/project-icons/twitter-label.png'
+        avatar: '/images/icons/project-icons/twitter-label.png'
       }
     ]
   },
@@ -107,12 +107,12 @@ const data = {
     {
       extraMembers: 25,
       title: 'React Developers',
-      avatar: '../../img/icons/project-icons/react-label.png',
+      avatar: '/images/icons/project-icons/react-label.png',
       avatarGroup: [
-        { avatar: '../../img/avatars/1.png', name: 'Vinnie Mostowy' },
-        { avatar: '../../img/avatars/2.png', name: 'Allen Rieske' },
-        { avatar: '../../img/avatars/3.png', name: 'Julee Rossignol' },
-        { avatar: '../../img/avatars/4.png', name: 'George Burrill' }
+        { avatar: '/images/avatars/1.png', name: 'Vinnie Mostowy' },
+        { avatar: '/images/avatars/2.png', name: 'Allen Rieske' },
+        { avatar: '/images/avatars/3.png', name: 'Julee Rossignol' },
+        { avatar: '/images/avatars/4.png', name: 'George Burrill' }
       ],
       description:
         'We don’t make assumptions about the rest of your technology stack, so you can develop new features in React.',
@@ -130,12 +130,12 @@ const data = {
     {
       extraMembers: 15,
       title: 'Vue.js Dev Team',
-      avatar: '../../img/icons/project-icons/vue-label.png',
+      avatar: '/images/icons/project-icons/vue-label.png',
       avatarGroup: [
-        { avatar: '../../img/avatars/5.png', name: "Kaith D'souza" },
-        { avatar: '../../img/avatars/6.png', name: 'John Doe' },
-        { avatar: '../../img/avatars/7.png', name: 'Alan Walker' },
-        { avatar: '../../img/avatars/8.png', name: 'Calvin Middleton' }
+        { avatar: '/images/avatars/5.png', name: "Kaith D'souza" },
+        { avatar: '/images/avatars/6.png', name: 'John Doe' },
+        { avatar: '/images/avatars/7.png', name: 'Alan Walker' },
+        { avatar: '/images/avatars/8.png', name: 'Calvin Middleton' }
       ],
       description:
         'The development of Vue and its ecosystem is guided by an international team, some of whom have chosen to be featured below.',
@@ -153,12 +153,12 @@ const data = {
     {
       extraMembers: 55,
       title: 'Creative Designers',
-      avatar: '../../img/icons/project-icons/xd-label.png',
+      avatar: '/images/icons/project-icons/xd-label.png',
       avatarGroup: [
-        { avatar: '../../img/avatars/9.png', name: 'Jimmy Ressula' },
-        { avatar: '../../img/avatars/10.png', name: 'Kristi Lawker' },
-        { avatar: '../../img/avatars/11.png', name: 'Danny Paul' },
-        { avatar: '../../img/avatars/12.png', name: 'Alicia Littleton' }
+        { avatar: '/images/avatars/9.png', name: 'Jimmy Ressula' },
+        { avatar: '/images/avatars/10.png', name: 'Kristi Lawker' },
+        { avatar: '/images/avatars/11.png', name: 'Danny Paul' },
+        { avatar: '/images/avatars/12.png', name: 'Alicia Littleton' }
       ],
       description:
         'A design or product team is more than just the people on it. A team includes the people, the roles they play.',
@@ -176,12 +176,12 @@ const data = {
     {
       extraMembers: 35,
       title: 'Support Team',
-      avatar: '../../img/icons/project-icons/support-label.png',
+      avatar: '/images/icons/project-icons/support-label.png',
       avatarGroup: [
-        { avatar: '../../img/avatars/5.png', name: 'Andrew Tye' },
-        { avatar: '../../img/avatars/12.png', name: 'Rishi Swaat' },
-        { avatar: '../../img/avatars/7.png', name: 'Rossie Kim' },
-        { avatar: '../../img/avatars/8.png', name: 'Mary Hunter' }
+        { avatar: '/images/avatars/5.png', name: 'Andrew Tye' },
+        { avatar: '/images/avatars/12.png', name: 'Rishi Swaat' },
+        { avatar: '/images/avatars/7.png', name: 'Rossie Kim' },
+        { avatar: '/images/avatars/8.png', name: 'Mary Hunter' }
       ],
       description:
         'Support your team. Your customer support team is fielding the good, the bad, and the ugly day in and day out.',
@@ -195,12 +195,12 @@ const data = {
     {
       extraMembers: 19,
       title: 'Digital Marketing',
-      avatar: '../../img/icons/project-icons/social-label.png',
+      avatar: '/images/icons/project-icons/social-label.png',
       avatarGroup: [
-        { avatar: '../../img/avatars/13.png', name: 'Kim Merchent' },
-        { avatar: '../../img/avatars/12.png', name: "Sam D'souza" },
-        { avatar: '../../img/avatars/11.png', name: 'Nurvi Karlos' },
-        { avatar: '../../img/avatars/10.png', name: 'Margorie Whitmire' }
+        { avatar: '/images/avatars/13.png', name: 'Kim Merchent' },
+        { avatar: '/images/avatars/12.png', name: "Sam D'souza" },
+        { avatar: '/images/avatars/11.png', name: 'Nurvi Karlos' },
+        { avatar: '/images/avatars/10.png', name: 'Margorie Whitmire' }
       ],
       description:
         'Digital marketing refers to advertising delivered through digital channels such as search engines, websites…',
@@ -218,12 +218,12 @@ const data = {
     {
       title: 'Event',
       extraMembers: 55,
-      avatar: '../../img/icons/project-icons/event-label.png',
+      avatar: '/images/icons/project-icons/event-label.png',
       avatarGroup: [
-        { avatar: '../../img/avatars/6.png', name: 'Vinnie Mostowy' },
-        { avatar: '../../img/avatars/5.png', name: 'Allen Rieske' },
-        { avatar: '../../img/avatars/4.png', name: 'Julee Rossignol' },
-        { avatar: '../../img/avatars/7.png', name: 'Daniel Long' }
+        { avatar: '/images/avatars/6.png', name: 'Vinnie Mostowy' },
+        { avatar: '/images/avatars/5.png', name: 'Allen Rieske' },
+        { avatar: '/images/avatars/4.png', name: 'Julee Rossignol' },
+        { avatar: '/images/avatars/7.png', name: 'Daniel Long' }
       ],
       description:
         'Event is defined as a particular contest which is part of a program of contests. An example of an event is the long…',
@@ -237,12 +237,12 @@ const data = {
     {
       extraMembers: 45,
       title: 'Figma Resources',
-      avatar: '../../img/icons/project-icons/figma-label.png',
+      avatar: '/images/icons/project-icons/figma-label.png',
       avatarGroup: [
-        { avatar: '../../img/avatars/8.png', name: 'Andrew Mostowy' },
-        { avatar: '../../img/avatars/1.png', name: 'Micky Ressula' },
-        { avatar: '../../img/avatars/3.png', name: 'Michel Pal' },
-        { avatar: '../../img/avatars/12.png', name: 'Herman Lockard' }
+        { avatar: '/images/avatars/8.png', name: 'Andrew Mostowy' },
+        { avatar: '/images/avatars/1.png', name: 'Micky Ressula' },
+        { avatar: '/images/avatars/3.png', name: 'Michel Pal' },
+        { avatar: '/images/avatars/12.png', name: 'Herman Lockard' }
       ],
       description:
         'Explore, install, use, and remix thousands of plugins and files published to the Figma Community by designers and developers.',
@@ -260,12 +260,12 @@ const data = {
     {
       extraMembers: 50,
       title: 'Only Beginners',
-      avatar: '../../img/icons/project-icons/html-label.png',
+      avatar: '/images/icons/project-icons/html-label.png',
       avatarGroup: [
-        { avatar: '../../img/avatars/11.png', name: 'Kim Karlos' },
-        { avatar: '../../img/avatars/10.png', name: 'Katy Turner' },
-        { avatar: '../../img/avatars/9.png', name: 'Peter Adward' },
-        { avatar: '../../img/avatars/6.png', name: 'Leona Miller' }
+        { avatar: '/images/avatars/11.png', name: 'Kim Karlos' },
+        { avatar: '/images/avatars/10.png', name: 'Katy Turner' },
+        { avatar: '/images/avatars/9.png', name: 'Peter Adward' },
+        { avatar: '/images/avatars/6.png', name: 'Leona Miller' }
       ],
       description:
         'Learn the basics of how websites work, front-end vs back-end, and using a code editor. Learn basic HTML, CSS, and…',
@@ -297,12 +297,12 @@ const data = {
       budgetSpent: '$24.8k',
       title: 'Social Banners',
       client: 'Christian Jimenez',
-      avatar: '../../img/icons/project-icons/social-label.png',
+      avatar: '/images/icons/project-icons/social-label.png',
       description: 'We are Consulting, Software Development and Web Development Services.',
       avatarGroup: [
-        { avatar: '../../img/avatars/11.png', name: 'Vinnie Mostowy' },
-        { avatar: '../../img/avatars/2.png', name: 'Allen Rieske' },
-        { avatar: '../../img/avatars/3.png', name: 'Julee Rossignol' }
+        { avatar: '/images/avatars/11.png', name: 'Vinnie Mostowy' },
+        { avatar: '/images/avatars/2.png', name: 'Allen Rieske' },
+        { avatar: '/images/avatars/3.png', name: 'Julee Rossignol' }
       ]
     },
     {
@@ -320,11 +320,11 @@ const data = {
       startDate: '18/8/21',
       title: 'Admin Template',
       client: 'Jeffrey Phillips',
-      avatar: '../../img/icons/project-icons/react-label.png',
+      avatar: '/images/icons/project-icons/react-label.png',
       avatarGroup: [
-        { avatar: '../../img/avatars/4.png', name: "Kaith D'souza" },
-        { avatar: '../../img/avatars/5.png', name: 'John Doe' },
-        { avatar: '../../img/avatars/6.png', name: 'Alan Walker' }
+        { avatar: '/images/avatars/4.png', name: "Kaith D'souza" },
+        { avatar: '/images/avatars/5.png', name: 'John Doe' },
+        { avatar: '/images/avatars/6.png', name: 'Alan Walker' }
       ],
       description: "Time is our most valuable asset, that's why we want to help you save it by creating…"
     },
@@ -343,12 +343,12 @@ const data = {
       title: 'App Design',
       startDate: '24/7/21',
       client: 'Ricky McDonald',
-      avatar: '../../img/icons/project-icons/vue-label.png',
+      avatar: '/images/icons/project-icons/vue-label.png',
       description: 'App design combines the user interface (UI) and user experience (UX).',
       avatarGroup: [
-        { avatar: '../../img/avatars/7.png', name: 'Jimmy Ressula' },
-        { avatar: '../../img/avatars/8.png', name: 'Kristi Lawker' },
-        { avatar: '../../img/avatars/9.png', name: 'Danny Paul' }
+        { avatar: '/images/avatars/7.png', name: 'Jimmy Ressula' },
+        { avatar: '/images/avatars/8.png', name: 'Kristi Lawker' },
+        { avatar: '/images/avatars/9.png', name: 'Danny Paul' }
       ]
     },
     {
@@ -366,12 +366,12 @@ const data = {
       startDate: '10/2/19',
       client: 'Hulda Wright',
       title: 'Create Website',
-      avatar: '../../img/icons/project-icons/html-label.png',
+      avatar: '/images/icons/project-icons/html-label.png',
       description: 'Your domain name should reflect your products or services so that your...',
       avatarGroup: [
-        { avatar: '../../img/avatars/10.png', name: 'Andrew Tye' },
-        { avatar: '../../img/avatars/11.png', name: 'Rishi Swaat' },
-        { avatar: '../../img/avatars/12.png', name: 'Rossie Kim' }
+        { avatar: '/images/avatars/10.png', name: 'Andrew Tye' },
+        { avatar: '/images/avatars/11.png', name: 'Rishi Swaat' },
+        { avatar: '/images/avatars/12.png', name: 'Rossie Kim' }
       ]
     },
     {
@@ -389,12 +389,12 @@ const data = {
       budgetSpent: '$52.7k',
       client: 'Jerry Greene',
       title: 'Figma Dashboard',
-      avatar: '../../img/icons/project-icons/figma-label.png',
+      avatar: '/images/icons/project-icons/figma-label.png',
       description: 'Use this template to organize your design project. Some of the key features are…',
       avatarGroup: [
-        { avatar: '../../img/avatars/12.png', name: 'Kim Merchent' },
-        { avatar: '../../img/avatars/6.png', name: "Sam D'souza" },
-        { avatar: '../../img/avatars/4.png', name: 'Nurvi Karlos' }
+        { avatar: '/images/avatars/12.png', name: 'Kim Merchent' },
+        { avatar: '/images/avatars/6.png', name: "Sam D'souza" },
+        { avatar: '/images/avatars/4.png', name: 'Nurvi Karlos' }
       ]
     },
     {
@@ -412,12 +412,12 @@ const data = {
       startDate: '17/8/21',
       title: 'Logo Design',
       client: 'Olive Strickland',
-      avatar: '../../img/icons/project-icons/xd-label.png',
+      avatar: '/images/icons/project-icons/xd-label.png',
       description: 'Premium logo designs created by top logo designers. Create the branding of business.',
       avatarGroup: [
-        { avatar: '../../img/avatars/8.png', name: 'Kim Karlos' },
-        { avatar: '../../img/avatars/11.png', name: 'Katy Turner' },
-        { avatar: '../../img/avatars/2.png', name: 'Peter Adward' }
+        { avatar: '/images/avatars/8.png', name: 'Kim Karlos' },
+        { avatar: '/images/avatars/11.png', name: 'Katy Turner' },
+        { avatar: '/images/avatars/2.png', name: 'Peter Adward' }
       ]
     }
   ],
@@ -429,7 +429,7 @@ const data = {
       connections: '129',
       name: 'Mark Gilbert',
       designation: 'UI Designer',
-      avatar: '../../img/avatars/11.png',
+      avatar: '/images/avatars/11.png',
       chips: [
         {
           title: 'Figma',
@@ -448,7 +448,7 @@ const data = {
       connections: '1.28k',
       name: 'Eugenia Parsons',
       designation: 'Developer',
-      avatar: '../../img/avatars/12.png',
+      avatar: '/images/avatars/12.png',
       chips: [
         {
           color: 'error',
@@ -467,7 +467,7 @@ const data = {
       connections: '890',
       name: 'Francis Byrd',
       designation: 'Developer',
-      avatar: '../../img/avatars/7.png',
+      avatar: '/images/avatars/7.png',
       chips: [
         {
           title: 'HTML',
@@ -486,7 +486,7 @@ const data = {
       connections: '890',
       name: 'Leon Lucas',
       designation: 'UI/UX Designer',
-      avatar: '../../img/avatars/8.png',
+      avatar: '/images/avatars/8.png',
       chips: [
         {
           title: 'Figma',
@@ -509,7 +509,7 @@ const data = {
       connections: '2.14k',
       name: 'Jayden Rogers',
       designation: 'Full Stack Developer',
-      avatar: '../../img/avatars/5.png',
+      avatar: '/images/avatars/5.png',
       chips: [
         {
           color: 'info',
@@ -532,7 +532,7 @@ const data = {
       designation: 'SEO',
       connections: '1.27k',
       name: 'Jeanette Powell',
-      avatar: '../../img/avatars/6.png',
+      avatar: '/images/avatars/6.png',
       chips: [
         {
           title: 'Analysis',
@@ -555,7 +555,7 @@ const projectTable = [
     name: 'Website SEO',
     date: '10 may 2021',
     avatarColor: 'success',
-    avatarGroup: ['../../img/avatars/1.png', '../../img/avatars/4.png', '../../img/avatars/3.png', '../../img/avatars/2.png']
+    avatarGroup: ['/images/avatars/1.png', '/images/avatars/4.png', '/images/avatars/3.png', '/images/avatars/2.png']
   },
   {
     id: 2,
@@ -563,8 +563,8 @@ const projectTable = [
     leader: 'Owen',
     date: '03 Jan 2021',
     name: 'Social Banners',
-    avatar: '../../img/icons/project-icons/social-label.png',
-    avatarGroup: ['../../img/avatars/5.png', '../../img/avatars/6.png']
+    avatar: '/images/icons/project-icons/social-label.png',
+    avatarGroup: ['/images/avatars/5.png', '/images/avatars/6.png']
   },
   {
     id: 3,
@@ -572,8 +572,8 @@ const projectTable = [
     leader: 'Keith',
     date: '12 Aug 2021',
     name: 'Logo Designs',
-    avatar: '../../img/icons/project-icons/sketch-label.png',
-    avatarGroup: ['../../img/avatars/2.png', '../../img/avatars/1.png', '../../img/avatars/7.png', '../../img/avatars/8.png']
+    avatar: '/images/icons/project-icons/sketch-label.png',
+    avatarGroup: ['/images/avatars/2.png', '/images/avatars/1.png', '/images/avatars/7.png', '/images/avatars/8.png']
   },
   {
     id: 4,
@@ -581,8 +581,8 @@ const projectTable = [
     leader: 'Merline',
     date: '19 Apr 2021',
     name: 'IOS App Design',
-    avatar: '../../img/icons/project-icons/sketch-label.png',
-    avatarGroup: ['../../img/avatars/5.png', '../../img/avatars/3.png', '../../img/avatars/6.png', '../../img/avatars/7.png']
+    avatar: '/images/icons/project-icons/sketch-label.png',
+    avatarGroup: ['/images/avatars/5.png', '/images/avatars/3.png', '/images/avatars/6.png', '/images/avatars/7.png']
   },
   {
     id: 5,
@@ -590,8 +590,8 @@ const projectTable = [
     leader: 'Harmonia',
     date: '08 Apr 2021',
     name: 'Figma Dashboards',
-    avatar: '../../img/icons/project-icons/figma-label.png',
-    avatarGroup: ['../../img/avatars/7.png', '../../img/avatars/6.png', '../../img/avatars/8.png']
+    avatar: '/images/icons/project-icons/figma-label.png',
+    avatarGroup: ['/images/avatars/7.png', '/images/avatars/6.png', '/images/avatars/8.png']
   },
   {
     id: 6,
@@ -599,8 +599,8 @@ const projectTable = [
     leader: 'Allyson',
     date: '29 Sept 2021',
     name: 'Crypto Admin',
-    avatar: '../../img/icons/project-icons/html-label.png',
-    avatarGroup: ['../../img/avatars/2.png', '../../img/avatars/5.png']
+    avatar: '/images/icons/project-icons/html-label.png',
+    avatarGroup: ['/images/avatars/2.png', '/images/avatars/5.png']
   },
   {
     id: 7,
@@ -608,8 +608,8 @@ const projectTable = [
     leader: 'Georgie',
     date: '20 Mar 2021',
     name: 'Create Website',
-    avatar: '../../img/icons/project-icons/react-label.png',
-    avatarGroup: ['../../img/avatars/3.png', '../../img/avatars/1.png', '../../img/avatars/6.png']
+    avatar: '/images/icons/project-icons/react-label.png',
+    avatarGroup: ['/images/avatars/3.png', '/images/avatars/1.png', '/images/avatars/6.png']
   },
   {
     id: 8,
@@ -617,8 +617,8 @@ const projectTable = [
     leader: 'Fred',
     date: '09 Feb 2021',
     name: 'App Design',
-    avatar: '../../img/icons/project-icons/xd-label.png',
-    avatarGroup: ['../../img/avatars/7.png', '../../img/avatars/6.png']
+    avatar: '/images/icons/project-icons/xd-label.png',
+    avatarGroup: ['/images/avatars/7.png', '/images/avatars/6.png']
   },
   {
     id: 9,
@@ -626,8 +626,8 @@ const projectTable = [
     leader: 'Richardo',
     date: '17 June 2021',
     name: 'Angular APIs',
-    avatar: '../../img/icons/project-icons/figma-label.png',
-    avatarGroup: ['../../img/avatars/5.png', '../../img/avatars/8.png', '../../img/avatars/1.png']
+    avatar: '/images/icons/project-icons/figma-label.png',
+    avatarGroup: ['/images/avatars/5.png', '/images/avatars/8.png', '/images/avatars/1.png']
   },
   {
     id: 10,
@@ -635,8 +635,8 @@ const projectTable = [
     leader: 'Genevra',
     date: '06 Oct 2021',
     name: 'Admin Template',
-    avatar: '../../img/icons/project-icons/vue-label.png',
-    avatarGroup: ['../../img/avatars/2.png', '../../img/avatars/3.png', '../../img/avatars/4.png', '../../img/avatars/5.png']
+    avatar: '/images/icons/project-icons/vue-label.png',
+    avatarGroup: ['/images/avatars/2.png', '/images/avatars/3.png', '/images/avatars/4.png', '/images/avatars/5.png']
   }
 ]
 mock.onGet('/pages/profile').reply(config => {

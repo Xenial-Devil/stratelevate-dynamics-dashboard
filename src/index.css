@@ -28,7 +28,6 @@
   text-shadow: none !important;
   @apply !fill-black dark:!fill-white;
 }
-
 .gauge-component-class svg .pointer path {
   @apply !fill-black dark:!fill-white;
 }
@@ -45,94 +44,73 @@
   @apply !fill-black dark:!fill-white;
 }
 
-.apexcharts-text {
+.apexcharts-text{
   @apply !fill-black dark:!fill-white;
 }
-
-.apexcharts-legend-text {
+.apexcharts-legend-text{
   @apply !text-black dark:!text-white;
 }
-
-.apexcharts-toolbar svg {
+.apexcharts-toolbar svg{
   @apply !fill-black dark:!fill-white;
 }
-
-.apexcharts-menu.apexcharts-menu-open {
+.apexcharts-menu.apexcharts-menu-open{
   @apply dark:!bg-gray-800;
   @apply !text-black dark:!text-white;
 }
-
 .apexcharts-theme-light .apexcharts-menu-item:hover {
   @apply dark:!bg-gray-500;
 }
-
-.apexcharts-tooltip,
-.apexcharts-tooltip .apexcharts-tooltip-series-group.active .apexcharts-tooltip.apexcharts-theme-light {
+.apexcharts-tooltip, .apexcharts-tooltip .apexcharts-tooltip-series-group.active .apexcharts-tooltip.apexcharts-theme-light{
   @apply dark:!bg-gray-800;
   @apply !text-black dark:!text-white;
   @apply dark:!border-gray-950;
 }
-
 .apexcharts-tooltip.apexcharts-theme-light .apexcharts-tooltip-title {
   @apply dark:!bg-gray-800;
   @apply !text-black dark:!text-white;
   @apply dark:!border-b-[1px];
   @apply dark:!border-gray-950;
 }
-
-.apexcharts-xaxistooltip.apexcharts-xaxistooltip-bottom.apexcharts-theme-light {
+.apexcharts-xaxistooltip.apexcharts-xaxistooltip-bottom.apexcharts-theme-light{
   @apply dark:!bg-gray-800;
   @apply !text-black dark:!text-white;
   @apply dark:!border-b-[1px];
   @apply dark:!border-gray-950;
 }
-
 .apexcharts-xaxistooltip-bottom:after {
   @apply dark:!border-b-gray-800
 }
-
 .apexcharts-xaxistooltip-bottom:before {
   @apply dark:!border-b-gray-950
 }
 
-.Mui-selected {
+.Mui-selected{
   @apply !text-black dark:!text-white;
   @apply !bg-gray-300 dark:!bg-gray-800;
   @apply !font-semibold;
 }
-
-.datepicker-picker,
-.datepicker-header .datepicker-title,
-.datepicker-header .datepicker-controls,
-.datepicker-header .datepicker-controls button {
+.datepicker-picker, .datepicker-header .datepicker-title, .datepicker-header .datepicker-controls, .datepicker-header .datepicker-controls button {
   @apply dark:!bg-[#202020]
-}
-
-.datepicker-main .datepicker-view .days .days-of-week .dow {
+} 
+.datepicker-main .datepicker-view .days .days-of-week .dow{
   @apply !text-gray-700 dark:!text-gray-300;
 }
-
-.datepicker-cell {
+.datepicker-cell{
   @apply !text-black dark:!text-white;
   @apply hover:!bg-gray-300 dark:hover:!bg-gray-800;
   @apply !py-[.375rem];
 }
-
-.datepicker-cell.disabled {
+.datepicker-cell.disabled{
   @apply !text-gray-400 dark:!text-gray-600;
   @apply hover:bg-transparent;
   @apply !cursor-not-allowed
 }
-
-.range-end,
-.range-start {
+.range-end, .range-start{
   @apply !bg-blue-600;
 }
-
-.mb-3 {
+.mb-3{
   margin-bottom: 1rem !important;
 }
-
 .divider .divider-text:before {
   @apply right-full;
 }
@@ -145,15 +123,12 @@
 .divider .divider-text:after {
   @apply left-full;
 }
-
-.MuiInputLabel-formControl {
+.MuiInputLabel-formControl{
   @apply !text-gray-700 dark:!text-gray-300;
 }
-
-.MuiInputBase-input {
-  @apply !text-black dark:!text-white !placeholder-gray-700 dark:!placeholder-gray-300 !border-2;
+.MuiInputBase-input{
+  @apply !text-black dark:!text-white  !placeholder-gray-700 dark:!placeholder-gray-300 !border-2;
 }
-
-.MuiInputBase-colorPrimary {
+.MuiInputBase-colorPrimary{
   @apply !border-gray-500 dark:!border-gray-400;
 }
