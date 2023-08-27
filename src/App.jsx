@@ -5,6 +5,8 @@ import Sidebar from './components/sidebar/sidebar';
 import Navbar from './components/nabvar/Navbar';
 import BeardCrumb from './components/beardcrumb/BeardCrumb';
 import SimpleGaugeChart from './components/Chart/SimpleGaugeChart';
+import HorizontalBarChart from './components/Chart/HorizontalBarChart';
+import ScorBordForms from './components/Scorbord/ScorBordForms';
 import './App.css'
 
 function App() {
@@ -39,9 +41,12 @@ function App() {
             <BeardCrumb/>
             <div className=' flex gap-4'>
               <SimpleGaugeChart/>
+              <HorizontalBarChart />
             </div>
+            <div className="flex">
+            <ScorBordForms />
           </div>
-
+          </div>
         </Router>
       </div>
     </>
