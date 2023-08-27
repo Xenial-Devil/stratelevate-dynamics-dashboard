@@ -8,20 +8,20 @@ import reportWebVitals from './reportWebVitals';
 import { store } from './redux/store'
 import { Provider } from 'react-redux'
 // ** Fake Database
-import './@fake-db'
+//import './@fake-db'
 // import { Suspense, lazy } from 'react'
 // import { createRoot } from 'react-dom/client'
 // import { BrowserRouter } from 'react-router-dom'
-const webpack = require("webpack");
-const config = require("./webpack.config.js");
+// const webpack = require("webpack");
+// const config = require("./webpack.config.js");
 
-webpack(config, (err, stats) => {
-    if (err) {
-        console.error(err);
-    } else {
-        console.log(stats.toString());
-    }
-});
+// webpack(config, (err, stats) => {
+//     if (err) {
+//         console.error(err);
+//     } else {
+//         console.log(stats.toString());
+//     }
+// });
 // // ** Redux Imports
 // import { store } from './redux/store'
 // import { Provider } from 'react-redux'
@@ -64,7 +64,6 @@ webpack(config, (err, stats) => {
 // import './@core/assets/fonts/feather/iconfont.css'
 // import './@core/scss/core.scss'
 // import './assets/scss/style.scss'
-import * as serviceWorker from './serviceWorker'
 // defineConfig({
 //     resolve: {
 //         fallback: {
@@ -77,7 +76,9 @@ import * as serviceWorker from './serviceWorker'
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
-        <App />
+        <Provider store={store}>
+            <App />
+        </Provider>
     </React.StrictMode>
 );
 

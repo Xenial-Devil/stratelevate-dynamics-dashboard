@@ -79,7 +79,7 @@ function App() {
             <TwoSteps />
           </div>
           <div className='flex justify-center items-center'>
-             <AppCalendar /> 
+             {/* <AppCalendar />  */}
           </div>
         </div>
         <ScrolltoTop />

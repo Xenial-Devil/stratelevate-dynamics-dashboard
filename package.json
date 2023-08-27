@@ -49,6 +49,7 @@
     "draft-js": "0.11.7",
     "flowbite": "^1.8.1",
     "flowbite-datepicker": "^1.2.2",
+    "fs": "^0.0.1-security",
     "i18next": "22.4.15",
     "i18next-browser-languagedetector": "7.0.1",
     "i18next-http-backend": "2.2.0",
