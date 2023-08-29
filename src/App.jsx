@@ -67,16 +67,16 @@ function App() {
             <Login />
           </div>
           <div className='flex justify-center items-center'>
-            <ForgotPassword/>
+            {/* <ForgotPassword/> */}
           </div>
           <div className='flex justify-center items-center'>
-            <ResetPassword/>
+            {/* <ResetPassword/> */}
           </div>
           <div className='flex justify-center items-center'>
-            <Register/>
+            {/* <Register/> */}
           </div>
           <div className='flex justify-center items-center'>
-            <TwoSteps />
+            {/* <TwoSteps /> */}
           </div>
           <div className='flex justify-center items-center'>
              {/* <AppCalendar /> */}
