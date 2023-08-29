@@ -57,14 +57,14 @@ function App() {
             {<HorizontalBarChart />}
           </div>
           <div className="flex">
-            <ScorBordForms />
+             {/* <ScorBordForms /> */}
           </div>
           <div className="flex w-full flex-col gap-4">
-            <MultiPurposeTable />
-            <ApexScatterChart />
+            { <MultiPurposeTable data={null}/>
+            /*<ApexScatterChart /> */}
           </div>
           <div>
-            <Login />
+            {/* <Login /> */}
           </div>
           <div className='flex justify-center items-center'>
             {/* <ForgotPassword/> */}

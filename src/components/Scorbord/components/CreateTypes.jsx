@@ -61,8 +61,8 @@ const CreateTypes = () => {
               </div>
               <div>
                 <label for="category" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Type</label>
-                <select id="category" className="bg-gray-100 border-2 border-2-gray-600 text-gray-900 text-sm rounded-lg focus:ring-primary-500 placeholder-gray-600 focus:border-2-primary-500 block w-full p-2.5 dark:bg-[#292929] dark:border-2-gray-600 dark:placeholder-gray-200 dark:text-white dark:focus:ring-primary-500 dark:focus:border-2-primary-500">
-                  <option selected="" disabled value=''>Select Type</option>
+                <select id="category" className="bg-gray-100 border-2 border-2-gray-600 text-gray-900 text-sm rounded-lg focus:ring-primary-500 placeholder-gray-600 focus:border-2-primary-500 block w-full p-2.5 dark:bg-[#292929] dark:border-2-gray-600 dark:placeholder-gray-200 dark:text-white dark:focus:ring-primary-500 dark:focus:border-2-primary-500" defaultValue="">
+                  <option  disabled value=''>Select Type</option>
                   <option value="TV">Option 1</option>
                   <option value="PC">Option 2</option>
                   <option value="GA">Option 3</option>
@@ -78,7 +78,7 @@ const CreateTypes = () => {
                 <textarea id="description" rows="4" className="block p-2.5 w-full text-sm text-gray-900 bg-gray-100 rounded-lg border-2 border-2-gray-600 placeholder-gray-600 focus:ring-primary-500 focus:border-2-primary-500 dark:bg-[#292929] dark:border-2-gray-600 dark:placeholder-gray-200 dark:text-white dark:focus:ring-primary-500 dark:focus:border-2-primary-500 resize-none" placeholder="Your description here"></textarea>
               </div>
             </div>
-            <div date-rangepicker id='dateRangePickerId' className="grid gap-4 md:grid-cols-2 mt-6">
+            <div date-rangepicker='true' id='dateRangePickerId' className="grid gap-4 md:grid-cols-2 mt-6">
               <div className="relative">
                 <div className="absolute inset-y-0 left-0 flex items-center pl-3 mt-7 pointer-events-none">
                   <svg className="w-4 h-4 text-gray-600 dark:text-gray-200" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
@@ -106,7 +106,7 @@ const CreateTypes = () => {
                   </svg>
                 </div>
                 <label for="first_name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Tags</label>
-                <input datepicker id='datepicker' type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-[#292929] dark:border-gray-600 placeholder-gray-600 dark:placeholder-gray-200 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select date" />
+                <input datepicker='true' id='datepicker' type="text" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full pl-10 p-2.5  dark:bg-[#292929] dark:border-gray-600 placeholder-gray-600 dark:placeholder-gray-200 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Select date" />
               </div>
               <div className="relative col-span-2">
                 <div>
