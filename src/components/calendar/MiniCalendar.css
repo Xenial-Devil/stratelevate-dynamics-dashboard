@@ -8,7 +8,7 @@
 @apply text-black fill-black dark:text-white dark:fill-white;
 }
 .flatpickr-disabled{
-    @apply !text-gray-400 !cursor-not-allowed;
+    @apply !text-gray-200 !cursor-not-allowed dark:!text-gray-600;
 }
 .today{
     @apply !border-gray-600 dark:!border-gray-200;
@@ -18,4 +18,7 @@
 }
 .flatpickr-time input,.flatpickr-time-separator,.flatpickr-am-pm{
     @apply text-black dark:text-white
+}
+.nextMonthDay{
+    @apply !text-gray-700 dark:!text-gray-400;
 }

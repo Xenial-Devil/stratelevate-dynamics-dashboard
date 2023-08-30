@@ -21,7 +21,7 @@ import ResetPassword from './Pages/pages/auth/reset-password-v1';
 import Register from './Pages/pages/auth/register-v1';
 import TwoSteps from './Pages/pages/auth/two-steps-v1';
 import AppCalendar from './Pages/apps/calendar';
-import MiniCalender from './components/calender/MiniCalender';
+import MiniCalendar from './components/calendar/MiniCalendar';
 function App() {
   const [randomValue, setRandomValue] = useState(0);
   // Use the custom hook to get the values
@@ -71,7 +71,7 @@ function App() {
             {/* <ForgotPassword/> */}
           </div>
           <div className='flex justify-center items-center'>
-            <MiniCalender />
+            <MiniCalendar />
           </div>
           <div className='flex justify-center items-center'>
             {/* <ResetPassword/> */}
