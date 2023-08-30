@@ -1,0 +1,21 @@
+.flatpickr-input{
+    @apply !hidden;
+}
+.flatpickr-calendar{
+    @apply !bg-white !rounded-lg !shadow-lg !z-10 dark:!bg-[#434343] !text-black dark:!text-white;
+}
+.flatpickr-prev-month, .flatpickr-next-month,.flatpickr-month,.flatpickr-weekday,.flatpickr-day{
+@apply text-black fill-black dark:text-white dark:fill-white;
+}
+.flatpickr-disabled{
+    @apply !text-gray-400 !cursor-not-allowed;
+}
+.today{
+    @apply !border-gray-600 dark:!border-gray-200;
+}
+.flatpickr-day{
+    @apply hover:bg-gray-400 hover:border-gray-400 dark:hover:bg-gray-800 dark:hover:border-gray-800;
+}
+.flatpickr-time input,.flatpickr-time-separator,.flatpickr-am-pm{
+    @apply text-black dark:text-white
+}
