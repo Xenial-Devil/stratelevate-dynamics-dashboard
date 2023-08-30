@@ -1,8 +1,6 @@
-import React, { useRouter } from 'react';
-import GaugeComponent from 'react-gauge-component'
-
-const SimpleGaugeChart = ({ value }) => { 
-    const router = useRouter();   
+import React from 'react';
+import GaugeComponent from 'react-gauge-component';
+const SimpleGaugeChart = ({ value }) => {
     return (
         <>
             <div className='!w-72 h-72 flex-wrap overflow-hidden bg-white rounded-xl flex flex-col justify-center items-center drop-shadow-xl dark:bg-[#434343]'>
