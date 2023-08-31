@@ -21,6 +21,7 @@ import ResetPassword from './Pages/pages/auth/reset-password-v1';
 import Register from './Pages/pages/auth/register-v1';
 import TwoSteps from './Pages/pages/auth/two-steps-v1';
 import AppCalendar from './Pages/apps/calendar';
+import MiniCalendar from './components/calendar/MiniCalendar';
 function App() {
   const [randomValue, setRandomValue] = useState(0);
   // Use the custom hook to get the values
@@ -57,29 +58,32 @@ function App() {
             {<HorizontalBarChart />}
           </div>
           <div className="flex">
-            <ScorBordForms />
+            {/* <ScorBordForms /> */}
           </div>
           <div className="flex w-full flex-col gap-4">
-            <MultiPurposeTable />
-            <ApexScatterChart />
+            {<MultiPurposeTable data={null} />
+            /*<ApexScatterChart /> */}
           </div>
           <div>
-            <Login />
+            {/* <Login /> */}
           </div>
           <div className='flex justify-center items-center'>
-            <ForgotPassword/>
+            {/* <ForgotPassword/> */}
           </div>
           <div className='flex justify-center items-center'>
-            <ResetPassword/>
+            <MiniCalendar />
           </div>
           <div className='flex justify-center items-center'>
-            <Register/>
+            {/* <ResetPassword/> */}
           </div>
           <div className='flex justify-center items-center'>
-            <TwoSteps />
+            {/* <Register/> */}
           </div>
           <div className='flex justify-center items-center'>
-             {/* <AppCalendar />  */}
+            {/* <TwoSteps /> */}
+          </div>
+          <div className='flex justify-center items-center'>
+            {/* <AppCalendar /> */}
           </div>
         </div>
         <ScrolltoTop />

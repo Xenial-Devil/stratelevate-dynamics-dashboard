@@ -1,7 +1,6 @@
-import GaugeComponent from 'react-gauge-component'
-import React from 'react'
-
-const SimpleGaugeChart = ({ value }) => {    
+import React from 'react';
+import GaugeComponent from 'react-gauge-component';
+const SimpleGaugeChart = ({ value }) => {
     return (
         <>
             <div className='!w-72 h-72 flex-wrap overflow-hidden bg-white rounded-xl flex flex-col justify-center items-center drop-shadow-xl dark:bg-[#434343]'>

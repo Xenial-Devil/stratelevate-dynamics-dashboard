@@ -16,6 +16,7 @@ import Calendar from '../../../views/apps/calendar/Calendar'
 import SidebarLeft from '../../../views/apps/calendar/SidebarLeft'
 import CalendarWrapper from '../../../@core/styles/libs/fullcalendar'
 import AddEventSidebar from '../../../views/apps/calendar/AddEventSidebar'
+import {styled,useTheme} from '@mui/material/styles';
 //import { store } from '../../../redux/store'
 
 // ** Actions
@@ -38,6 +39,7 @@ const calendarsColor = {
   ETC: 'info'
 }
 const AppCalendar = () => {
+  const theme=useTheme();
   // ** States
   const store = useSelector(state => state.calendar);
   const [calendarApi, setCalendarApi] = useState(null)
@@ -51,7 +53,7 @@ const AppCalendar = () => {
   const leftSidebarWidth = 300
   const addEventSidebarWidth = 400
   const { skin, direction } = settings
-  const mdAbove = useMediaQuery(theme => theme.breakpoints.up('md'))
+  const mdAbove = useMediaQuery(theme.breakpoints.up('md'))
   useEffect(() => {
     dispatch(fetchEvents(store.selectedCalendars))
   }, [dispatch, store.selectedCalendars])

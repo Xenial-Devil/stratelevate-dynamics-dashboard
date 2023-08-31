@@ -12,8 +12,8 @@ import './@fake-db'
 // import { Suspense, lazy } from 'react'
  import { createRoot } from 'react-dom/client'
 // import { BrowserRouter } from 'react-router-dom'
-// const webpack = require("webpack");
-// const config = require("./webpack.config.js");
+//const webpack = require("webpack");
+//const config = require("./webpack.config.js");
 
 // webpack(config, (err, stats) => {
 //     if (err) {
@@ -32,38 +32,29 @@ import './@fake-db'
 // import { ThemeContext } from './utility/context/ThemeColors'
 
 // // ** ThemeConfig
-// import themeConfig from './configs/themeConfig'
+ import themeConfig from './configs/themeConfig'
 
 // // ** Toast
 // import { Toaster } from 'react-hot-toast'
 
 // // ** i18n
-// import './configs/i18n'
-
-// // ** Spinner (Splash Screen)
-// import Spinner from './@core/components/spinner/Fallback-spinner'
-
-// // ** Ripple Button
-// import './@core/components/ripple-button'
-
-// // ** Fake Database
-// import './@fake-db'
+ import './configs/i18n'
 
 // // ** PrismJS
-// import 'prismjs'
-// import 'prismjs/themes/prism-tomorrow.css'
-// import 'prismjs/components/prism-jsx.min'
+ import 'prismjs'
+ import 'prismjs/themes/prism-tomorrow.css'
+ import 'prismjs/components/prism-jsx.min'
 
 // // ** React Perfect Scrollbar
-// import 'react-perfect-scrollbar/dist/css/styles.css'
+ import 'react-perfect-scrollbar/dist/css/styles.css'
 
 // // ** React Hot Toast Styles
 // import '@styles/react/libs/react-hot-toasts/react-hot-toasts.scss'
 
 // // ** Core styles
 // import './@core/assets/fonts/feather/iconfont.css'
-// import './@core/scss/core.scss'
-// import './assets/scss/style.scss'
+ //import './scss/core.scss'
+ //import './scss/style.css'
 // defineConfig({
 //     resolve: {
 //         fallback: {
@@ -73,6 +64,7 @@ import './@fake-db'
 //     },
 // });
 // ** Service Worker
+console.log('store',store);
 const root = createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
