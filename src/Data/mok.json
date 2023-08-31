@@ -1,0 +1,8002 @@
+[
+  {
+    "id": 1,
+    "organizationId": 79,
+    "cardTypeId": 69,
+    "parentScoreCardId": 4,
+    "score": 47,
+    "createdBy": "Orton"
+  },
+  {
+    "id": 2,
+    "organizationId": 11,
+    "cardTypeId": 32,
+    "parentScoreCardId": 8,
+    "score": 16,
+    "createdBy": "Tabbitha"
+  },
+  {
+    "id": 3,
+    "organizationId": 14,
+    "cardTypeId": 80,
+    "parentScoreCardId": 83,
+    "score": 37,
+    "createdBy": "Adiana"
+  },
+  {
+    "id": 4,
+    "organizationId": 96,
+    "cardTypeId": 82,
+    "parentScoreCardId": 58,
+    "score": 79,
+    "createdBy": "Kelsy"
+  },
+  {
+    "id": 5,
+    "organizationId": 95,
+    "cardTypeId": 46,
+    "parentScoreCardId": 74,
+    "score": 85,
+    "createdBy": "Xenia"
+  },
+  {
+    "id": 6,
+    "organizationId": 71,
+    "cardTypeId": 42,
+    "parentScoreCardId": 56,
+    "score": 42,
+    "createdBy": "Darya"
+  },
+  {
+    "id": 7,
+    "organizationId": 70,
+    "cardTypeId": 64,
+    "parentScoreCardId": 2,
+    "score": 30,
+    "createdBy": "Con"
+  },
+  {
+    "id": 8,
+    "organizationId": 86,
+    "cardTypeId": 60,
+    "parentScoreCardId": 65,
+    "score": 30,
+    "createdBy": "Tam"
+  },
+  {
+    "id": 9,
+    "organizationId": 86,
+    "cardTypeId": 16,
+    "parentScoreCardId": 74,
+    "score": 30,
+    "createdBy": "Inger"
+  },
+  {
+    "id": 10,
+    "organizationId": 67,
+    "cardTypeId": 10,
+    "parentScoreCardId": 24,
+    "score": 17,
+    "createdBy": "Norean"
+  },
+  {
+    "id": 11,
+    "organizationId": 44,
+    "cardTypeId": 57,
+    "parentScoreCardId": 84,
+    "score": 85,
+    "createdBy": "Tracee"
+  },
+  {
+    "id": 12,
+    "organizationId": 17,
+    "cardTypeId": 68,
+    "parentScoreCardId": 19,
+    "score": 3,
+    "createdBy": "Shae"
+  },
+  {
+    "id": 13,
+    "organizationId": 15,
+    "cardTypeId": 69,
+    "parentScoreCardId": 33,
+    "score": 68,
+    "createdBy": "Millisent"
+  },
+  {
+    "id": 14,
+    "organizationId": 45,
+    "cardTypeId": 97,
+    "parentScoreCardId": 15,
+    "score": 3,
+    "createdBy": "Emilio"
+  },
+  {
+    "id": 15,
+    "organizationId": 64,
+    "cardTypeId": 10,
+    "parentScoreCardId": 71,
+    "score": 72,
+    "createdBy": "Emile"
+  },
+  {
+    "id": 16,
+    "organizationId": 21,
+    "cardTypeId": 85,
+    "parentScoreCardId": 39,
+    "score": 45,
+    "createdBy": "Bucky"
+  },
+  {
+    "id": 17,
+    "organizationId": 3,
+    "cardTypeId": 39,
+    "parentScoreCardId": 40,
+    "score": 21,
+    "createdBy": "Homerus"
+  },
+  {
+    "id": 18,
+    "organizationId": 84,
+    "cardTypeId": 47,
+    "parentScoreCardId": 94,
+    "score": 33,
+    "createdBy": "Raynell"
+  },
+  {
+    "id": 19,
+    "organizationId": 30,
+    "cardTypeId": 93,
+    "parentScoreCardId": 50,
+    "score": 45,
+    "createdBy": "Carena"
+  },
+  {
+    "id": 20,
+    "organizationId": 28,
+    "cardTypeId": 8,
+    "parentScoreCardId": 16,
+    "score": 87,
+    "createdBy": "Brande"
+  },
+  {
+    "id": 21,
+    "organizationId": 22,
+    "cardTypeId": 90,
+    "parentScoreCardId": 66,
+    "score": 26,
+    "createdBy": "Melodie"
+  },
+  {
+    "id": 22,
+    "organizationId": 40,
+    "cardTypeId": 73,
+    "parentScoreCardId": 49,
+    "score": 83,
+    "createdBy": "Elysha"
+  },
+  {
+    "id": 23,
+    "organizationId": 97,
+    "cardTypeId": 45,
+    "parentScoreCardId": 9,
+    "score": 89,
+    "createdBy": "Silvester"
+  },
+  {
+    "id": 24,
+    "organizationId": 53,
+    "cardTypeId": 92,
+    "parentScoreCardId": 65,
+    "score": 89,
+    "createdBy": "Yorke"
+  },
+  {
+    "id": 25,
+    "organizationId": 56,
+    "cardTypeId": 90,
+    "parentScoreCardId": 88,
+    "score": 35,
+    "createdBy": "Lizette"
+  },
+  {
+    "id": 26,
+    "organizationId": 64,
+    "cardTypeId": 80,
+    "parentScoreCardId": 38,
+    "score": 48,
+    "createdBy": "Richie"
+  },
+  {
+    "id": 27,
+    "organizationId": 15,
+    "cardTypeId": 53,
+    "parentScoreCardId": 36,
+    "score": 17,
+    "createdBy": "Freeman"
+  },
+  {
+    "id": 28,
+    "organizationId": 35,
+    "cardTypeId": 7,
+    "parentScoreCardId": 12,
+    "score": 38,
+    "createdBy": "Laurella"
+  },
+  {
+    "id": 29,
+    "organizationId": 89,
+    "cardTypeId": 82,
+    "parentScoreCardId": 87,
+    "score": 87,
+    "createdBy": "Clim"
+  },
+  {
+    "id": 30,
+    "organizationId": 73,
+    "cardTypeId": 20,
+    "parentScoreCardId": 49,
+    "score": 4,
+    "createdBy": "Susy"
+  },
+  {
+    "id": 31,
+    "organizationId": 8,
+    "cardTypeId": 48,
+    "parentScoreCardId": 29,
+    "score": 41,
+    "createdBy": "Anissa"
+  },
+  {
+    "id": 32,
+    "organizationId": 41,
+    "cardTypeId": 51,
+    "parentScoreCardId": 85,
+    "score": 39,
+    "createdBy": "Valaree"
+  },
+  {
+    "id": 33,
+    "organizationId": 23,
+    "cardTypeId": 16,
+    "parentScoreCardId": 19,
+    "score": 90,
+    "createdBy": "Donielle"
+  },
+  {
+    "id": 34,
+    "organizationId": 9,
+    "cardTypeId": 56,
+    "parentScoreCardId": 31,
+    "score": 90,
+    "createdBy": "Patten"
+  },
+  {
+    "id": 35,
+    "organizationId": 41,
+    "cardTypeId": 83,
+    "parentScoreCardId": 36,
+    "score": 90,
+    "createdBy": "Phil"
+  },
+  {
+    "id": 36,
+    "organizationId": 84,
+    "cardTypeId": 24,
+    "parentScoreCardId": 57,
+    "score": 74,
+    "createdBy": "Lloyd"
+  },
+  {
+    "id": 37,
+    "organizationId": 8,
+    "cardTypeId": 5,
+    "parentScoreCardId": 18,
+    "score": 81,
+    "createdBy": "Ashlee"
+  },
+  {
+    "id": 38,
+    "organizationId": 41,
+    "cardTypeId": 17,
+    "parentScoreCardId": 11,
+    "score": 33,
+    "createdBy": "Dionisio"
+  },
+  {
+    "id": 39,
+    "organizationId": 41,
+    "cardTypeId": 52,
+    "parentScoreCardId": 57,
+    "score": 37,
+    "createdBy": "Nata"
+  },
+  {
+    "id": 40,
+    "organizationId": 31,
+    "cardTypeId": 73,
+    "parentScoreCardId": 81,
+    "score": 32,
+    "createdBy": "Angelo"
+  },
+  {
+    "id": 41,
+    "organizationId": 62,
+    "cardTypeId": 21,
+    "parentScoreCardId": 24,
+    "score": 5,
+    "createdBy": "Arline"
+  },
+  {
+    "id": 42,
+    "organizationId": 65,
+    "cardTypeId": 34,
+    "parentScoreCardId": 29,
+    "score": 64,
+    "createdBy": "Andy"
+  },
+  {
+    "id": 43,
+    "organizationId": 92,
+    "cardTypeId": 96,
+    "parentScoreCardId": 16,
+    "score": 60,
+    "createdBy": "Neala"
+  },
+  {
+    "id": 44,
+    "organizationId": 24,
+    "cardTypeId": 28,
+    "parentScoreCardId": 57,
+    "score": 81,
+    "createdBy": "Tanney"
+  },
+  {
+    "id": 45,
+    "organizationId": 27,
+    "cardTypeId": 100,
+    "parentScoreCardId": 5,
+    "score": 76,
+    "createdBy": "Abie"
+  },
+  {
+    "id": 46,
+    "organizationId": 72,
+    "cardTypeId": 48,
+    "parentScoreCardId": 70,
+    "score": 69,
+    "createdBy": "Tiertza"
+  },
+  {
+    "id": 47,
+    "organizationId": 18,
+    "cardTypeId": 53,
+    "parentScoreCardId": 81,
+    "score": 56,
+    "createdBy": "Pansie"
+  },
+  {
+    "id": 48,
+    "organizationId": 53,
+    "cardTypeId": 100,
+    "parentScoreCardId": 11,
+    "score": 18,
+    "createdBy": "Liliane"
+  },
+  {
+    "id": 49,
+    "organizationId": 50,
+    "cardTypeId": 56,
+    "parentScoreCardId": 11,
+    "score": 98,
+    "createdBy": "Dorice"
+  },
+  {
+    "id": 50,
+    "organizationId": 51,
+    "cardTypeId": 86,
+    "parentScoreCardId": 72,
+    "score": 18,
+    "createdBy": "Dita"
+  },
+  {
+    "id": 51,
+    "organizationId": 37,
+    "cardTypeId": 89,
+    "parentScoreCardId": 50,
+    "score": 88,
+    "createdBy": "Edna"
+  },
+  {
+    "id": 52,
+    "organizationId": 36,
+    "cardTypeId": 83,
+    "parentScoreCardId": 23,
+    "score": 84,
+    "createdBy": "Davin"
+  },
+  {
+    "id": 53,
+    "organizationId": 9,
+    "cardTypeId": 74,
+    "parentScoreCardId": 23,
+    "score": 5,
+    "createdBy": "Brina"
+  },
+  {
+    "id": 54,
+    "organizationId": 73,
+    "cardTypeId": 34,
+    "parentScoreCardId": 92,
+    "score": 90,
+    "createdBy": "Ham"
+  },
+  {
+    "id": 55,
+    "organizationId": 55,
+    "cardTypeId": 66,
+    "parentScoreCardId": 82,
+    "score": 83,
+    "createdBy": "Killie"
+  },
+  {
+    "id": 56,
+    "organizationId": 94,
+    "cardTypeId": 79,
+    "parentScoreCardId": 6,
+    "score": 15,
+    "createdBy": "Donalt"
+  },
+  {
+    "id": 57,
+    "organizationId": 96,
+    "cardTypeId": 51,
+    "parentScoreCardId": 19,
+    "score": 93,
+    "createdBy": "Rocky"
+  },
+  {
+    "id": 58,
+    "organizationId": 51,
+    "cardTypeId": 18,
+    "parentScoreCardId": 21,
+    "score": 37,
+    "createdBy": "Truman"
+  },
+  {
+    "id": 59,
+    "organizationId": 52,
+    "cardTypeId": 71,
+    "parentScoreCardId": 14,
+    "score": 77,
+    "createdBy": "Felicdad"
+  },
+  {
+    "id": 60,
+    "organizationId": 29,
+    "cardTypeId": 11,
+    "parentScoreCardId": 76,
+    "score": 17,
+    "createdBy": "Levy"
+  },
+  {
+    "id": 61,
+    "organizationId": 3,
+    "cardTypeId": 17,
+    "parentScoreCardId": 21,
+    "score": 100,
+    "createdBy": "Ruby"
+  },
+  {
+    "id": 62,
+    "organizationId": 74,
+    "cardTypeId": 73,
+    "parentScoreCardId": 46,
+    "score": 58,
+    "createdBy": "Judye"
+  },
+  {
+    "id": 63,
+    "organizationId": 52,
+    "cardTypeId": 95,
+    "parentScoreCardId": 6,
+    "score": 30,
+    "createdBy": "Jozef"
+  },
+  {
+    "id": 64,
+    "organizationId": 15,
+    "cardTypeId": 24,
+    "parentScoreCardId": 71,
+    "score": 6,
+    "createdBy": "Damiano"
+  },
+  {
+    "id": 65,
+    "organizationId": 24,
+    "cardTypeId": 20,
+    "parentScoreCardId": 40,
+    "score": 9,
+    "createdBy": "Dennet"
+  },
+  {
+    "id": 66,
+    "organizationId": 26,
+    "cardTypeId": 48,
+    "parentScoreCardId": 27,
+    "score": 21,
+    "createdBy": "Fania"
+  },
+  {
+    "id": 67,
+    "organizationId": 53,
+    "cardTypeId": 77,
+    "parentScoreCardId": 95,
+    "score": 6,
+    "createdBy": "Trumaine"
+  },
+  {
+    "id": 68,
+    "organizationId": 54,
+    "cardTypeId": 17,
+    "parentScoreCardId": 54,
+    "score": 90,
+    "createdBy": "Harv"
+  },
+  {
+    "id": 69,
+    "organizationId": 84,
+    "cardTypeId": 4,
+    "parentScoreCardId": 61,
+    "score": 94,
+    "createdBy": "Charil"
+  },
+  {
+    "id": 70,
+    "organizationId": 2,
+    "cardTypeId": 52,
+    "parentScoreCardId": 82,
+    "score": 51,
+    "createdBy": "Clayson"
+  },
+  {
+    "id": 71,
+    "organizationId": 67,
+    "cardTypeId": 82,
+    "parentScoreCardId": 48,
+    "score": 27,
+    "createdBy": "Israel"
+  },
+  {
+    "id": 72,
+    "organizationId": 58,
+    "cardTypeId": 87,
+    "parentScoreCardId": 18,
+    "score": 81,
+    "createdBy": "Cello"
+  },
+  {
+    "id": 73,
+    "organizationId": 83,
+    "cardTypeId": 22,
+    "parentScoreCardId": 55,
+    "score": 13,
+    "createdBy": "Jeremiah"
+  },
+  {
+    "id": 74,
+    "organizationId": 3,
+    "cardTypeId": 17,
+    "parentScoreCardId": 72,
+    "score": 93,
+    "createdBy": "Mason"
+  },
+  {
+    "id": 75,
+    "organizationId": 59,
+    "cardTypeId": 30,
+    "parentScoreCardId": 96,
+    "score": 46,
+    "createdBy": "Harrie"
+  },
+  {
+    "id": 76,
+    "organizationId": 61,
+    "cardTypeId": 63,
+    "parentScoreCardId": 51,
+    "score": 95,
+    "createdBy": "Mikol"
+  },
+  {
+    "id": 77,
+    "organizationId": 15,
+    "cardTypeId": 67,
+    "parentScoreCardId": 34,
+    "score": 13,
+    "createdBy": "Torry"
+  },
+  {
+    "id": 78,
+    "organizationId": 8,
+    "cardTypeId": 80,
+    "parentScoreCardId": 7,
+    "score": 13,
+    "createdBy": "Nil"
+  },
+  {
+    "id": 79,
+    "organizationId": 40,
+    "cardTypeId": 55,
+    "parentScoreCardId": 90,
+    "score": 71,
+    "createdBy": "Ric"
+  },
+  {
+    "id": 80,
+    "organizationId": 72,
+    "cardTypeId": 4,
+    "parentScoreCardId": 99,
+    "score": 46,
+    "createdBy": "Constantine"
+  },
+  {
+    "id": 81,
+    "organizationId": 60,
+    "cardTypeId": 78,
+    "parentScoreCardId": 86,
+    "score": 34,
+    "createdBy": "Donica"
+  },
+  {
+    "id": 82,
+    "organizationId": 49,
+    "cardTypeId": 23,
+    "parentScoreCardId": 18,
+    "score": 83,
+    "createdBy": "Donnie"
+  },
+  {
+    "id": 83,
+    "organizationId": 94,
+    "cardTypeId": 48,
+    "parentScoreCardId": 97,
+    "score": 68,
+    "createdBy": "Rikki"
+  },
+  {
+    "id": 84,
+    "organizationId": 38,
+    "cardTypeId": 41,
+    "parentScoreCardId": 65,
+    "score": 59,
+    "createdBy": "Brinn"
+  },
+  {
+    "id": 85,
+    "organizationId": 89,
+    "cardTypeId": 26,
+    "parentScoreCardId": 5,
+    "score": 24,
+    "createdBy": "Emelina"
+  },
+  {
+    "id": 86,
+    "organizationId": 19,
+    "cardTypeId": 62,
+    "parentScoreCardId": 59,
+    "score": 34,
+    "createdBy": "Eugen"
+  },
+  {
+    "id": 87,
+    "organizationId": 23,
+    "cardTypeId": 100,
+    "parentScoreCardId": 55,
+    "score": 73,
+    "createdBy": "Nanice"
+  },
+  {
+    "id": 88,
+    "organizationId": 80,
+    "cardTypeId": 74,
+    "parentScoreCardId": 10,
+    "score": 42,
+    "createdBy": "Elliott"
+  },
+  {
+    "id": 89,
+    "organizationId": 7,
+    "cardTypeId": 80,
+    "parentScoreCardId": 52,
+    "score": 11,
+    "createdBy": "Rik"
+  },
+  {
+    "id": 90,
+    "organizationId": 95,
+    "cardTypeId": 49,
+    "parentScoreCardId": 71,
+    "score": 42,
+    "createdBy": "Ogdan"
+  },
+  {
+    "id": 91,
+    "organizationId": 97,
+    "cardTypeId": 41,
+    "parentScoreCardId": 76,
+    "score": 21,
+    "createdBy": "Hillier"
+  },
+  {
+    "id": 92,
+    "organizationId": 5,
+    "cardTypeId": 53,
+    "parentScoreCardId": 80,
+    "score": 38,
+    "createdBy": "Jackquelin"
+  },
+  {
+    "id": 93,
+    "organizationId": 9,
+    "cardTypeId": 45,
+    "parentScoreCardId": 12,
+    "score": 52,
+    "createdBy": "Gertrudis"
+  },
+  {
+    "id": 94,
+    "organizationId": 26,
+    "cardTypeId": 94,
+    "parentScoreCardId": 43,
+    "score": 17,
+    "createdBy": "Jerald"
+  },
+  {
+    "id": 95,
+    "organizationId": 84,
+    "cardTypeId": 50,
+    "parentScoreCardId": 57,
+    "score": 70,
+    "createdBy": "Jack"
+  },
+  {
+    "id": 96,
+    "organizationId": 5,
+    "cardTypeId": 84,
+    "parentScoreCardId": 15,
+    "score": 98,
+    "createdBy": "Mar"
+  },
+  {
+    "id": 97,
+    "organizationId": 25,
+    "cardTypeId": 81,
+    "parentScoreCardId": 53,
+    "score": 39,
+    "createdBy": "Ardine"
+  },
+  {
+    "id": 98,
+    "organizationId": 27,
+    "cardTypeId": 88,
+    "parentScoreCardId": 81,
+    "score": 46,
+    "createdBy": "Lanni"
+  },
+  {
+    "id": 99,
+    "organizationId": 95,
+    "cardTypeId": 23,
+    "parentScoreCardId": 88,
+    "score": 27,
+    "createdBy": "Petronilla"
+  },
+  {
+    "id": 100,
+    "organizationId": 99,
+    "cardTypeId": 72,
+    "parentScoreCardId": 90,
+    "score": 97,
+    "createdBy": "Neilla"
+  },
+  {
+    "id": 101,
+    "organizationId": 21,
+    "cardTypeId": 21,
+    "parentScoreCardId": 21,
+    "score": 45,
+    "createdBy": "Ryun"
+  },
+  {
+    "id": 102,
+    "organizationId": 79,
+    "cardTypeId": 40,
+    "parentScoreCardId": 73,
+    "score": 21,
+    "createdBy": "Leese"
+  },
+  {
+    "id": 103,
+    "organizationId": 13,
+    "cardTypeId": 65,
+    "parentScoreCardId": 3,
+    "score": 84,
+    "createdBy": "Philippe"
+  },
+  {
+    "id": 104,
+    "organizationId": 40,
+    "cardTypeId": 60,
+    "parentScoreCardId": 66,
+    "score": 25,
+    "createdBy": "Brodie"
+  },
+  {
+    "id": 105,
+    "organizationId": 73,
+    "cardTypeId": 8,
+    "parentScoreCardId": 84,
+    "score": 49,
+    "createdBy": "Ewan"
+  },
+  {
+    "id": 106,
+    "organizationId": 89,
+    "cardTypeId": 98,
+    "parentScoreCardId": 91,
+    "score": 98,
+    "createdBy": "Hill"
+  },
+  {
+    "id": 107,
+    "organizationId": 21,
+    "cardTypeId": 13,
+    "parentScoreCardId": 48,
+    "score": 9,
+    "createdBy": "Victoria"
+  },
+  {
+    "id": 108,
+    "organizationId": 77,
+    "cardTypeId": 75,
+    "parentScoreCardId": 23,
+    "score": 42,
+    "createdBy": "Cathleen"
+  },
+  {
+    "id": 109,
+    "organizationId": 71,
+    "cardTypeId": 49,
+    "parentScoreCardId": 75,
+    "score": 13,
+    "createdBy": "Leif"
+  },
+  {
+    "id": 110,
+    "organizationId": 26,
+    "cardTypeId": 21,
+    "parentScoreCardId": 36,
+    "score": 57,
+    "createdBy": "Lidia"
+  },
+  {
+    "id": 111,
+    "organizationId": 28,
+    "cardTypeId": 21,
+    "parentScoreCardId": 23,
+    "score": 47,
+    "createdBy": "Gwendolyn"
+  },
+  {
+    "id": 112,
+    "organizationId": 63,
+    "cardTypeId": 6,
+    "parentScoreCardId": 37,
+    "score": 10,
+    "createdBy": "Elga"
+  },
+  {
+    "id": 113,
+    "organizationId": 64,
+    "cardTypeId": 35,
+    "parentScoreCardId": 9,
+    "score": 8,
+    "createdBy": "Laverne"
+  },
+  {
+    "id": 114,
+    "organizationId": 15,
+    "cardTypeId": 71,
+    "parentScoreCardId": 32,
+    "score": 17,
+    "createdBy": "Sibyl"
+  },
+  {
+    "id": 115,
+    "organizationId": 72,
+    "cardTypeId": 78,
+    "parentScoreCardId": 19,
+    "score": 11,
+    "createdBy": "Cammi"
+  },
+  {
+    "id": 116,
+    "organizationId": 87,
+    "cardTypeId": 10,
+    "parentScoreCardId": 74,
+    "score": 70,
+    "createdBy": "Salmon"
+  },
+  {
+    "id": 117,
+    "organizationId": 59,
+    "cardTypeId": 90,
+    "parentScoreCardId": 15,
+    "score": 28,
+    "createdBy": "Karla"
+  },
+  {
+    "id": 118,
+    "organizationId": 95,
+    "cardTypeId": 42,
+    "parentScoreCardId": 22,
+    "score": 5,
+    "createdBy": "Rolfe"
+  },
+  {
+    "id": 119,
+    "organizationId": 18,
+    "cardTypeId": 100,
+    "parentScoreCardId": 59,
+    "score": 33,
+    "createdBy": "Marve"
+  },
+  {
+    "id": 120,
+    "organizationId": 95,
+    "cardTypeId": 23,
+    "parentScoreCardId": 12,
+    "score": 23,
+    "createdBy": "Petunia"
+  },
+  {
+    "id": 121,
+    "organizationId": 11,
+    "cardTypeId": 22,
+    "parentScoreCardId": 67,
+    "score": 76,
+    "createdBy": "Corey"
+  },
+  {
+    "id": 122,
+    "organizationId": 72,
+    "cardTypeId": 24,
+    "parentScoreCardId": 42,
+    "score": 82,
+    "createdBy": "Annetta"
+  },
+  {
+    "id": 123,
+    "organizationId": 18,
+    "cardTypeId": 85,
+    "parentScoreCardId": 85,
+    "score": 63,
+    "createdBy": "Yehudi"
+  },
+  {
+    "id": 124,
+    "organizationId": 91,
+    "cardTypeId": 84,
+    "parentScoreCardId": 61,
+    "score": 13,
+    "createdBy": "Shannan"
+  },
+  {
+    "id": 125,
+    "organizationId": 83,
+    "cardTypeId": 62,
+    "parentScoreCardId": 3,
+    "score": 91,
+    "createdBy": "Chrysa"
+  },
+  {
+    "id": 126,
+    "organizationId": 21,
+    "cardTypeId": 90,
+    "parentScoreCardId": 81,
+    "score": 78,
+    "createdBy": "Jozef"
+  },
+  {
+    "id": 127,
+    "organizationId": 83,
+    "cardTypeId": 100,
+    "parentScoreCardId": 21,
+    "score": 66,
+    "createdBy": "Netti"
+  },
+  {
+    "id": 128,
+    "organizationId": 92,
+    "cardTypeId": 50,
+    "parentScoreCardId": 9,
+    "score": 18,
+    "createdBy": "Gradeigh"
+  },
+  {
+    "id": 129,
+    "organizationId": 73,
+    "cardTypeId": 93,
+    "parentScoreCardId": 26,
+    "score": 13,
+    "createdBy": "Cristian"
+  },
+  {
+    "id": 130,
+    "organizationId": 89,
+    "cardTypeId": 88,
+    "parentScoreCardId": 31,
+    "score": 84,
+    "createdBy": "Berkley"
+  },
+  {
+    "id": 131,
+    "organizationId": 18,
+    "cardTypeId": 63,
+    "parentScoreCardId": 14,
+    "score": 72,
+    "createdBy": "Alberto"
+  },
+  {
+    "id": 132,
+    "organizationId": 74,
+    "cardTypeId": 18,
+    "parentScoreCardId": 4,
+    "score": 51,
+    "createdBy": "Mara"
+  },
+  {
+    "id": 133,
+    "organizationId": 68,
+    "cardTypeId": 55,
+    "parentScoreCardId": 37,
+    "score": 85,
+    "createdBy": "Chancey"
+  },
+  {
+    "id": 134,
+    "organizationId": 13,
+    "cardTypeId": 36,
+    "parentScoreCardId": 68,
+    "score": 3,
+    "createdBy": "Tallie"
+  },
+  {
+    "id": 135,
+    "organizationId": 27,
+    "cardTypeId": 24,
+    "parentScoreCardId": 1,
+    "score": 15,
+    "createdBy": "Adrianna"
+  },
+  {
+    "id": 136,
+    "organizationId": 20,
+    "cardTypeId": 62,
+    "parentScoreCardId": 24,
+    "score": 79,
+    "createdBy": "Saundra"
+  },
+  {
+    "id": 137,
+    "organizationId": 13,
+    "cardTypeId": 44,
+    "parentScoreCardId": 75,
+    "score": 77,
+    "createdBy": "Scotty"
+  },
+  {
+    "id": 138,
+    "organizationId": 65,
+    "cardTypeId": 3,
+    "parentScoreCardId": 28,
+    "score": 43,
+    "createdBy": "Huberto"
+  },
+  {
+    "id": 139,
+    "organizationId": 71,
+    "cardTypeId": 95,
+    "parentScoreCardId": 63,
+    "score": 43,
+    "createdBy": "Herb"
+  },
+  {
+    "id": 140,
+    "organizationId": 7,
+    "cardTypeId": 6,
+    "parentScoreCardId": 57,
+    "score": 83,
+    "createdBy": "Mahalia"
+  },
+  {
+    "id": 141,
+    "organizationId": 7,
+    "cardTypeId": 62,
+    "parentScoreCardId": 91,
+    "score": 59,
+    "createdBy": "Wilhelmine"
+  },
+  {
+    "id": 142,
+    "organizationId": 1,
+    "cardTypeId": 27,
+    "parentScoreCardId": 95,
+    "score": 11,
+    "createdBy": "Rosalie"
+  },
+  {
+    "id": 143,
+    "organizationId": 58,
+    "cardTypeId": 2,
+    "parentScoreCardId": 83,
+    "score": 96,
+    "createdBy": "Fidelio"
+  },
+  {
+    "id": 144,
+    "organizationId": 84,
+    "cardTypeId": 92,
+    "parentScoreCardId": 4,
+    "score": 91,
+    "createdBy": "Brynn"
+  },
+  {
+    "id": 145,
+    "organizationId": 100,
+    "cardTypeId": 15,
+    "parentScoreCardId": 48,
+    "score": 10,
+    "createdBy": "Briana"
+  },
+  {
+    "id": 146,
+    "organizationId": 34,
+    "cardTypeId": 24,
+    "parentScoreCardId": 84,
+    "score": 17,
+    "createdBy": "Jackie"
+  },
+  {
+    "id": 147,
+    "organizationId": 23,
+    "cardTypeId": 24,
+    "parentScoreCardId": 19,
+    "score": 84,
+    "createdBy": "Jermaine"
+  },
+  {
+    "id": 148,
+    "organizationId": 1,
+    "cardTypeId": 55,
+    "parentScoreCardId": 19,
+    "score": 14,
+    "createdBy": "Gregory"
+  },
+  {
+    "id": 149,
+    "organizationId": 72,
+    "cardTypeId": 28,
+    "parentScoreCardId": 94,
+    "score": 17,
+    "createdBy": "Lezlie"
+  },
+  {
+    "id": 150,
+    "organizationId": 23,
+    "cardTypeId": 42,
+    "parentScoreCardId": 65,
+    "score": 43,
+    "createdBy": "Egor"
+  },
+  {
+    "id": 151,
+    "organizationId": 98,
+    "cardTypeId": 34,
+    "parentScoreCardId": 58,
+    "score": 60,
+    "createdBy": "Alon"
+  },
+  {
+    "id": 152,
+    "organizationId": 51,
+    "cardTypeId": 9,
+    "parentScoreCardId": 19,
+    "score": 72,
+    "createdBy": "Sig"
+  },
+  {
+    "id": 153,
+    "organizationId": 2,
+    "cardTypeId": 40,
+    "parentScoreCardId": 32,
+    "score": 91,
+    "createdBy": "Aron"
+  },
+  {
+    "id": 154,
+    "organizationId": 30,
+    "cardTypeId": 69,
+    "parentScoreCardId": 86,
+    "score": 6,
+    "createdBy": "Agnella"
+  },
+  {
+    "id": 155,
+    "organizationId": 91,
+    "cardTypeId": 22,
+    "parentScoreCardId": 22,
+    "score": 37,
+    "createdBy": "Halette"
+  },
+  {
+    "id": 156,
+    "organizationId": 53,
+    "cardTypeId": 5,
+    "parentScoreCardId": 53,
+    "score": 71,
+    "createdBy": "Pearle"
+  },
+  {
+    "id": 157,
+    "organizationId": 85,
+    "cardTypeId": 12,
+    "parentScoreCardId": 80,
+    "score": 16,
+    "createdBy": "Alphonso"
+  },
+  {
+    "id": 158,
+    "organizationId": 66,
+    "cardTypeId": 37,
+    "parentScoreCardId": 45,
+    "score": 33,
+    "createdBy": "Frederich"
+  },
+  {
+    "id": 159,
+    "organizationId": 73,
+    "cardTypeId": 42,
+    "parentScoreCardId": 76,
+    "score": 10,
+    "createdBy": "Conrad"
+  },
+  {
+    "id": 160,
+    "organizationId": 44,
+    "cardTypeId": 77,
+    "parentScoreCardId": 29,
+    "score": 88,
+    "createdBy": "Allan"
+  },
+  {
+    "id": 161,
+    "organizationId": 25,
+    "cardTypeId": 8,
+    "parentScoreCardId": 12,
+    "score": 82,
+    "createdBy": "Aldridge"
+  },
+  {
+    "id": 162,
+    "organizationId": 78,
+    "cardTypeId": 96,
+    "parentScoreCardId": 59,
+    "score": 48,
+    "createdBy": "Maggie"
+  },
+  {
+    "id": 163,
+    "organizationId": 46,
+    "cardTypeId": 19,
+    "parentScoreCardId": 87,
+    "score": 40,
+    "createdBy": "Judah"
+  },
+  {
+    "id": 164,
+    "organizationId": 97,
+    "cardTypeId": 44,
+    "parentScoreCardId": 19,
+    "score": 23,
+    "createdBy": "Toddy"
+  },
+  {
+    "id": 165,
+    "organizationId": 82,
+    "cardTypeId": 8,
+    "parentScoreCardId": 70,
+    "score": 22,
+    "createdBy": "Milo"
+  },
+  {
+    "id": 166,
+    "organizationId": 16,
+    "cardTypeId": 69,
+    "parentScoreCardId": 41,
+    "score": 93,
+    "createdBy": "Herrick"
+  },
+  {
+    "id": 167,
+    "organizationId": 14,
+    "cardTypeId": 92,
+    "parentScoreCardId": 21,
+    "score": 10,
+    "createdBy": "Adriana"
+  },
+  {
+    "id": 168,
+    "organizationId": 92,
+    "cardTypeId": 73,
+    "parentScoreCardId": 63,
+    "score": 66,
+    "createdBy": "Faustina"
+  },
+  {
+    "id": 169,
+    "organizationId": 5,
+    "cardTypeId": 27,
+    "parentScoreCardId": 34,
+    "score": 32,
+    "createdBy": "Dory"
+  },
+  {
+    "id": 170,
+    "organizationId": 17,
+    "cardTypeId": 50,
+    "parentScoreCardId": 11,
+    "score": 3,
+    "createdBy": "Franciskus"
+  },
+  {
+    "id": 171,
+    "organizationId": 55,
+    "cardTypeId": 98,
+    "parentScoreCardId": 10,
+    "score": 25,
+    "createdBy": "Deena"
+  },
+  {
+    "id": 172,
+    "organizationId": 19,
+    "cardTypeId": 53,
+    "parentScoreCardId": 93,
+    "score": 10,
+    "createdBy": "Mirilla"
+  },
+  {
+    "id": 173,
+    "organizationId": 86,
+    "cardTypeId": 92,
+    "parentScoreCardId": 86,
+    "score": 82,
+    "createdBy": "Tracie"
+  },
+  {
+    "id": 174,
+    "organizationId": 85,
+    "cardTypeId": 87,
+    "parentScoreCardId": 97,
+    "score": 44,
+    "createdBy": "Art"
+  },
+  {
+    "id": 175,
+    "organizationId": 15,
+    "cardTypeId": 93,
+    "parentScoreCardId": 6,
+    "score": 86,
+    "createdBy": "Dayle"
+  },
+  {
+    "id": 176,
+    "organizationId": 33,
+    "cardTypeId": 6,
+    "parentScoreCardId": 47,
+    "score": 36,
+    "createdBy": "Thaine"
+  },
+  {
+    "id": 177,
+    "organizationId": 17,
+    "cardTypeId": 3,
+    "parentScoreCardId": 54,
+    "score": 9,
+    "createdBy": "Debra"
+  },
+  {
+    "id": 178,
+    "organizationId": 41,
+    "cardTypeId": 51,
+    "parentScoreCardId": 80,
+    "score": 30,
+    "createdBy": "Jackquelin"
+  },
+  {
+    "id": 179,
+    "organizationId": 7,
+    "cardTypeId": 75,
+    "parentScoreCardId": 2,
+    "score": 73,
+    "createdBy": "Bab"
+  },
+  {
+    "id": 180,
+    "organizationId": 87,
+    "cardTypeId": 16,
+    "parentScoreCardId": 10,
+    "score": 74,
+    "createdBy": "Padraic"
+  },
+  {
+    "id": 181,
+    "organizationId": 16,
+    "cardTypeId": 84,
+    "parentScoreCardId": 11,
+    "score": 55,
+    "createdBy": "Windham"
+  },
+  {
+    "id": 182,
+    "organizationId": 57,
+    "cardTypeId": 36,
+    "parentScoreCardId": 62,
+    "score": 1,
+    "createdBy": "Jemimah"
+  },
+  {
+    "id": 183,
+    "organizationId": 76,
+    "cardTypeId": 12,
+    "parentScoreCardId": 53,
+    "score": 98,
+    "createdBy": "Sid"
+  },
+  {
+    "id": 184,
+    "organizationId": 52,
+    "cardTypeId": 8,
+    "parentScoreCardId": 77,
+    "score": 84,
+    "createdBy": "Logan"
+  },
+  {
+    "id": 185,
+    "organizationId": 61,
+    "cardTypeId": 68,
+    "parentScoreCardId": 41,
+    "score": 2,
+    "createdBy": "Humfrid"
+  },
+  {
+    "id": 186,
+    "organizationId": 81,
+    "cardTypeId": 41,
+    "parentScoreCardId": 4,
+    "score": 76,
+    "createdBy": "Jamey"
+  },
+  {
+    "id": 187,
+    "organizationId": 75,
+    "cardTypeId": 15,
+    "parentScoreCardId": 19,
+    "score": 81,
+    "createdBy": "Jena"
+  },
+  {
+    "id": 188,
+    "organizationId": 14,
+    "cardTypeId": 94,
+    "parentScoreCardId": 1,
+    "score": 83,
+    "createdBy": "Roderic"
+  },
+  {
+    "id": 189,
+    "organizationId": 12,
+    "cardTypeId": 74,
+    "parentScoreCardId": 68,
+    "score": 11,
+    "createdBy": "Nicoline"
+  },
+  {
+    "id": 190,
+    "organizationId": 96,
+    "cardTypeId": 4,
+    "parentScoreCardId": 16,
+    "score": 54,
+    "createdBy": "Carmen"
+  },
+  {
+    "id": 191,
+    "organizationId": 19,
+    "cardTypeId": 5,
+    "parentScoreCardId": 80,
+    "score": 86,
+    "createdBy": "Thomasa"
+  },
+  {
+    "id": 192,
+    "organizationId": 78,
+    "cardTypeId": 6,
+    "parentScoreCardId": 94,
+    "score": 58,
+    "createdBy": "Drusi"
+  },
+  {
+    "id": 193,
+    "organizationId": 68,
+    "cardTypeId": 84,
+    "parentScoreCardId": 43,
+    "score": 85,
+    "createdBy": "Lacey"
+  },
+  {
+    "id": 194,
+    "organizationId": 36,
+    "cardTypeId": 73,
+    "parentScoreCardId": 52,
+    "score": 14,
+    "createdBy": "Eolanda"
+  },
+  {
+    "id": 195,
+    "organizationId": 14,
+    "cardTypeId": 71,
+    "parentScoreCardId": 91,
+    "score": 47,
+    "createdBy": "Clem"
+  },
+  {
+    "id": 196,
+    "organizationId": 65,
+    "cardTypeId": 46,
+    "parentScoreCardId": 62,
+    "score": 100,
+    "createdBy": "Northrop"
+  },
+  {
+    "id": 197,
+    "organizationId": 79,
+    "cardTypeId": 24,
+    "parentScoreCardId": 51,
+    "score": 84,
+    "createdBy": "Davina"
+  },
+  {
+    "id": 198,
+    "organizationId": 89,
+    "cardTypeId": 12,
+    "parentScoreCardId": 56,
+    "score": 13,
+    "createdBy": "Morly"
+  },
+  {
+    "id": 199,
+    "organizationId": 52,
+    "cardTypeId": 48,
+    "parentScoreCardId": 2,
+    "score": 66,
+    "createdBy": "Karlis"
+  },
+  {
+    "id": 200,
+    "organizationId": 12,
+    "cardTypeId": 96,
+    "parentScoreCardId": 5,
+    "score": 48,
+    "createdBy": "Lewiss"
+  },
+  {
+    "id": 201,
+    "organizationId": 63,
+    "cardTypeId": 12,
+    "parentScoreCardId": 37,
+    "score": 8,
+    "createdBy": "Sawyere"
+  },
+  {
+    "id": 202,
+    "organizationId": 56,
+    "cardTypeId": 29,
+    "parentScoreCardId": 61,
+    "score": 36,
+    "createdBy": "Ignazio"
+  },
+  {
+    "id": 203,
+    "organizationId": 31,
+    "cardTypeId": 95,
+    "parentScoreCardId": 64,
+    "score": 87,
+    "createdBy": "Desiri"
+  },
+  {
+    "id": 204,
+    "organizationId": 69,
+    "cardTypeId": 44,
+    "parentScoreCardId": 52,
+    "score": 64,
+    "createdBy": "Jed"
+  },
+  {
+    "id": 205,
+    "organizationId": 98,
+    "cardTypeId": 100,
+    "parentScoreCardId": 71,
+    "score": 71,
+    "createdBy": "Melonie"
+  },
+  {
+    "id": 206,
+    "organizationId": 35,
+    "cardTypeId": 98,
+    "parentScoreCardId": 51,
+    "score": 20,
+    "createdBy": "Kevan"
+  },
+  {
+    "id": 207,
+    "organizationId": 52,
+    "cardTypeId": 60,
+    "parentScoreCardId": 73,
+    "score": 89,
+    "createdBy": "Perrine"
+  },
+  {
+    "id": 208,
+    "organizationId": 70,
+    "cardTypeId": 86,
+    "parentScoreCardId": 86,
+    "score": 73,
+    "createdBy": "Philomena"
+  },
+  {
+    "id": 209,
+    "organizationId": 12,
+    "cardTypeId": 53,
+    "parentScoreCardId": 93,
+    "score": 12,
+    "createdBy": "Rebeca"
+  },
+  {
+    "id": 210,
+    "organizationId": 92,
+    "cardTypeId": 70,
+    "parentScoreCardId": 81,
+    "score": 34,
+    "createdBy": "Claudette"
+  },
+  {
+    "id": 211,
+    "organizationId": 85,
+    "cardTypeId": 42,
+    "parentScoreCardId": 20,
+    "score": 90,
+    "createdBy": "Esther"
+  },
+  {
+    "id": 212,
+    "organizationId": 45,
+    "cardTypeId": 64,
+    "parentScoreCardId": 16,
+    "score": 87,
+    "createdBy": "Josiah"
+  },
+  {
+    "id": 213,
+    "organizationId": 10,
+    "cardTypeId": 41,
+    "parentScoreCardId": 44,
+    "score": 75,
+    "createdBy": "Mayor"
+  },
+  {
+    "id": 214,
+    "organizationId": 41,
+    "cardTypeId": 49,
+    "parentScoreCardId": 82,
+    "score": 69,
+    "createdBy": "Malanie"
+  },
+  {
+    "id": 215,
+    "organizationId": 15,
+    "cardTypeId": 39,
+    "parentScoreCardId": 57,
+    "score": 78,
+    "createdBy": "Reed"
+  },
+  {
+    "id": 216,
+    "organizationId": 90,
+    "cardTypeId": 9,
+    "parentScoreCardId": 77,
+    "score": 8,
+    "createdBy": "Harriet"
+  },
+  {
+    "id": 217,
+    "organizationId": 11,
+    "cardTypeId": 90,
+    "parentScoreCardId": 2,
+    "score": 24,
+    "createdBy": "Mame"
+  },
+  {
+    "id": 218,
+    "organizationId": 71,
+    "cardTypeId": 51,
+    "parentScoreCardId": 90,
+    "score": 5,
+    "createdBy": "Vincent"
+  },
+  {
+    "id": 219,
+    "organizationId": 76,
+    "cardTypeId": 71,
+    "parentScoreCardId": 92,
+    "score": 81,
+    "createdBy": "Inigo"
+  },
+  {
+    "id": 220,
+    "organizationId": 20,
+    "cardTypeId": 27,
+    "parentScoreCardId": 14,
+    "score": 42,
+    "createdBy": "Alicea"
+  },
+  {
+    "id": 221,
+    "organizationId": 43,
+    "cardTypeId": 39,
+    "parentScoreCardId": 34,
+    "score": 90,
+    "createdBy": "Giacinta"
+  },
+  {
+    "id": 222,
+    "organizationId": 97,
+    "cardTypeId": 43,
+    "parentScoreCardId": 68,
+    "score": 82,
+    "createdBy": "Koenraad"
+  },
+  {
+    "id": 223,
+    "organizationId": 34,
+    "cardTypeId": 45,
+    "parentScoreCardId": 55,
+    "score": 22,
+    "createdBy": "Jennifer"
+  },
+  {
+    "id": 224,
+    "organizationId": 16,
+    "cardTypeId": 11,
+    "parentScoreCardId": 36,
+    "score": 68,
+    "createdBy": "Flin"
+  },
+  {
+    "id": 225,
+    "organizationId": 15,
+    "cardTypeId": 11,
+    "parentScoreCardId": 52,
+    "score": 30,
+    "createdBy": "Shel"
+  },
+  {
+    "id": 226,
+    "organizationId": 97,
+    "cardTypeId": 61,
+    "parentScoreCardId": 64,
+    "score": 100,
+    "createdBy": "Granny"
+  },
+  {
+    "id": 227,
+    "organizationId": 85,
+    "cardTypeId": 26,
+    "parentScoreCardId": 6,
+    "score": 82,
+    "createdBy": "Terry"
+  },
+  {
+    "id": 228,
+    "organizationId": 86,
+    "cardTypeId": 14,
+    "parentScoreCardId": 98,
+    "score": 83,
+    "createdBy": "Samaria"
+  },
+  {
+    "id": 229,
+    "organizationId": 57,
+    "cardTypeId": 99,
+    "parentScoreCardId": 52,
+    "score": 3,
+    "createdBy": "Horton"
+  },
+  {
+    "id": 230,
+    "organizationId": 48,
+    "cardTypeId": 69,
+    "parentScoreCardId": 99,
+    "score": 89,
+    "createdBy": "Dara"
+  },
+  {
+    "id": 231,
+    "organizationId": 21,
+    "cardTypeId": 17,
+    "parentScoreCardId": 98,
+    "score": 53,
+    "createdBy": "Hendrika"
+  },
+  {
+    "id": 232,
+    "organizationId": 24,
+    "cardTypeId": 87,
+    "parentScoreCardId": 66,
+    "score": 100,
+    "createdBy": "Gloria"
+  },
+  {
+    "id": 233,
+    "organizationId": 26,
+    "cardTypeId": 38,
+    "parentScoreCardId": 4,
+    "score": 70,
+    "createdBy": "Leopold"
+  },
+  {
+    "id": 234,
+    "organizationId": 61,
+    "cardTypeId": 68,
+    "parentScoreCardId": 38,
+    "score": 25,
+    "createdBy": "Josey"
+  },
+  {
+    "id": 235,
+    "organizationId": 62,
+    "cardTypeId": 59,
+    "parentScoreCardId": 29,
+    "score": 44,
+    "createdBy": "Chad"
+  },
+  {
+    "id": 236,
+    "organizationId": 80,
+    "cardTypeId": 4,
+    "parentScoreCardId": 73,
+    "score": 65,
+    "createdBy": "Welby"
+  },
+  {
+    "id": 237,
+    "organizationId": 45,
+    "cardTypeId": 54,
+    "parentScoreCardId": 34,
+    "score": 48,
+    "createdBy": "Tiena"
+  },
+  {
+    "id": 238,
+    "organizationId": 25,
+    "cardTypeId": 39,
+    "parentScoreCardId": 20,
+    "score": 19,
+    "createdBy": "Dulcie"
+  },
+  {
+    "id": 239,
+    "organizationId": 67,
+    "cardTypeId": 10,
+    "parentScoreCardId": 2,
+    "score": 34,
+    "createdBy": "Godwin"
+  },
+  {
+    "id": 240,
+    "organizationId": 50,
+    "cardTypeId": 25,
+    "parentScoreCardId": 59,
+    "score": 72,
+    "createdBy": "Lyndel"
+  },
+  {
+    "id": 241,
+    "organizationId": 88,
+    "cardTypeId": 15,
+    "parentScoreCardId": 44,
+    "score": 93,
+    "createdBy": "Rochell"
+  },
+  {
+    "id": 242,
+    "organizationId": 61,
+    "cardTypeId": 92,
+    "parentScoreCardId": 8,
+    "score": 48,
+    "createdBy": "Mag"
+  },
+  {
+    "id": 243,
+    "organizationId": 34,
+    "cardTypeId": 27,
+    "parentScoreCardId": 30,
+    "score": 66,
+    "createdBy": "Lucina"
+  },
+  {
+    "id": 244,
+    "organizationId": 55,
+    "cardTypeId": 79,
+    "parentScoreCardId": 8,
+    "score": 21,
+    "createdBy": "Dixie"
+  },
+  {
+    "id": 245,
+    "organizationId": 72,
+    "cardTypeId": 81,
+    "parentScoreCardId": 1,
+    "score": 29,
+    "createdBy": "Berty"
+  },
+  {
+    "id": 246,
+    "organizationId": 18,
+    "cardTypeId": 9,
+    "parentScoreCardId": 54,
+    "score": 87,
+    "createdBy": "Gaye"
+  },
+  {
+    "id": 247,
+    "organizationId": 35,
+    "cardTypeId": 6,
+    "parentScoreCardId": 32,
+    "score": 48,
+    "createdBy": "Urbano"
+  },
+  {
+    "id": 248,
+    "organizationId": 40,
+    "cardTypeId": 59,
+    "parentScoreCardId": 41,
+    "score": 85,
+    "createdBy": "Ray"
+  },
+  {
+    "id": 249,
+    "organizationId": 8,
+    "cardTypeId": 45,
+    "parentScoreCardId": 70,
+    "score": 45,
+    "createdBy": "Catharine"
+  },
+  {
+    "id": 250,
+    "organizationId": 54,
+    "cardTypeId": 99,
+    "parentScoreCardId": 69,
+    "score": 82,
+    "createdBy": "Danna"
+  },
+  {
+    "id": 251,
+    "organizationId": 13,
+    "cardTypeId": 27,
+    "parentScoreCardId": 83,
+    "score": 51,
+    "createdBy": "Karmen"
+  },
+  {
+    "id": 252,
+    "organizationId": 100,
+    "cardTypeId": 37,
+    "parentScoreCardId": 9,
+    "score": 83,
+    "createdBy": "Andres"
+  },
+  {
+    "id": 253,
+    "organizationId": 29,
+    "cardTypeId": 17,
+    "parentScoreCardId": 46,
+    "score": 31,
+    "createdBy": "Janella"
+  },
+  {
+    "id": 254,
+    "organizationId": 38,
+    "cardTypeId": 64,
+    "parentScoreCardId": 38,
+    "score": 20,
+    "createdBy": "Welsh"
+  },
+  {
+    "id": 255,
+    "organizationId": 43,
+    "cardTypeId": 63,
+    "parentScoreCardId": 40,
+    "score": 20,
+    "createdBy": "Vevay"
+  },
+  {
+    "id": 256,
+    "organizationId": 54,
+    "cardTypeId": 88,
+    "parentScoreCardId": 52,
+    "score": 46,
+    "createdBy": "Michelina"
+  },
+  {
+    "id": 257,
+    "organizationId": 73,
+    "cardTypeId": 72,
+    "parentScoreCardId": 77,
+    "score": 28,
+    "createdBy": "Merralee"
+  },
+  {
+    "id": 258,
+    "organizationId": 38,
+    "cardTypeId": 17,
+    "parentScoreCardId": 55,
+    "score": 81,
+    "createdBy": "Vanda"
+  },
+  {
+    "id": 259,
+    "organizationId": 62,
+    "cardTypeId": 82,
+    "parentScoreCardId": 31,
+    "score": 78,
+    "createdBy": "Burlie"
+  },
+  {
+    "id": 260,
+    "organizationId": 15,
+    "cardTypeId": 75,
+    "parentScoreCardId": 72,
+    "score": 41,
+    "createdBy": "Rikki"
+  },
+  {
+    "id": 261,
+    "organizationId": 67,
+    "cardTypeId": 42,
+    "parentScoreCardId": 65,
+    "score": 24,
+    "createdBy": "Roanne"
+  },
+  {
+    "id": 262,
+    "organizationId": 37,
+    "cardTypeId": 13,
+    "parentScoreCardId": 30,
+    "score": 47,
+    "createdBy": "Dorolisa"
+  },
+  {
+    "id": 263,
+    "organizationId": 4,
+    "cardTypeId": 8,
+    "parentScoreCardId": 56,
+    "score": 27,
+    "createdBy": "Dolf"
+  },
+  {
+    "id": 264,
+    "organizationId": 93,
+    "cardTypeId": 18,
+    "parentScoreCardId": 2,
+    "score": 42,
+    "createdBy": "Joelle"
+  },
+  {
+    "id": 265,
+    "organizationId": 76,
+    "cardTypeId": 61,
+    "parentScoreCardId": 69,
+    "score": 82,
+    "createdBy": "Averell"
+  },
+  {
+    "id": 266,
+    "organizationId": 92,
+    "cardTypeId": 13,
+    "parentScoreCardId": 2,
+    "score": 61,
+    "createdBy": "Gustav"
+  },
+  {
+    "id": 267,
+    "organizationId": 24,
+    "cardTypeId": 81,
+    "parentScoreCardId": 98,
+    "score": 34,
+    "createdBy": "Elvina"
+  },
+  {
+    "id": 268,
+    "organizationId": 34,
+    "cardTypeId": 62,
+    "parentScoreCardId": 60,
+    "score": 16,
+    "createdBy": "Ricky"
+  },
+  {
+    "id": 269,
+    "organizationId": 19,
+    "cardTypeId": 94,
+    "parentScoreCardId": 33,
+    "score": 13,
+    "createdBy": "Augustus"
+  },
+  {
+    "id": 270,
+    "organizationId": 53,
+    "cardTypeId": 48,
+    "parentScoreCardId": 16,
+    "score": 37,
+    "createdBy": "Wilma"
+  },
+  {
+    "id": 271,
+    "organizationId": 52,
+    "cardTypeId": 57,
+    "parentScoreCardId": 94,
+    "score": 51,
+    "createdBy": "Feodor"
+  },
+  {
+    "id": 272,
+    "organizationId": 63,
+    "cardTypeId": 78,
+    "parentScoreCardId": 98,
+    "score": 34,
+    "createdBy": "Bogey"
+  },
+  {
+    "id": 273,
+    "organizationId": 52,
+    "cardTypeId": 30,
+    "parentScoreCardId": 63,
+    "score": 63,
+    "createdBy": "Thebault"
+  },
+  {
+    "id": 274,
+    "organizationId": 1,
+    "cardTypeId": 11,
+    "parentScoreCardId": 82,
+    "score": 79,
+    "createdBy": "Abbott"
+  },
+  {
+    "id": 275,
+    "organizationId": 74,
+    "cardTypeId": 85,
+    "parentScoreCardId": 61,
+    "score": 72,
+    "createdBy": "Harmon"
+  },
+  {
+    "id": 276,
+    "organizationId": 63,
+    "cardTypeId": 69,
+    "parentScoreCardId": 88,
+    "score": 60,
+    "createdBy": "Cosetta"
+  },
+  {
+    "id": 277,
+    "organizationId": 29,
+    "cardTypeId": 16,
+    "parentScoreCardId": 82,
+    "score": 47,
+    "createdBy": "Tony"
+  },
+  {
+    "id": 278,
+    "organizationId": 8,
+    "cardTypeId": 24,
+    "parentScoreCardId": 20,
+    "score": 99,
+    "createdBy": "Aldric"
+  },
+  {
+    "id": 279,
+    "organizationId": 69,
+    "cardTypeId": 51,
+    "parentScoreCardId": 99,
+    "score": 88,
+    "createdBy": "Lorry"
+  },
+  {
+    "id": 280,
+    "organizationId": 24,
+    "cardTypeId": 24,
+    "parentScoreCardId": 29,
+    "score": 32,
+    "createdBy": "Marena"
+  },
+  {
+    "id": 281,
+    "organizationId": 5,
+    "cardTypeId": 29,
+    "parentScoreCardId": 98,
+    "score": 23,
+    "createdBy": "Abagael"
+  },
+  {
+    "id": 282,
+    "organizationId": 7,
+    "cardTypeId": 6,
+    "parentScoreCardId": 9,
+    "score": 11,
+    "createdBy": "Ben"
+  },
+  {
+    "id": 283,
+    "organizationId": 36,
+    "cardTypeId": 55,
+    "parentScoreCardId": 92,
+    "score": 84,
+    "createdBy": "Doro"
+  },
+  {
+    "id": 284,
+    "organizationId": 62,
+    "cardTypeId": 17,
+    "parentScoreCardId": 54,
+    "score": 98,
+    "createdBy": "Cassandra"
+  },
+  {
+    "id": 285,
+    "organizationId": 47,
+    "cardTypeId": 47,
+    "parentScoreCardId": 11,
+    "score": 68,
+    "createdBy": "Arny"
+  },
+  {
+    "id": 286,
+    "organizationId": 13,
+    "cardTypeId": 8,
+    "parentScoreCardId": 88,
+    "score": 29,
+    "createdBy": "Desiree"
+  },
+  {
+    "id": 287,
+    "organizationId": 25,
+    "cardTypeId": 35,
+    "parentScoreCardId": 35,
+    "score": 88,
+    "createdBy": "Alain"
+  },
+  {
+    "id": 288,
+    "organizationId": 7,
+    "cardTypeId": 45,
+    "parentScoreCardId": 32,
+    "score": 46,
+    "createdBy": "Benjamin"
+  },
+  {
+    "id": 289,
+    "organizationId": 5,
+    "cardTypeId": 21,
+    "parentScoreCardId": 43,
+    "score": 7,
+    "createdBy": "Ebenezer"
+  },
+  {
+    "id": 290,
+    "organizationId": 72,
+    "cardTypeId": 92,
+    "parentScoreCardId": 29,
+    "score": 86,
+    "createdBy": "Rickey"
+  },
+  {
+    "id": 291,
+    "organizationId": 71,
+    "cardTypeId": 47,
+    "parentScoreCardId": 70,
+    "score": 64,
+    "createdBy": "Koressa"
+  },
+  {
+    "id": 292,
+    "organizationId": 58,
+    "cardTypeId": 36,
+    "parentScoreCardId": 37,
+    "score": 16,
+    "createdBy": "Klara"
+  },
+  {
+    "id": 293,
+    "organizationId": 76,
+    "cardTypeId": 63,
+    "parentScoreCardId": 86,
+    "score": 8,
+    "createdBy": "Thane"
+  },
+  {
+    "id": 294,
+    "organizationId": 13,
+    "cardTypeId": 98,
+    "parentScoreCardId": 61,
+    "score": 92,
+    "createdBy": "Trey"
+  },
+  {
+    "id": 295,
+    "organizationId": 83,
+    "cardTypeId": 17,
+    "parentScoreCardId": 97,
+    "score": 32,
+    "createdBy": "Lanie"
+  },
+  {
+    "id": 296,
+    "organizationId": 83,
+    "cardTypeId": 78,
+    "parentScoreCardId": 53,
+    "score": 30,
+    "createdBy": "Leandra"
+  },
+  {
+    "id": 297,
+    "organizationId": 96,
+    "cardTypeId": 93,
+    "parentScoreCardId": 91,
+    "score": 31,
+    "createdBy": "Berty"
+  },
+  {
+    "id": 298,
+    "organizationId": 50,
+    "cardTypeId": 54,
+    "parentScoreCardId": 6,
+    "score": 26,
+    "createdBy": "Zara"
+  },
+  {
+    "id": 299,
+    "organizationId": 90,
+    "cardTypeId": 18,
+    "parentScoreCardId": 9,
+    "score": 52,
+    "createdBy": "Carver"
+  },
+  {
+    "id": 300,
+    "organizationId": 12,
+    "cardTypeId": 43,
+    "parentScoreCardId": 64,
+    "score": 91,
+    "createdBy": "Valli"
+  },
+  {
+    "id": 301,
+    "organizationId": 80,
+    "cardTypeId": 88,
+    "parentScoreCardId": 76,
+    "score": 7,
+    "createdBy": "Fernande"
+  },
+  {
+    "id": 302,
+    "organizationId": 41,
+    "cardTypeId": 97,
+    "parentScoreCardId": 41,
+    "score": 26,
+    "createdBy": "Cecilla"
+  },
+  {
+    "id": 303,
+    "organizationId": 25,
+    "cardTypeId": 13,
+    "parentScoreCardId": 25,
+    "score": 14,
+    "createdBy": "Ruperta"
+  },
+  {
+    "id": 304,
+    "organizationId": 44,
+    "cardTypeId": 66,
+    "parentScoreCardId": 70,
+    "score": 45,
+    "createdBy": "Damara"
+  },
+  {
+    "id": 305,
+    "organizationId": 78,
+    "cardTypeId": 51,
+    "parentScoreCardId": 100,
+    "score": 79,
+    "createdBy": "Floria"
+  },
+  {
+    "id": 306,
+    "organizationId": 22,
+    "cardTypeId": 55,
+    "parentScoreCardId": 95,
+    "score": 7,
+    "createdBy": "Trudey"
+  },
+  {
+    "id": 307,
+    "organizationId": 84,
+    "cardTypeId": 48,
+    "parentScoreCardId": 21,
+    "score": 80,
+    "createdBy": "Marylou"
+  },
+  {
+    "id": 308,
+    "organizationId": 64,
+    "cardTypeId": 25,
+    "parentScoreCardId": 8,
+    "score": 53,
+    "createdBy": "Othilia"
+  },
+  {
+    "id": 309,
+    "organizationId": 31,
+    "cardTypeId": 13,
+    "parentScoreCardId": 58,
+    "score": 60,
+    "createdBy": "Marcus"
+  },
+  {
+    "id": 310,
+    "organizationId": 78,
+    "cardTypeId": 88,
+    "parentScoreCardId": 86,
+    "score": 20,
+    "createdBy": "Inez"
+  },
+  {
+    "id": 311,
+    "organizationId": 77,
+    "cardTypeId": 69,
+    "parentScoreCardId": 21,
+    "score": 4,
+    "createdBy": "Filmore"
+  },
+  {
+    "id": 312,
+    "organizationId": 65,
+    "cardTypeId": 97,
+    "parentScoreCardId": 33,
+    "score": 18,
+    "createdBy": "Marj"
+  },
+  {
+    "id": 313,
+    "organizationId": 30,
+    "cardTypeId": 44,
+    "parentScoreCardId": 18,
+    "score": 63,
+    "createdBy": "Stacee"
+  },
+  {
+    "id": 314,
+    "organizationId": 67,
+    "cardTypeId": 4,
+    "parentScoreCardId": 88,
+    "score": 13,
+    "createdBy": "Jacqui"
+  },
+  {
+    "id": 315,
+    "organizationId": 89,
+    "cardTypeId": 46,
+    "parentScoreCardId": 28,
+    "score": 10,
+    "createdBy": "Tessi"
+  },
+  {
+    "id": 316,
+    "organizationId": 68,
+    "cardTypeId": 68,
+    "parentScoreCardId": 27,
+    "score": 1,
+    "createdBy": "Hansiain"
+  },
+  {
+    "id": 317,
+    "organizationId": 82,
+    "cardTypeId": 21,
+    "parentScoreCardId": 37,
+    "score": 74,
+    "createdBy": "Cherin"
+  },
+  {
+    "id": 318,
+    "organizationId": 4,
+    "cardTypeId": 27,
+    "parentScoreCardId": 88,
+    "score": 64,
+    "createdBy": "Adrian"
+  },
+  {
+    "id": 319,
+    "organizationId": 4,
+    "cardTypeId": 31,
+    "parentScoreCardId": 25,
+    "score": 8,
+    "createdBy": "Marc"
+  },
+  {
+    "id": 320,
+    "organizationId": 69,
+    "cardTypeId": 88,
+    "parentScoreCardId": 36,
+    "score": 6,
+    "createdBy": "Marvin"
+  },
+  {
+    "id": 321,
+    "organizationId": 29,
+    "cardTypeId": 54,
+    "parentScoreCardId": 85,
+    "score": 37,
+    "createdBy": "Raine"
+  },
+  {
+    "id": 322,
+    "organizationId": 84,
+    "cardTypeId": 56,
+    "parentScoreCardId": 14,
+    "score": 26,
+    "createdBy": "Evania"
+  },
+  {
+    "id": 323,
+    "organizationId": 16,
+    "cardTypeId": 84,
+    "parentScoreCardId": 43,
+    "score": 92,
+    "createdBy": "Barron"
+  },
+  {
+    "id": 324,
+    "organizationId": 41,
+    "cardTypeId": 72,
+    "parentScoreCardId": 12,
+    "score": 38,
+    "createdBy": "Risa"
+  },
+  {
+    "id": 325,
+    "organizationId": 11,
+    "cardTypeId": 47,
+    "parentScoreCardId": 13,
+    "score": 4,
+    "createdBy": "Joana"
+  },
+  {
+    "id": 326,
+    "organizationId": 100,
+    "cardTypeId": 59,
+    "parentScoreCardId": 67,
+    "score": 48,
+    "createdBy": "Heather"
+  },
+  {
+    "id": 327,
+    "organizationId": 2,
+    "cardTypeId": 21,
+    "parentScoreCardId": 60,
+    "score": 29,
+    "createdBy": "Nichole"
+  },
+  {
+    "id": 328,
+    "organizationId": 6,
+    "cardTypeId": 90,
+    "parentScoreCardId": 47,
+    "score": 42,
+    "createdBy": "Ruthanne"
+  },
+  {
+    "id": 329,
+    "organizationId": 20,
+    "cardTypeId": 71,
+    "parentScoreCardId": 100,
+    "score": 78,
+    "createdBy": "Maybelle"
+  },
+  {
+    "id": 330,
+    "organizationId": 99,
+    "cardTypeId": 69,
+    "parentScoreCardId": 17,
+    "score": 77,
+    "createdBy": "Betsy"
+  },
+  {
+    "id": 331,
+    "organizationId": 14,
+    "cardTypeId": 93,
+    "parentScoreCardId": 84,
+    "score": 85,
+    "createdBy": "Adlai"
+  },
+  {
+    "id": 332,
+    "organizationId": 99,
+    "cardTypeId": 8,
+    "parentScoreCardId": 25,
+    "score": 55,
+    "createdBy": "Maegan"
+  },
+  {
+    "id": 333,
+    "organizationId": 75,
+    "cardTypeId": 81,
+    "parentScoreCardId": 46,
+    "score": 97,
+    "createdBy": "Emmeline"
+  },
+  {
+    "id": 334,
+    "organizationId": 58,
+    "cardTypeId": 71,
+    "parentScoreCardId": 25,
+    "score": 35,
+    "createdBy": "Louisette"
+  },
+  {
+    "id": 335,
+    "organizationId": 36,
+    "cardTypeId": 81,
+    "parentScoreCardId": 41,
+    "score": 21,
+    "createdBy": "Lem"
+  },
+  {
+    "id": 336,
+    "organizationId": 28,
+    "cardTypeId": 97,
+    "parentScoreCardId": 12,
+    "score": 70,
+    "createdBy": "Lynnette"
+  },
+  {
+    "id": 337,
+    "organizationId": 48,
+    "cardTypeId": 30,
+    "parentScoreCardId": 23,
+    "score": 88,
+    "createdBy": "Rhys"
+  },
+  {
+    "id": 338,
+    "organizationId": 32,
+    "cardTypeId": 21,
+    "parentScoreCardId": 8,
+    "score": 75,
+    "createdBy": "Federico"
+  },
+  {
+    "id": 339,
+    "organizationId": 32,
+    "cardTypeId": 76,
+    "parentScoreCardId": 37,
+    "score": 66,
+    "createdBy": "Langston"
+  },
+  {
+    "id": 340,
+    "organizationId": 36,
+    "cardTypeId": 68,
+    "parentScoreCardId": 92,
+    "score": 22,
+    "createdBy": "Theodore"
+  },
+  {
+    "id": 341,
+    "organizationId": 85,
+    "cardTypeId": 34,
+    "parentScoreCardId": 49,
+    "score": 64,
+    "createdBy": "Moore"
+  },
+  {
+    "id": 342,
+    "organizationId": 75,
+    "cardTypeId": 74,
+    "parentScoreCardId": 53,
+    "score": 82,
+    "createdBy": "Ayn"
+  },
+  {
+    "id": 343,
+    "organizationId": 47,
+    "cardTypeId": 41,
+    "parentScoreCardId": 95,
+    "score": 55,
+    "createdBy": "Marlena"
+  },
+  {
+    "id": 344,
+    "organizationId": 71,
+    "cardTypeId": 43,
+    "parentScoreCardId": 72,
+    "score": 46,
+    "createdBy": "Nikos"
+  },
+  {
+    "id": 345,
+    "organizationId": 77,
+    "cardTypeId": 59,
+    "parentScoreCardId": 50,
+    "score": 40,
+    "createdBy": "Kit"
+  },
+  {
+    "id": 346,
+    "organizationId": 47,
+    "cardTypeId": 1,
+    "parentScoreCardId": 18,
+    "score": 70,
+    "createdBy": "May"
+  },
+  {
+    "id": 347,
+    "organizationId": 50,
+    "cardTypeId": 79,
+    "parentScoreCardId": 83,
+    "score": 56,
+    "createdBy": "Sharleen"
+  },
+  {
+    "id": 348,
+    "organizationId": 30,
+    "cardTypeId": 94,
+    "parentScoreCardId": 9,
+    "score": 87,
+    "createdBy": "Loralyn"
+  },
+  {
+    "id": 349,
+    "organizationId": 74,
+    "cardTypeId": 30,
+    "parentScoreCardId": 94,
+    "score": 77,
+    "createdBy": "Stu"
+  },
+  {
+    "id": 350,
+    "organizationId": 15,
+    "cardTypeId": 20,
+    "parentScoreCardId": 84,
+    "score": 99,
+    "createdBy": "Byrle"
+  },
+  {
+    "id": 351,
+    "organizationId": 15,
+    "cardTypeId": 93,
+    "parentScoreCardId": 22,
+    "score": 66,
+    "createdBy": "Bettina"
+  },
+  {
+    "id": 352,
+    "organizationId": 59,
+    "cardTypeId": 86,
+    "parentScoreCardId": 86,
+    "score": 89,
+    "createdBy": "Ario"
+  },
+  {
+    "id": 353,
+    "organizationId": 31,
+    "cardTypeId": 100,
+    "parentScoreCardId": 22,
+    "score": 12,
+    "createdBy": "Robbie"
+  },
+  {
+    "id": 354,
+    "organizationId": 25,
+    "cardTypeId": 50,
+    "parentScoreCardId": 26,
+    "score": 8,
+    "createdBy": "Kristen"
+  },
+  {
+    "id": 355,
+    "organizationId": 73,
+    "cardTypeId": 71,
+    "parentScoreCardId": 81,
+    "score": 59,
+    "createdBy": "Jamal"
+  },
+  {
+    "id": 356,
+    "organizationId": 34,
+    "cardTypeId": 62,
+    "parentScoreCardId": 51,
+    "score": 36,
+    "createdBy": "Roth"
+  },
+  {
+    "id": 357,
+    "organizationId": 36,
+    "cardTypeId": 25,
+    "parentScoreCardId": 88,
+    "score": 99,
+    "createdBy": "Marcelline"
+  },
+  {
+    "id": 358,
+    "organizationId": 49,
+    "cardTypeId": 96,
+    "parentScoreCardId": 17,
+    "score": 91,
+    "createdBy": "Ephrem"
+  },
+  {
+    "id": 359,
+    "organizationId": 38,
+    "cardTypeId": 17,
+    "parentScoreCardId": 21,
+    "score": 57,
+    "createdBy": "Prentice"
+  },
+  {
+    "id": 360,
+    "organizationId": 20,
+    "cardTypeId": 82,
+    "parentScoreCardId": 89,
+    "score": 48,
+    "createdBy": "Devora"
+  },
+  {
+    "id": 361,
+    "organizationId": 81,
+    "cardTypeId": 45,
+    "parentScoreCardId": 3,
+    "score": 14,
+    "createdBy": "Asia"
+  },
+  {
+    "id": 362,
+    "organizationId": 94,
+    "cardTypeId": 68,
+    "parentScoreCardId": 27,
+    "score": 35,
+    "createdBy": "Evvie"
+  },
+  {
+    "id": 363,
+    "organizationId": 100,
+    "cardTypeId": 83,
+    "parentScoreCardId": 53,
+    "score": 54,
+    "createdBy": "Stanislaus"
+  },
+  {
+    "id": 364,
+    "organizationId": 49,
+    "cardTypeId": 83,
+    "parentScoreCardId": 4,
+    "score": 44,
+    "createdBy": "Dana"
+  },
+  {
+    "id": 365,
+    "organizationId": 68,
+    "cardTypeId": 73,
+    "parentScoreCardId": 29,
+    "score": 23,
+    "createdBy": "Cullie"
+  },
+  {
+    "id": 366,
+    "organizationId": 64,
+    "cardTypeId": 18,
+    "parentScoreCardId": 65,
+    "score": 1,
+    "createdBy": "Sherry"
+  },
+  {
+    "id": 367,
+    "organizationId": 32,
+    "cardTypeId": 38,
+    "parentScoreCardId": 57,
+    "score": 82,
+    "createdBy": "Broddie"
+  },
+  {
+    "id": 368,
+    "organizationId": 1,
+    "cardTypeId": 95,
+    "parentScoreCardId": 92,
+    "score": 8,
+    "createdBy": "Harper"
+  },
+  {
+    "id": 369,
+    "organizationId": 34,
+    "cardTypeId": 9,
+    "parentScoreCardId": 41,
+    "score": 33,
+    "createdBy": "Calley"
+  },
+  {
+    "id": 370,
+    "organizationId": 88,
+    "cardTypeId": 93,
+    "parentScoreCardId": 75,
+    "score": 88,
+    "createdBy": "Reed"
+  },
+  {
+    "id": 371,
+    "organizationId": 13,
+    "cardTypeId": 88,
+    "parentScoreCardId": 94,
+    "score": 74,
+    "createdBy": "Paulita"
+  },
+  {
+    "id": 372,
+    "organizationId": 35,
+    "cardTypeId": 33,
+    "parentScoreCardId": 14,
+    "score": 68,
+    "createdBy": "Maria"
+  },
+  {
+    "id": 373,
+    "organizationId": 63,
+    "cardTypeId": 94,
+    "parentScoreCardId": 55,
+    "score": 40,
+    "createdBy": "Buckie"
+  },
+  {
+    "id": 374,
+    "organizationId": 87,
+    "cardTypeId": 99,
+    "parentScoreCardId": 64,
+    "score": 39,
+    "createdBy": "Ellswerth"
+  },
+  {
+    "id": 375,
+    "organizationId": 51,
+    "cardTypeId": 48,
+    "parentScoreCardId": 18,
+    "score": 53,
+    "createdBy": "Kora"
+  },
+  {
+    "id": 376,
+    "organizationId": 82,
+    "cardTypeId": 54,
+    "parentScoreCardId": 99,
+    "score": 14,
+    "createdBy": "Winifield"
+  },
+  {
+    "id": 377,
+    "organizationId": 92,
+    "cardTypeId": 54,
+    "parentScoreCardId": 11,
+    "score": 76,
+    "createdBy": "Siffre"
+  },
+  {
+    "id": 378,
+    "organizationId": 17,
+    "cardTypeId": 15,
+    "parentScoreCardId": 37,
+    "score": 100,
+    "createdBy": "Betsy"
+  },
+  {
+    "id": 379,
+    "organizationId": 25,
+    "cardTypeId": 52,
+    "parentScoreCardId": 88,
+    "score": 2,
+    "createdBy": "Frayda"
+  },
+  {
+    "id": 380,
+    "organizationId": 24,
+    "cardTypeId": 100,
+    "parentScoreCardId": 17,
+    "score": 13,
+    "createdBy": "Angele"
+  },
+  {
+    "id": 381,
+    "organizationId": 50,
+    "cardTypeId": 65,
+    "parentScoreCardId": 36,
+    "score": 35,
+    "createdBy": "Sybila"
+  },
+  {
+    "id": 382,
+    "organizationId": 95,
+    "cardTypeId": 11,
+    "parentScoreCardId": 94,
+    "score": 2,
+    "createdBy": "Marne"
+  },
+  {
+    "id": 383,
+    "organizationId": 92,
+    "cardTypeId": 12,
+    "parentScoreCardId": 20,
+    "score": 14,
+    "createdBy": "Carce"
+  },
+  {
+    "id": 384,
+    "organizationId": 87,
+    "cardTypeId": 24,
+    "parentScoreCardId": 87,
+    "score": 28,
+    "createdBy": "Edlin"
+  },
+  {
+    "id": 385,
+    "organizationId": 27,
+    "cardTypeId": 44,
+    "parentScoreCardId": 1,
+    "score": 26,
+    "createdBy": "Dorita"
+  },
+  {
+    "id": 386,
+    "organizationId": 99,
+    "cardTypeId": 71,
+    "parentScoreCardId": 35,
+    "score": 42,
+    "createdBy": "Jerrine"
+  },
+  {
+    "id": 387,
+    "organizationId": 18,
+    "cardTypeId": 55,
+    "parentScoreCardId": 48,
+    "score": 1,
+    "createdBy": "Roby"
+  },
+  {
+    "id": 388,
+    "organizationId": 96,
+    "cardTypeId": 99,
+    "parentScoreCardId": 43,
+    "score": 71,
+    "createdBy": "Stavros"
+  },
+  {
+    "id": 389,
+    "organizationId": 75,
+    "cardTypeId": 24,
+    "parentScoreCardId": 33,
+    "score": 28,
+    "createdBy": "Jewell"
+  },
+  {
+    "id": 390,
+    "organizationId": 1,
+    "cardTypeId": 71,
+    "parentScoreCardId": 25,
+    "score": 93,
+    "createdBy": "Shane"
+  },
+  {
+    "id": 391,
+    "organizationId": 88,
+    "cardTypeId": 93,
+    "parentScoreCardId": 40,
+    "score": 40,
+    "createdBy": "Archambault"
+  },
+  {
+    "id": 392,
+    "organizationId": 61,
+    "cardTypeId": 32,
+    "parentScoreCardId": 16,
+    "score": 90,
+    "createdBy": "Tadd"
+  },
+  {
+    "id": 393,
+    "organizationId": 45,
+    "cardTypeId": 58,
+    "parentScoreCardId": 1,
+    "score": 94,
+    "createdBy": "Raimund"
+  },
+  {
+    "id": 394,
+    "organizationId": 28,
+    "cardTypeId": 30,
+    "parentScoreCardId": 13,
+    "score": 11,
+    "createdBy": "Matilda"
+  },
+  {
+    "id": 395,
+    "organizationId": 100,
+    "cardTypeId": 83,
+    "parentScoreCardId": 39,
+    "score": 20,
+    "createdBy": "Roberta"
+  },
+  {
+    "id": 396,
+    "organizationId": 43,
+    "cardTypeId": 31,
+    "parentScoreCardId": 55,
+    "score": 19,
+    "createdBy": "Leonid"
+  },
+  {
+    "id": 397,
+    "organizationId": 55,
+    "cardTypeId": 3,
+    "parentScoreCardId": 89,
+    "score": 44,
+    "createdBy": "Mattias"
+  },
+  {
+    "id": 398,
+    "organizationId": 19,
+    "cardTypeId": 38,
+    "parentScoreCardId": 94,
+    "score": 15,
+    "createdBy": "Mella"
+  },
+  {
+    "id": 399,
+    "organizationId": 36,
+    "cardTypeId": 54,
+    "parentScoreCardId": 33,
+    "score": 72,
+    "createdBy": "Zerk"
+  },
+  {
+    "id": 400,
+    "organizationId": 13,
+    "cardTypeId": 68,
+    "parentScoreCardId": 15,
+    "score": 43,
+    "createdBy": "Meagan"
+  },
+  {
+    "id": 401,
+    "organizationId": 36,
+    "cardTypeId": 38,
+    "parentScoreCardId": 95,
+    "score": 43,
+    "createdBy": "Farand"
+  },
+  {
+    "id": 402,
+    "organizationId": 89,
+    "cardTypeId": 82,
+    "parentScoreCardId": 47,
+    "score": 47,
+    "createdBy": "Vikki"
+  },
+  {
+    "id": 403,
+    "organizationId": 32,
+    "cardTypeId": 14,
+    "parentScoreCardId": 58,
+    "score": 86,
+    "createdBy": "Isis"
+  },
+  {
+    "id": 404,
+    "organizationId": 39,
+    "cardTypeId": 79,
+    "parentScoreCardId": 61,
+    "score": 28,
+    "createdBy": "Ring"
+  },
+  {
+    "id": 405,
+    "organizationId": 2,
+    "cardTypeId": 55,
+    "parentScoreCardId": 42,
+    "score": 29,
+    "createdBy": "Ethel"
+  },
+  {
+    "id": 406,
+    "organizationId": 87,
+    "cardTypeId": 87,
+    "parentScoreCardId": 57,
+    "score": 56,
+    "createdBy": "Chev"
+  },
+  {
+    "id": 407,
+    "organizationId": 35,
+    "cardTypeId": 80,
+    "parentScoreCardId": 11,
+    "score": 29,
+    "createdBy": "Ivie"
+  },
+  {
+    "id": 408,
+    "organizationId": 6,
+    "cardTypeId": 61,
+    "parentScoreCardId": 34,
+    "score": 29,
+    "createdBy": "Sara"
+  },
+  {
+    "id": 409,
+    "organizationId": 6,
+    "cardTypeId": 49,
+    "parentScoreCardId": 100,
+    "score": 41,
+    "createdBy": "Charlotte"
+  },
+  {
+    "id": 410,
+    "organizationId": 11,
+    "cardTypeId": 19,
+    "parentScoreCardId": 88,
+    "score": 41,
+    "createdBy": "Reid"
+  },
+  {
+    "id": 411,
+    "organizationId": 79,
+    "cardTypeId": 77,
+    "parentScoreCardId": 23,
+    "score": 52,
+    "createdBy": "Chelsie"
+  },
+  {
+    "id": 412,
+    "organizationId": 85,
+    "cardTypeId": 20,
+    "parentScoreCardId": 71,
+    "score": 58,
+    "createdBy": "Barbette"
+  },
+  {
+    "id": 413,
+    "organizationId": 60,
+    "cardTypeId": 53,
+    "parentScoreCardId": 82,
+    "score": 66,
+    "createdBy": "Daisey"
+  },
+  {
+    "id": 414,
+    "organizationId": 36,
+    "cardTypeId": 100,
+    "parentScoreCardId": 54,
+    "score": 12,
+    "createdBy": "Marie-jeanne"
+  },
+  {
+    "id": 415,
+    "organizationId": 75,
+    "cardTypeId": 89,
+    "parentScoreCardId": 81,
+    "score": 70,
+    "createdBy": "Jamal"
+  },
+  {
+    "id": 416,
+    "organizationId": 57,
+    "cardTypeId": 1,
+    "parentScoreCardId": 30,
+    "score": 44,
+    "createdBy": "Nonna"
+  },
+  {
+    "id": 417,
+    "organizationId": 96,
+    "cardTypeId": 14,
+    "parentScoreCardId": 37,
+    "score": 87,
+    "createdBy": "Timmie"
+  },
+  {
+    "id": 418,
+    "organizationId": 99,
+    "cardTypeId": 99,
+    "parentScoreCardId": 18,
+    "score": 68,
+    "createdBy": "Rosmunda"
+  },
+  {
+    "id": 419,
+    "organizationId": 73,
+    "cardTypeId": 13,
+    "parentScoreCardId": 39,
+    "score": 13,
+    "createdBy": "Sinclare"
+  },
+  {
+    "id": 420,
+    "organizationId": 15,
+    "cardTypeId": 37,
+    "parentScoreCardId": 17,
+    "score": 38,
+    "createdBy": "Clemmy"
+  },
+  {
+    "id": 421,
+    "organizationId": 9,
+    "cardTypeId": 11,
+    "parentScoreCardId": 5,
+    "score": 92,
+    "createdBy": "Glen"
+  },
+  {
+    "id": 422,
+    "organizationId": 73,
+    "cardTypeId": 36,
+    "parentScoreCardId": 86,
+    "score": 80,
+    "createdBy": "Breena"
+  },
+  {
+    "id": 423,
+    "organizationId": 38,
+    "cardTypeId": 66,
+    "parentScoreCardId": 60,
+    "score": 70,
+    "createdBy": "Forster"
+  },
+  {
+    "id": 424,
+    "organizationId": 28,
+    "cardTypeId": 62,
+    "parentScoreCardId": 52,
+    "score": 89,
+    "createdBy": "Carma"
+  },
+  {
+    "id": 425,
+    "organizationId": 76,
+    "cardTypeId": 83,
+    "parentScoreCardId": 98,
+    "score": 74,
+    "createdBy": "Chantal"
+  },
+  {
+    "id": 426,
+    "organizationId": 26,
+    "cardTypeId": 29,
+    "parentScoreCardId": 25,
+    "score": 100,
+    "createdBy": "Elisha"
+  },
+  {
+    "id": 427,
+    "organizationId": 53,
+    "cardTypeId": 24,
+    "parentScoreCardId": 13,
+    "score": 54,
+    "createdBy": "Scarlet"
+  },
+  {
+    "id": 428,
+    "organizationId": 29,
+    "cardTypeId": 42,
+    "parentScoreCardId": 67,
+    "score": 12,
+    "createdBy": "Rex"
+  },
+  {
+    "id": 429,
+    "organizationId": 37,
+    "cardTypeId": 54,
+    "parentScoreCardId": 9,
+    "score": 17,
+    "createdBy": "Orlando"
+  },
+  {
+    "id": 430,
+    "organizationId": 8,
+    "cardTypeId": 54,
+    "parentScoreCardId": 5,
+    "score": 47,
+    "createdBy": "Leonerd"
+  },
+  {
+    "id": 431,
+    "organizationId": 38,
+    "cardTypeId": 13,
+    "parentScoreCardId": 16,
+    "score": 21,
+    "createdBy": "Doyle"
+  },
+  {
+    "id": 432,
+    "organizationId": 63,
+    "cardTypeId": 94,
+    "parentScoreCardId": 21,
+    "score": 75,
+    "createdBy": "Viola"
+  },
+  {
+    "id": 433,
+    "organizationId": 65,
+    "cardTypeId": 78,
+    "parentScoreCardId": 27,
+    "score": 17,
+    "createdBy": "Faydra"
+  },
+  {
+    "id": 434,
+    "organizationId": 65,
+    "cardTypeId": 48,
+    "parentScoreCardId": 82,
+    "score": 92,
+    "createdBy": "Lanni"
+  },
+  {
+    "id": 435,
+    "organizationId": 13,
+    "cardTypeId": 51,
+    "parentScoreCardId": 56,
+    "score": 70,
+    "createdBy": "Marius"
+  },
+  {
+    "id": 436,
+    "organizationId": 50,
+    "cardTypeId": 87,
+    "parentScoreCardId": 26,
+    "score": 19,
+    "createdBy": "Wesley"
+  },
+  {
+    "id": 437,
+    "organizationId": 70,
+    "cardTypeId": 65,
+    "parentScoreCardId": 100,
+    "score": 71,
+    "createdBy": "Arlette"
+  },
+  {
+    "id": 438,
+    "organizationId": 30,
+    "cardTypeId": 52,
+    "parentScoreCardId": 73,
+    "score": 69,
+    "createdBy": "Maure"
+  },
+  {
+    "id": 439,
+    "organizationId": 12,
+    "cardTypeId": 80,
+    "parentScoreCardId": 27,
+    "score": 46,
+    "createdBy": "Reagen"
+  },
+  {
+    "id": 440,
+    "organizationId": 43,
+    "cardTypeId": 59,
+    "parentScoreCardId": 61,
+    "score": 43,
+    "createdBy": "Ciro"
+  },
+  {
+    "id": 441,
+    "organizationId": 71,
+    "cardTypeId": 35,
+    "parentScoreCardId": 96,
+    "score": 63,
+    "createdBy": "Anjanette"
+  },
+  {
+    "id": 442,
+    "organizationId": 73,
+    "cardTypeId": 52,
+    "parentScoreCardId": 41,
+    "score": 29,
+    "createdBy": "Essie"
+  },
+  {
+    "id": 443,
+    "organizationId": 52,
+    "cardTypeId": 23,
+    "parentScoreCardId": 14,
+    "score": 4,
+    "createdBy": "Kassey"
+  },
+  {
+    "id": 444,
+    "organizationId": 16,
+    "cardTypeId": 14,
+    "parentScoreCardId": 2,
+    "score": 30,
+    "createdBy": "Verile"
+  },
+  {
+    "id": 445,
+    "organizationId": 4,
+    "cardTypeId": 24,
+    "parentScoreCardId": 88,
+    "score": 58,
+    "createdBy": "Zaneta"
+  },
+  {
+    "id": 446,
+    "organizationId": 98,
+    "cardTypeId": 85,
+    "parentScoreCardId": 92,
+    "score": 57,
+    "createdBy": "Stephan"
+  },
+  {
+    "id": 447,
+    "organizationId": 86,
+    "cardTypeId": 49,
+    "parentScoreCardId": 22,
+    "score": 70,
+    "createdBy": "Valenka"
+  },
+  {
+    "id": 448,
+    "organizationId": 6,
+    "cardTypeId": 92,
+    "parentScoreCardId": 19,
+    "score": 38,
+    "createdBy": "Annabel"
+  },
+  {
+    "id": 449,
+    "organizationId": 85,
+    "cardTypeId": 87,
+    "parentScoreCardId": 93,
+    "score": 88,
+    "createdBy": "Shayne"
+  },
+  {
+    "id": 450,
+    "organizationId": 18,
+    "cardTypeId": 66,
+    "parentScoreCardId": 28,
+    "score": 33,
+    "createdBy": "Hube"
+  },
+  {
+    "id": 451,
+    "organizationId": 11,
+    "cardTypeId": 63,
+    "parentScoreCardId": 34,
+    "score": 1,
+    "createdBy": "Micheline"
+  },
+  {
+    "id": 452,
+    "organizationId": 65,
+    "cardTypeId": 5,
+    "parentScoreCardId": 82,
+    "score": 88,
+    "createdBy": "Wilmette"
+  },
+  {
+    "id": 453,
+    "organizationId": 10,
+    "cardTypeId": 17,
+    "parentScoreCardId": 25,
+    "score": 14,
+    "createdBy": "Vinny"
+  },
+  {
+    "id": 454,
+    "organizationId": 33,
+    "cardTypeId": 80,
+    "parentScoreCardId": 74,
+    "score": 60,
+    "createdBy": "Michaeline"
+  },
+  {
+    "id": 455,
+    "organizationId": 93,
+    "cardTypeId": 44,
+    "parentScoreCardId": 28,
+    "score": 81,
+    "createdBy": "Georgiana"
+  },
+  {
+    "id": 456,
+    "organizationId": 98,
+    "cardTypeId": 89,
+    "parentScoreCardId": 69,
+    "score": 52,
+    "createdBy": "Kippie"
+  },
+  {
+    "id": 457,
+    "organizationId": 45,
+    "cardTypeId": 93,
+    "parentScoreCardId": 36,
+    "score": 93,
+    "createdBy": "Ermengarde"
+  },
+  {
+    "id": 458,
+    "organizationId": 42,
+    "cardTypeId": 18,
+    "parentScoreCardId": 78,
+    "score": 1,
+    "createdBy": "Joellen"
+  },
+  {
+    "id": 459,
+    "organizationId": 58,
+    "cardTypeId": 16,
+    "parentScoreCardId": 15,
+    "score": 26,
+    "createdBy": "Cyb"
+  },
+  {
+    "id": 460,
+    "organizationId": 6,
+    "cardTypeId": 38,
+    "parentScoreCardId": 89,
+    "score": 39,
+    "createdBy": "Austin"
+  },
+  {
+    "id": 461,
+    "organizationId": 41,
+    "cardTypeId": 69,
+    "parentScoreCardId": 75,
+    "score": 81,
+    "createdBy": "Huberto"
+  },
+  {
+    "id": 462,
+    "organizationId": 72,
+    "cardTypeId": 21,
+    "parentScoreCardId": 52,
+    "score": 93,
+    "createdBy": "Bil"
+  },
+  {
+    "id": 463,
+    "organizationId": 77,
+    "cardTypeId": 91,
+    "parentScoreCardId": 35,
+    "score": 53,
+    "createdBy": "Debby"
+  },
+  {
+    "id": 464,
+    "organizationId": 52,
+    "cardTypeId": 12,
+    "parentScoreCardId": 84,
+    "score": 41,
+    "createdBy": "Cleve"
+  },
+  {
+    "id": 465,
+    "organizationId": 62,
+    "cardTypeId": 91,
+    "parentScoreCardId": 98,
+    "score": 89,
+    "createdBy": "Carmine"
+  },
+  {
+    "id": 466,
+    "organizationId": 86,
+    "cardTypeId": 38,
+    "parentScoreCardId": 92,
+    "score": 83,
+    "createdBy": "Tommie"
+  },
+  {
+    "id": 467,
+    "organizationId": 26,
+    "cardTypeId": 26,
+    "parentScoreCardId": 69,
+    "score": 99,
+    "createdBy": "Floris"
+  },
+  {
+    "id": 468,
+    "organizationId": 52,
+    "cardTypeId": 47,
+    "parentScoreCardId": 47,
+    "score": 1,
+    "createdBy": "Willamina"
+  },
+  {
+    "id": 469,
+    "organizationId": 80,
+    "cardTypeId": 84,
+    "parentScoreCardId": 42,
+    "score": 59,
+    "createdBy": "Kimbell"
+  },
+  {
+    "id": 470,
+    "organizationId": 24,
+    "cardTypeId": 82,
+    "parentScoreCardId": 63,
+    "score": 89,
+    "createdBy": "Henriette"
+  },
+  {
+    "id": 471,
+    "organizationId": 34,
+    "cardTypeId": 94,
+    "parentScoreCardId": 24,
+    "score": 63,
+    "createdBy": "Theda"
+  },
+  {
+    "id": 472,
+    "organizationId": 33,
+    "cardTypeId": 10,
+    "parentScoreCardId": 5,
+    "score": 5,
+    "createdBy": "Brianna"
+  },
+  {
+    "id": 473,
+    "organizationId": 98,
+    "cardTypeId": 31,
+    "parentScoreCardId": 85,
+    "score": 78,
+    "createdBy": "Jaquith"
+  },
+  {
+    "id": 474,
+    "organizationId": 55,
+    "cardTypeId": 21,
+    "parentScoreCardId": 56,
+    "score": 73,
+    "createdBy": "Noam"
+  },
+  {
+    "id": 475,
+    "organizationId": 79,
+    "cardTypeId": 82,
+    "parentScoreCardId": 10,
+    "score": 94,
+    "createdBy": "Wilhelmine"
+  },
+  {
+    "id": 476,
+    "organizationId": 63,
+    "cardTypeId": 91,
+    "parentScoreCardId": 43,
+    "score": 40,
+    "createdBy": "Virgie"
+  },
+  {
+    "id": 477,
+    "organizationId": 100,
+    "cardTypeId": 2,
+    "parentScoreCardId": 94,
+    "score": 47,
+    "createdBy": "Quincy"
+  },
+  {
+    "id": 478,
+    "organizationId": 15,
+    "cardTypeId": 33,
+    "parentScoreCardId": 72,
+    "score": 9,
+    "createdBy": "Othilie"
+  },
+  {
+    "id": 479,
+    "organizationId": 100,
+    "cardTypeId": 18,
+    "parentScoreCardId": 67,
+    "score": 39,
+    "createdBy": "Ilise"
+  },
+  {
+    "id": 480,
+    "organizationId": 92,
+    "cardTypeId": 11,
+    "parentScoreCardId": 61,
+    "score": 55,
+    "createdBy": "Curtis"
+  },
+  {
+    "id": 481,
+    "organizationId": 71,
+    "cardTypeId": 52,
+    "parentScoreCardId": 34,
+    "score": 55,
+    "createdBy": "Rosita"
+  },
+  {
+    "id": 482,
+    "organizationId": 46,
+    "cardTypeId": 60,
+    "parentScoreCardId": 45,
+    "score": 76,
+    "createdBy": "Ferrell"
+  },
+  {
+    "id": 483,
+    "organizationId": 35,
+    "cardTypeId": 91,
+    "parentScoreCardId": 46,
+    "score": 61,
+    "createdBy": "Jodi"
+  },
+  {
+    "id": 484,
+    "organizationId": 81,
+    "cardTypeId": 31,
+    "parentScoreCardId": 80,
+    "score": 9,
+    "createdBy": "Filia"
+  },
+  {
+    "id": 485,
+    "organizationId": 47,
+    "cardTypeId": 77,
+    "parentScoreCardId": 97,
+    "score": 44,
+    "createdBy": "Emmaline"
+  },
+  {
+    "id": 486,
+    "organizationId": 80,
+    "cardTypeId": 64,
+    "parentScoreCardId": 39,
+    "score": 41,
+    "createdBy": "Garold"
+  },
+  {
+    "id": 487,
+    "organizationId": 46,
+    "cardTypeId": 27,
+    "parentScoreCardId": 17,
+    "score": 36,
+    "createdBy": "Ingaborg"
+  },
+  {
+    "id": 488,
+    "organizationId": 34,
+    "cardTypeId": 77,
+    "parentScoreCardId": 12,
+    "score": 51,
+    "createdBy": "Pascal"
+  },
+  {
+    "id": 489,
+    "organizationId": 6,
+    "cardTypeId": 37,
+    "parentScoreCardId": 66,
+    "score": 56,
+    "createdBy": "Nedi"
+  },
+  {
+    "id": 490,
+    "organizationId": 35,
+    "cardTypeId": 18,
+    "parentScoreCardId": 80,
+    "score": 18,
+    "createdBy": "Rosaline"
+  },
+  {
+    "id": 491,
+    "organizationId": 37,
+    "cardTypeId": 66,
+    "parentScoreCardId": 52,
+    "score": 60,
+    "createdBy": "Aida"
+  },
+  {
+    "id": 492,
+    "organizationId": 23,
+    "cardTypeId": 31,
+    "parentScoreCardId": 54,
+    "score": 17,
+    "createdBy": "Teri"
+  },
+  {
+    "id": 493,
+    "organizationId": 44,
+    "cardTypeId": 56,
+    "parentScoreCardId": 20,
+    "score": 24,
+    "createdBy": "Francisco"
+  },
+  {
+    "id": 494,
+    "organizationId": 56,
+    "cardTypeId": 15,
+    "parentScoreCardId": 7,
+    "score": 77,
+    "createdBy": "Pietro"
+  },
+  {
+    "id": 495,
+    "organizationId": 91,
+    "cardTypeId": 51,
+    "parentScoreCardId": 2,
+    "score": 21,
+    "createdBy": "Aileen"
+  },
+  {
+    "id": 496,
+    "organizationId": 21,
+    "cardTypeId": 24,
+    "parentScoreCardId": 79,
+    "score": 30,
+    "createdBy": "Mame"
+  },
+  {
+    "id": 497,
+    "organizationId": 65,
+    "cardTypeId": 59,
+    "parentScoreCardId": 15,
+    "score": 20,
+    "createdBy": "Walton"
+  },
+  {
+    "id": 498,
+    "organizationId": 15,
+    "cardTypeId": 95,
+    "parentScoreCardId": 59,
+    "score": 75,
+    "createdBy": "Arne"
+  },
+  {
+    "id": 499,
+    "organizationId": 74,
+    "cardTypeId": 27,
+    "parentScoreCardId": 97,
+    "score": 87,
+    "createdBy": "Donella"
+  },
+  {
+    "id": 500,
+    "organizationId": 84,
+    "cardTypeId": 45,
+    "parentScoreCardId": 88,
+    "score": 76,
+    "createdBy": "Iona"
+  },
+  {
+    "id": 501,
+    "organizationId": 6,
+    "cardTypeId": 42,
+    "parentScoreCardId": 66,
+    "score": 43,
+    "createdBy": "Emmaline"
+  },
+  {
+    "id": 502,
+    "organizationId": 54,
+    "cardTypeId": 63,
+    "parentScoreCardId": 95,
+    "score": 84,
+    "createdBy": "Weber"
+  },
+  {
+    "id": 503,
+    "organizationId": 78,
+    "cardTypeId": 72,
+    "parentScoreCardId": 47,
+    "score": 52,
+    "createdBy": "Katleen"
+  },
+  {
+    "id": 504,
+    "organizationId": 41,
+    "cardTypeId": 83,
+    "parentScoreCardId": 74,
+    "score": 22,
+    "createdBy": "Roxanna"
+  },
+  {
+    "id": 505,
+    "organizationId": 62,
+    "cardTypeId": 62,
+    "parentScoreCardId": 100,
+    "score": 82,
+    "createdBy": "Sterling"
+  },
+  {
+    "id": 506,
+    "organizationId": 27,
+    "cardTypeId": 30,
+    "parentScoreCardId": 9,
+    "score": 8,
+    "createdBy": "Pat"
+  },
+  {
+    "id": 507,
+    "organizationId": 75,
+    "cardTypeId": 9,
+    "parentScoreCardId": 71,
+    "score": 21,
+    "createdBy": "Gabie"
+  },
+  {
+    "id": 508,
+    "organizationId": 60,
+    "cardTypeId": 27,
+    "parentScoreCardId": 40,
+    "score": 1,
+    "createdBy": "Jehanna"
+  },
+  {
+    "id": 509,
+    "organizationId": 78,
+    "cardTypeId": 70,
+    "parentScoreCardId": 15,
+    "score": 4,
+    "createdBy": "Berty"
+  },
+  {
+    "id": 510,
+    "organizationId": 89,
+    "cardTypeId": 56,
+    "parentScoreCardId": 46,
+    "score": 90,
+    "createdBy": "Harald"
+  },
+  {
+    "id": 511,
+    "organizationId": 96,
+    "cardTypeId": 52,
+    "parentScoreCardId": 33,
+    "score": 58,
+    "createdBy": "Fey"
+  },
+  {
+    "id": 512,
+    "organizationId": 77,
+    "cardTypeId": 86,
+    "parentScoreCardId": 25,
+    "score": 1,
+    "createdBy": "Binni"
+  },
+  {
+    "id": 513,
+    "organizationId": 97,
+    "cardTypeId": 26,
+    "parentScoreCardId": 38,
+    "score": 18,
+    "createdBy": "Eben"
+  },
+  {
+    "id": 514,
+    "organizationId": 99,
+    "cardTypeId": 44,
+    "parentScoreCardId": 40,
+    "score": 97,
+    "createdBy": "Gipsy"
+  },
+  {
+    "id": 515,
+    "organizationId": 59,
+    "cardTypeId": 45,
+    "parentScoreCardId": 5,
+    "score": 51,
+    "createdBy": "Reade"
+  },
+  {
+    "id": 516,
+    "organizationId": 25,
+    "cardTypeId": 13,
+    "parentScoreCardId": 57,
+    "score": 58,
+    "createdBy": "May"
+  },
+  {
+    "id": 517,
+    "organizationId": 11,
+    "cardTypeId": 44,
+    "parentScoreCardId": 80,
+    "score": 30,
+    "createdBy": "Johanna"
+  },
+  {
+    "id": 518,
+    "organizationId": 88,
+    "cardTypeId": 19,
+    "parentScoreCardId": 14,
+    "score": 18,
+    "createdBy": "Oby"
+  },
+  {
+    "id": 519,
+    "organizationId": 55,
+    "cardTypeId": 84,
+    "parentScoreCardId": 64,
+    "score": 1,
+    "createdBy": "Hy"
+  },
+  {
+    "id": 520,
+    "organizationId": 70,
+    "cardTypeId": 40,
+    "parentScoreCardId": 39,
+    "score": 38,
+    "createdBy": "Cathrine"
+  },
+  {
+    "id": 521,
+    "organizationId": 59,
+    "cardTypeId": 76,
+    "parentScoreCardId": 56,
+    "score": 97,
+    "createdBy": "Joshuah"
+  },
+  {
+    "id": 522,
+    "organizationId": 30,
+    "cardTypeId": 68,
+    "parentScoreCardId": 35,
+    "score": 64,
+    "createdBy": "Alexandro"
+  },
+  {
+    "id": 523,
+    "organizationId": 31,
+    "cardTypeId": 84,
+    "parentScoreCardId": 46,
+    "score": 44,
+    "createdBy": "Alene"
+  },
+  {
+    "id": 524,
+    "organizationId": 33,
+    "cardTypeId": 28,
+    "parentScoreCardId": 59,
+    "score": 22,
+    "createdBy": "Evangelin"
+  },
+  {
+    "id": 525,
+    "organizationId": 51,
+    "cardTypeId": 53,
+    "parentScoreCardId": 69,
+    "score": 55,
+    "createdBy": "Xena"
+  },
+  {
+    "id": 526,
+    "organizationId": 70,
+    "cardTypeId": 88,
+    "parentScoreCardId": 28,
+    "score": 36,
+    "createdBy": "Jarrett"
+  },
+  {
+    "id": 527,
+    "organizationId": 38,
+    "cardTypeId": 3,
+    "parentScoreCardId": 52,
+    "score": 78,
+    "createdBy": "Maurise"
+  },
+  {
+    "id": 528,
+    "organizationId": 100,
+    "cardTypeId": 6,
+    "parentScoreCardId": 69,
+    "score": 43,
+    "createdBy": "Ulrich"
+  },
+  {
+    "id": 529,
+    "organizationId": 86,
+    "cardTypeId": 74,
+    "parentScoreCardId": 74,
+    "score": 83,
+    "createdBy": "Adiana"
+  },
+  {
+    "id": 530,
+    "organizationId": 11,
+    "cardTypeId": 87,
+    "parentScoreCardId": 66,
+    "score": 12,
+    "createdBy": "Bentley"
+  },
+  {
+    "id": 531,
+    "organizationId": 30,
+    "cardTypeId": 95,
+    "parentScoreCardId": 39,
+    "score": 26,
+    "createdBy": "Gaynor"
+  },
+  {
+    "id": 532,
+    "organizationId": 73,
+    "cardTypeId": 21,
+    "parentScoreCardId": 60,
+    "score": 75,
+    "createdBy": "Haleigh"
+  },
+  {
+    "id": 533,
+    "organizationId": 7,
+    "cardTypeId": 74,
+    "parentScoreCardId": 54,
+    "score": 29,
+    "createdBy": "George"
+  },
+  {
+    "id": 534,
+    "organizationId": 18,
+    "cardTypeId": 50,
+    "parentScoreCardId": 47,
+    "score": 35,
+    "createdBy": "Gar"
+  },
+  {
+    "id": 535,
+    "organizationId": 76,
+    "cardTypeId": 64,
+    "parentScoreCardId": 94,
+    "score": 24,
+    "createdBy": "Melitta"
+  },
+  {
+    "id": 536,
+    "organizationId": 1,
+    "cardTypeId": 44,
+    "parentScoreCardId": 86,
+    "score": 88,
+    "createdBy": "Nikos"
+  },
+  {
+    "id": 537,
+    "organizationId": 85,
+    "cardTypeId": 35,
+    "parentScoreCardId": 32,
+    "score": 20,
+    "createdBy": "Amye"
+  },
+  {
+    "id": 538,
+    "organizationId": 23,
+    "cardTypeId": 79,
+    "parentScoreCardId": 86,
+    "score": 61,
+    "createdBy": "Novelia"
+  },
+  {
+    "id": 539,
+    "organizationId": 16,
+    "cardTypeId": 85,
+    "parentScoreCardId": 50,
+    "score": 35,
+    "createdBy": "Kalle"
+  },
+  {
+    "id": 540,
+    "organizationId": 22,
+    "cardTypeId": 71,
+    "parentScoreCardId": 40,
+    "score": 35,
+    "createdBy": "Vance"
+  },
+  {
+    "id": 541,
+    "organizationId": 5,
+    "cardTypeId": 36,
+    "parentScoreCardId": 44,
+    "score": 51,
+    "createdBy": "Ame"
+  },
+  {
+    "id": 542,
+    "organizationId": 56,
+    "cardTypeId": 50,
+    "parentScoreCardId": 34,
+    "score": 35,
+    "createdBy": "Sophi"
+  },
+  {
+    "id": 543,
+    "organizationId": 77,
+    "cardTypeId": 93,
+    "parentScoreCardId": 28,
+    "score": 37,
+    "createdBy": "Emeline"
+  },
+  {
+    "id": 544,
+    "organizationId": 3,
+    "cardTypeId": 65,
+    "parentScoreCardId": 80,
+    "score": 8,
+    "createdBy": "Frankie"
+  },
+  {
+    "id": 545,
+    "organizationId": 11,
+    "cardTypeId": 5,
+    "parentScoreCardId": 16,
+    "score": 2,
+    "createdBy": "Ermentrude"
+  },
+  {
+    "id": 546,
+    "organizationId": 44,
+    "cardTypeId": 74,
+    "parentScoreCardId": 71,
+    "score": 11,
+    "createdBy": "Serena"
+  },
+  {
+    "id": 547,
+    "organizationId": 26,
+    "cardTypeId": 9,
+    "parentScoreCardId": 39,
+    "score": 12,
+    "createdBy": "Lorrie"
+  },
+  {
+    "id": 548,
+    "organizationId": 52,
+    "cardTypeId": 38,
+    "parentScoreCardId": 59,
+    "score": 59,
+    "createdBy": "Rosalinda"
+  },
+  {
+    "id": 549,
+    "organizationId": 92,
+    "cardTypeId": 8,
+    "parentScoreCardId": 90,
+    "score": 27,
+    "createdBy": "Jeramie"
+  },
+  {
+    "id": 550,
+    "organizationId": 29,
+    "cardTypeId": 39,
+    "parentScoreCardId": 97,
+    "score": 71,
+    "createdBy": "Lea"
+  },
+  {
+    "id": 551,
+    "organizationId": 58,
+    "cardTypeId": 80,
+    "parentScoreCardId": 60,
+    "score": 61,
+    "createdBy": "Cassaundra"
+  },
+  {
+    "id": 552,
+    "organizationId": 91,
+    "cardTypeId": 76,
+    "parentScoreCardId": 14,
+    "score": 92,
+    "createdBy": "Jolene"
+  },
+  {
+    "id": 553,
+    "organizationId": 80,
+    "cardTypeId": 96,
+    "parentScoreCardId": 5,
+    "score": 9,
+    "createdBy": "Karlie"
+  },
+  {
+    "id": 554,
+    "organizationId": 25,
+    "cardTypeId": 69,
+    "parentScoreCardId": 7,
+    "score": 41,
+    "createdBy": "Mellie"
+  },
+  {
+    "id": 555,
+    "organizationId": 72,
+    "cardTypeId": 76,
+    "parentScoreCardId": 14,
+    "score": 95,
+    "createdBy": "Eloisa"
+  },
+  {
+    "id": 556,
+    "organizationId": 14,
+    "cardTypeId": 37,
+    "parentScoreCardId": 11,
+    "score": 56,
+    "createdBy": "Neysa"
+  },
+  {
+    "id": 557,
+    "organizationId": 7,
+    "cardTypeId": 68,
+    "parentScoreCardId": 26,
+    "score": 29,
+    "createdBy": "Lorenzo"
+  },
+  {
+    "id": 558,
+    "organizationId": 69,
+    "cardTypeId": 85,
+    "parentScoreCardId": 85,
+    "score": 76,
+    "createdBy": "Toby"
+  },
+  {
+    "id": 559,
+    "organizationId": 20,
+    "cardTypeId": 96,
+    "parentScoreCardId": 9,
+    "score": 67,
+    "createdBy": "Janeva"
+  },
+  {
+    "id": 560,
+    "organizationId": 11,
+    "cardTypeId": 33,
+    "parentScoreCardId": 56,
+    "score": 97,
+    "createdBy": "Rubetta"
+  },
+  {
+    "id": 561,
+    "organizationId": 35,
+    "cardTypeId": 43,
+    "parentScoreCardId": 46,
+    "score": 84,
+    "createdBy": "Haven"
+  },
+  {
+    "id": 562,
+    "organizationId": 94,
+    "cardTypeId": 43,
+    "parentScoreCardId": 26,
+    "score": 89,
+    "createdBy": "Urbano"
+  },
+  {
+    "id": 563,
+    "organizationId": 25,
+    "cardTypeId": 97,
+    "parentScoreCardId": 69,
+    "score": 3,
+    "createdBy": "Levon"
+  },
+  {
+    "id": 564,
+    "organizationId": 49,
+    "cardTypeId": 80,
+    "parentScoreCardId": 66,
+    "score": 35,
+    "createdBy": "Estrellita"
+  },
+  {
+    "id": 565,
+    "organizationId": 22,
+    "cardTypeId": 46,
+    "parentScoreCardId": 98,
+    "score": 1,
+    "createdBy": "Evy"
+  },
+  {
+    "id": 566,
+    "organizationId": 3,
+    "cardTypeId": 97,
+    "parentScoreCardId": 56,
+    "score": 76,
+    "createdBy": "Everard"
+  },
+  {
+    "id": 567,
+    "organizationId": 65,
+    "cardTypeId": 84,
+    "parentScoreCardId": 65,
+    "score": 86,
+    "createdBy": "Tracee"
+  },
+  {
+    "id": 568,
+    "organizationId": 13,
+    "cardTypeId": 64,
+    "parentScoreCardId": 19,
+    "score": 22,
+    "createdBy": "Carlin"
+  },
+  {
+    "id": 569,
+    "organizationId": 88,
+    "cardTypeId": 63,
+    "parentScoreCardId": 69,
+    "score": 30,
+    "createdBy": "Janel"
+  },
+  {
+    "id": 570,
+    "organizationId": 85,
+    "cardTypeId": 78,
+    "parentScoreCardId": 77,
+    "score": 31,
+    "createdBy": "Ingamar"
+  },
+  {
+    "id": 571,
+    "organizationId": 38,
+    "cardTypeId": 36,
+    "parentScoreCardId": 79,
+    "score": 6,
+    "createdBy": "Petunia"
+  },
+  {
+    "id": 572,
+    "organizationId": 65,
+    "cardTypeId": 83,
+    "parentScoreCardId": 58,
+    "score": 33,
+    "createdBy": "Gillie"
+  },
+  {
+    "id": 573,
+    "organizationId": 67,
+    "cardTypeId": 35,
+    "parentScoreCardId": 93,
+    "score": 3,
+    "createdBy": "Tadeas"
+  },
+  {
+    "id": 574,
+    "organizationId": 42,
+    "cardTypeId": 7,
+    "parentScoreCardId": 99,
+    "score": 67,
+    "createdBy": "Manon"
+  },
+  {
+    "id": 575,
+    "organizationId": 54,
+    "cardTypeId": 22,
+    "parentScoreCardId": 100,
+    "score": 77,
+    "createdBy": "Pren"
+  },
+  {
+    "id": 576,
+    "organizationId": 34,
+    "cardTypeId": 13,
+    "parentScoreCardId": 93,
+    "score": 59,
+    "createdBy": "Amandi"
+  },
+  {
+    "id": 577,
+    "organizationId": 50,
+    "cardTypeId": 7,
+    "parentScoreCardId": 58,
+    "score": 2,
+    "createdBy": "Carlin"
+  },
+  {
+    "id": 578,
+    "organizationId": 40,
+    "cardTypeId": 91,
+    "parentScoreCardId": 3,
+    "score": 10,
+    "createdBy": "Beth"
+  },
+  {
+    "id": 579,
+    "organizationId": 6,
+    "cardTypeId": 18,
+    "parentScoreCardId": 68,
+    "score": 12,
+    "createdBy": "Krispin"
+  },
+  {
+    "id": 580,
+    "organizationId": 89,
+    "cardTypeId": 88,
+    "parentScoreCardId": 15,
+    "score": 78,
+    "createdBy": "Ulberto"
+  },
+  {
+    "id": 581,
+    "organizationId": 48,
+    "cardTypeId": 44,
+    "parentScoreCardId": 60,
+    "score": 30,
+    "createdBy": "Andria"
+  },
+  {
+    "id": 582,
+    "organizationId": 89,
+    "cardTypeId": 62,
+    "parentScoreCardId": 7,
+    "score": 77,
+    "createdBy": "Julietta"
+  },
+  {
+    "id": 583,
+    "organizationId": 18,
+    "cardTypeId": 82,
+    "parentScoreCardId": 5,
+    "score": 11,
+    "createdBy": "Arlina"
+  },
+  {
+    "id": 584,
+    "organizationId": 52,
+    "cardTypeId": 72,
+    "parentScoreCardId": 70,
+    "score": 16,
+    "createdBy": "Flory"
+  },
+  {
+    "id": 585,
+    "organizationId": 14,
+    "cardTypeId": 78,
+    "parentScoreCardId": 83,
+    "score": 38,
+    "createdBy": "Damien"
+  },
+  {
+    "id": 586,
+    "organizationId": 76,
+    "cardTypeId": 7,
+    "parentScoreCardId": 97,
+    "score": 94,
+    "createdBy": "Claudetta"
+  },
+  {
+    "id": 587,
+    "organizationId": 24,
+    "cardTypeId": 11,
+    "parentScoreCardId": 96,
+    "score": 33,
+    "createdBy": "Geralda"
+  },
+  {
+    "id": 588,
+    "organizationId": 28,
+    "cardTypeId": 58,
+    "parentScoreCardId": 35,
+    "score": 92,
+    "createdBy": "Sutton"
+  },
+  {
+    "id": 589,
+    "organizationId": 54,
+    "cardTypeId": 93,
+    "parentScoreCardId": 15,
+    "score": 51,
+    "createdBy": "Gerry"
+  },
+  {
+    "id": 590,
+    "organizationId": 36,
+    "cardTypeId": 31,
+    "parentScoreCardId": 66,
+    "score": 29,
+    "createdBy": "Gearard"
+  },
+  {
+    "id": 591,
+    "organizationId": 94,
+    "cardTypeId": 100,
+    "parentScoreCardId": 15,
+    "score": 78,
+    "createdBy": "Krystle"
+  },
+  {
+    "id": 592,
+    "organizationId": 77,
+    "cardTypeId": 97,
+    "parentScoreCardId": 37,
+    "score": 74,
+    "createdBy": "Suki"
+  },
+  {
+    "id": 593,
+    "organizationId": 31,
+    "cardTypeId": 28,
+    "parentScoreCardId": 71,
+    "score": 85,
+    "createdBy": "Northrup"
+  },
+  {
+    "id": 594,
+    "organizationId": 23,
+    "cardTypeId": 38,
+    "parentScoreCardId": 89,
+    "score": 81,
+    "createdBy": "Gladi"
+  },
+  {
+    "id": 595,
+    "organizationId": 82,
+    "cardTypeId": 72,
+    "parentScoreCardId": 79,
+    "score": 37,
+    "createdBy": "Pauline"
+  },
+  {
+    "id": 596,
+    "organizationId": 7,
+    "cardTypeId": 11,
+    "parentScoreCardId": 44,
+    "score": 48,
+    "createdBy": "Janenna"
+  },
+  {
+    "id": 597,
+    "organizationId": 49,
+    "cardTypeId": 25,
+    "parentScoreCardId": 16,
+    "score": 11,
+    "createdBy": "Crissie"
+  },
+  {
+    "id": 598,
+    "organizationId": 21,
+    "cardTypeId": 5,
+    "parentScoreCardId": 60,
+    "score": 28,
+    "createdBy": "Hyman"
+  },
+  {
+    "id": 599,
+    "organizationId": 75,
+    "cardTypeId": 31,
+    "parentScoreCardId": 44,
+    "score": 62,
+    "createdBy": "Celle"
+  },
+  {
+    "id": 600,
+    "organizationId": 75,
+    "cardTypeId": 9,
+    "parentScoreCardId": 12,
+    "score": 59,
+    "createdBy": "Alair"
+  },
+  {
+    "id": 601,
+    "organizationId": 85,
+    "cardTypeId": 19,
+    "parentScoreCardId": 82,
+    "score": 82,
+    "createdBy": "Mohandis"
+  },
+  {
+    "id": 602,
+    "organizationId": 94,
+    "cardTypeId": 85,
+    "parentScoreCardId": 22,
+    "score": 15,
+    "createdBy": "Heda"
+  },
+  {
+    "id": 603,
+    "organizationId": 51,
+    "cardTypeId": 48,
+    "parentScoreCardId": 24,
+    "score": 44,
+    "createdBy": "Whit"
+  },
+  {
+    "id": 604,
+    "organizationId": 15,
+    "cardTypeId": 69,
+    "parentScoreCardId": 70,
+    "score": 1,
+    "createdBy": "Ashleigh"
+  },
+  {
+    "id": 605,
+    "organizationId": 43,
+    "cardTypeId": 76,
+    "parentScoreCardId": 52,
+    "score": 82,
+    "createdBy": "Mile"
+  },
+  {
+    "id": 606,
+    "organizationId": 7,
+    "cardTypeId": 71,
+    "parentScoreCardId": 77,
+    "score": 51,
+    "createdBy": "Corrianne"
+  },
+  {
+    "id": 607,
+    "organizationId": 73,
+    "cardTypeId": 69,
+    "parentScoreCardId": 27,
+    "score": 5,
+    "createdBy": "Johnath"
+  },
+  {
+    "id": 608,
+    "organizationId": 60,
+    "cardTypeId": 49,
+    "parentScoreCardId": 73,
+    "score": 82,
+    "createdBy": "Dannie"
+  },
+  {
+    "id": 609,
+    "organizationId": 35,
+    "cardTypeId": 74,
+    "parentScoreCardId": 10,
+    "score": 83,
+    "createdBy": "Eduardo"
+  },
+  {
+    "id": 610,
+    "organizationId": 84,
+    "cardTypeId": 44,
+    "parentScoreCardId": 71,
+    "score": 94,
+    "createdBy": "Lenna"
+  },
+  {
+    "id": 611,
+    "organizationId": 59,
+    "cardTypeId": 63,
+    "parentScoreCardId": 48,
+    "score": 31,
+    "createdBy": "Frieda"
+  },
+  {
+    "id": 612,
+    "organizationId": 4,
+    "cardTypeId": 73,
+    "parentScoreCardId": 33,
+    "score": 8,
+    "createdBy": "Letitia"
+  },
+  {
+    "id": 613,
+    "organizationId": 12,
+    "cardTypeId": 88,
+    "parentScoreCardId": 86,
+    "score": 42,
+    "createdBy": "Iolanthe"
+  },
+  {
+    "id": 614,
+    "organizationId": 88,
+    "cardTypeId": 56,
+    "parentScoreCardId": 84,
+    "score": 59,
+    "createdBy": "Vanni"
+  },
+  {
+    "id": 615,
+    "organizationId": 52,
+    "cardTypeId": 18,
+    "parentScoreCardId": 52,
+    "score": 59,
+    "createdBy": "Sancho"
+  },
+  {
+    "id": 616,
+    "organizationId": 33,
+    "cardTypeId": 51,
+    "parentScoreCardId": 2,
+    "score": 65,
+    "createdBy": "Adoree"
+  },
+  {
+    "id": 617,
+    "organizationId": 35,
+    "cardTypeId": 8,
+    "parentScoreCardId": 84,
+    "score": 57,
+    "createdBy": "Abramo"
+  },
+  {
+    "id": 618,
+    "organizationId": 84,
+    "cardTypeId": 30,
+    "parentScoreCardId": 34,
+    "score": 68,
+    "createdBy": "Page"
+  },
+  {
+    "id": 619,
+    "organizationId": 43,
+    "cardTypeId": 39,
+    "parentScoreCardId": 36,
+    "score": 30,
+    "createdBy": "Inglebert"
+  },
+  {
+    "id": 620,
+    "organizationId": 16,
+    "cardTypeId": 60,
+    "parentScoreCardId": 73,
+    "score": 74,
+    "createdBy": "Kath"
+  },
+  {
+    "id": 621,
+    "organizationId": 85,
+    "cardTypeId": 74,
+    "parentScoreCardId": 42,
+    "score": 10,
+    "createdBy": "Marco"
+  },
+  {
+    "id": 622,
+    "organizationId": 75,
+    "cardTypeId": 31,
+    "parentScoreCardId": 54,
+    "score": 51,
+    "createdBy": "Ellissa"
+  },
+  {
+    "id": 623,
+    "organizationId": 79,
+    "cardTypeId": 56,
+    "parentScoreCardId": 53,
+    "score": 79,
+    "createdBy": "Elnar"
+  },
+  {
+    "id": 624,
+    "organizationId": 22,
+    "cardTypeId": 1,
+    "parentScoreCardId": 63,
+    "score": 61,
+    "createdBy": "Delaney"
+  },
+  {
+    "id": 625,
+    "organizationId": 91,
+    "cardTypeId": 89,
+    "parentScoreCardId": 4,
+    "score": 36,
+    "createdBy": "Katlin"
+  },
+  {
+    "id": 626,
+    "organizationId": 32,
+    "cardTypeId": 74,
+    "parentScoreCardId": 26,
+    "score": 13,
+    "createdBy": "Jacobo"
+  },
+  {
+    "id": 627,
+    "organizationId": 79,
+    "cardTypeId": 19,
+    "parentScoreCardId": 75,
+    "score": 65,
+    "createdBy": "Torrie"
+  },
+  {
+    "id": 628,
+    "organizationId": 28,
+    "cardTypeId": 80,
+    "parentScoreCardId": 34,
+    "score": 90,
+    "createdBy": "Aymer"
+  },
+  {
+    "id": 629,
+    "organizationId": 62,
+    "cardTypeId": 26,
+    "parentScoreCardId": 90,
+    "score": 54,
+    "createdBy": "Jeanie"
+  },
+  {
+    "id": 630,
+    "organizationId": 65,
+    "cardTypeId": 38,
+    "parentScoreCardId": 69,
+    "score": 21,
+    "createdBy": "Clarence"
+  },
+  {
+    "id": 631,
+    "organizationId": 51,
+    "cardTypeId": 73,
+    "parentScoreCardId": 71,
+    "score": 32,
+    "createdBy": "Shelbi"
+  },
+  {
+    "id": 632,
+    "organizationId": 92,
+    "cardTypeId": 68,
+    "parentScoreCardId": 82,
+    "score": 20,
+    "createdBy": "Izabel"
+  },
+  {
+    "id": 633,
+    "organizationId": 76,
+    "cardTypeId": 32,
+    "parentScoreCardId": 97,
+    "score": 22,
+    "createdBy": "Dilly"
+  },
+  {
+    "id": 634,
+    "organizationId": 66,
+    "cardTypeId": 95,
+    "parentScoreCardId": 72,
+    "score": 73,
+    "createdBy": "Gradeigh"
+  },
+  {
+    "id": 635,
+    "organizationId": 33,
+    "cardTypeId": 31,
+    "parentScoreCardId": 3,
+    "score": 42,
+    "createdBy": "Elia"
+  },
+  {
+    "id": 636,
+    "organizationId": 46,
+    "cardTypeId": 40,
+    "parentScoreCardId": 27,
+    "score": 85,
+    "createdBy": "Daryl"
+  },
+  {
+    "id": 637,
+    "organizationId": 6,
+    "cardTypeId": 62,
+    "parentScoreCardId": 72,
+    "score": 63,
+    "createdBy": "Quinn"
+  },
+  {
+    "id": 638,
+    "organizationId": 64,
+    "cardTypeId": 7,
+    "parentScoreCardId": 62,
+    "score": 14,
+    "createdBy": "Fleurette"
+  },
+  {
+    "id": 639,
+    "organizationId": 12,
+    "cardTypeId": 55,
+    "parentScoreCardId": 39,
+    "score": 1,
+    "createdBy": "Robinson"
+  },
+  {
+    "id": 640,
+    "organizationId": 59,
+    "cardTypeId": 31,
+    "parentScoreCardId": 87,
+    "score": 4,
+    "createdBy": "Wilburt"
+  },
+  {
+    "id": 641,
+    "organizationId": 11,
+    "cardTypeId": 12,
+    "parentScoreCardId": 51,
+    "score": 34,
+    "createdBy": "Danella"
+  },
+  {
+    "id": 642,
+    "organizationId": 63,
+    "cardTypeId": 41,
+    "parentScoreCardId": 90,
+    "score": 32,
+    "createdBy": "Nappy"
+  },
+  {
+    "id": 643,
+    "organizationId": 60,
+    "cardTypeId": 19,
+    "parentScoreCardId": 9,
+    "score": 61,
+    "createdBy": "Devon"
+  },
+  {
+    "id": 644,
+    "organizationId": 20,
+    "cardTypeId": 83,
+    "parentScoreCardId": 91,
+    "score": 86,
+    "createdBy": "Donavon"
+  },
+  {
+    "id": 645,
+    "organizationId": 94,
+    "cardTypeId": 44,
+    "parentScoreCardId": 74,
+    "score": 47,
+    "createdBy": "Onofredo"
+  },
+  {
+    "id": 646,
+    "organizationId": 6,
+    "cardTypeId": 38,
+    "parentScoreCardId": 73,
+    "score": 20,
+    "createdBy": "Maressa"
+  },
+  {
+    "id": 647,
+    "organizationId": 13,
+    "cardTypeId": 75,
+    "parentScoreCardId": 79,
+    "score": 85,
+    "createdBy": "Pauli"
+  },
+  {
+    "id": 648,
+    "organizationId": 67,
+    "cardTypeId": 27,
+    "parentScoreCardId": 33,
+    "score": 99,
+    "createdBy": "Rabbi"
+  },
+  {
+    "id": 649,
+    "organizationId": 2,
+    "cardTypeId": 31,
+    "parentScoreCardId": 83,
+    "score": 78,
+    "createdBy": "Christy"
+  },
+  {
+    "id": 650,
+    "organizationId": 4,
+    "cardTypeId": 94,
+    "parentScoreCardId": 51,
+    "score": 7,
+    "createdBy": "Emanuele"
+  },
+  {
+    "id": 651,
+    "organizationId": 56,
+    "cardTypeId": 69,
+    "parentScoreCardId": 6,
+    "score": 61,
+    "createdBy": "Alejoa"
+  },
+  {
+    "id": 652,
+    "organizationId": 59,
+    "cardTypeId": 82,
+    "parentScoreCardId": 74,
+    "score": 10,
+    "createdBy": "Joby"
+  },
+  {
+    "id": 653,
+    "organizationId": 7,
+    "cardTypeId": 18,
+    "parentScoreCardId": 13,
+    "score": 15,
+    "createdBy": "Sayers"
+  },
+  {
+    "id": 654,
+    "organizationId": 45,
+    "cardTypeId": 21,
+    "parentScoreCardId": 95,
+    "score": 31,
+    "createdBy": "Gabbi"
+  },
+  {
+    "id": 655,
+    "organizationId": 60,
+    "cardTypeId": 61,
+    "parentScoreCardId": 8,
+    "score": 55,
+    "createdBy": "Ewart"
+  },
+  {
+    "id": 656,
+    "organizationId": 13,
+    "cardTypeId": 83,
+    "parentScoreCardId": 91,
+    "score": 46,
+    "createdBy": "Krystyna"
+  },
+  {
+    "id": 657,
+    "organizationId": 64,
+    "cardTypeId": 6,
+    "parentScoreCardId": 13,
+    "score": 9,
+    "createdBy": "Terri-jo"
+  },
+  {
+    "id": 658,
+    "organizationId": 29,
+    "cardTypeId": 55,
+    "parentScoreCardId": 25,
+    "score": 81,
+    "createdBy": "Coraline"
+  },
+  {
+    "id": 659,
+    "organizationId": 80,
+    "cardTypeId": 42,
+    "parentScoreCardId": 1,
+    "score": 12,
+    "createdBy": "Happy"
+  },
+  {
+    "id": 660,
+    "organizationId": 12,
+    "cardTypeId": 8,
+    "parentScoreCardId": 56,
+    "score": 13,
+    "createdBy": "Kinna"
+  },
+  {
+    "id": 661,
+    "organizationId": 61,
+    "cardTypeId": 95,
+    "parentScoreCardId": 85,
+    "score": 67,
+    "createdBy": "Sancho"
+  },
+  {
+    "id": 662,
+    "organizationId": 64,
+    "cardTypeId": 75,
+    "parentScoreCardId": 70,
+    "score": 45,
+    "createdBy": "Beulah"
+  },
+  {
+    "id": 663,
+    "organizationId": 63,
+    "cardTypeId": 82,
+    "parentScoreCardId": 91,
+    "score": 97,
+    "createdBy": "Patty"
+  },
+  {
+    "id": 664,
+    "organizationId": 96,
+    "cardTypeId": 7,
+    "parentScoreCardId": 71,
+    "score": 55,
+    "createdBy": "Humphrey"
+  },
+  {
+    "id": 665,
+    "organizationId": 80,
+    "cardTypeId": 11,
+    "parentScoreCardId": 85,
+    "score": 67,
+    "createdBy": "Lizbeth"
+  },
+  {
+    "id": 666,
+    "organizationId": 48,
+    "cardTypeId": 18,
+    "parentScoreCardId": 59,
+    "score": 92,
+    "createdBy": "Cirilo"
+  },
+  {
+    "id": 667,
+    "organizationId": 87,
+    "cardTypeId": 74,
+    "parentScoreCardId": 93,
+    "score": 3,
+    "createdBy": "Katrinka"
+  },
+  {
+    "id": 668,
+    "organizationId": 30,
+    "cardTypeId": 92,
+    "parentScoreCardId": 88,
+    "score": 66,
+    "createdBy": "Adrian"
+  },
+  {
+    "id": 669,
+    "organizationId": 14,
+    "cardTypeId": 92,
+    "parentScoreCardId": 92,
+    "score": 42,
+    "createdBy": "Eveline"
+  },
+  {
+    "id": 670,
+    "organizationId": 28,
+    "cardTypeId": 89,
+    "parentScoreCardId": 22,
+    "score": 49,
+    "createdBy": "Glad"
+  },
+  {
+    "id": 671,
+    "organizationId": 71,
+    "cardTypeId": 42,
+    "parentScoreCardId": 75,
+    "score": 45,
+    "createdBy": "Costanza"
+  },
+  {
+    "id": 672,
+    "organizationId": 39,
+    "cardTypeId": 97,
+    "parentScoreCardId": 51,
+    "score": 75,
+    "createdBy": "Agnes"
+  },
+  {
+    "id": 673,
+    "organizationId": 90,
+    "cardTypeId": 53,
+    "parentScoreCardId": 31,
+    "score": 6,
+    "createdBy": "Giraud"
+  },
+  {
+    "id": 674,
+    "organizationId": 5,
+    "cardTypeId": 44,
+    "parentScoreCardId": 77,
+    "score": 91,
+    "createdBy": "Mia"
+  },
+  {
+    "id": 675,
+    "organizationId": 25,
+    "cardTypeId": 28,
+    "parentScoreCardId": 80,
+    "score": 77,
+    "createdBy": "Maximo"
+  },
+  {
+    "id": 676,
+    "organizationId": 26,
+    "cardTypeId": 57,
+    "parentScoreCardId": 39,
+    "score": 98,
+    "createdBy": "Dallis"
+  },
+  {
+    "id": 677,
+    "organizationId": 10,
+    "cardTypeId": 75,
+    "parentScoreCardId": 79,
+    "score": 72,
+    "createdBy": "Sargent"
+  },
+  {
+    "id": 678,
+    "organizationId": 86,
+    "cardTypeId": 80,
+    "parentScoreCardId": 95,
+    "score": 17,
+    "createdBy": "Noam"
+  },
+  {
+    "id": 679,
+    "organizationId": 28,
+    "cardTypeId": 9,
+    "parentScoreCardId": 77,
+    "score": 9,
+    "createdBy": "Edd"
+  },
+  {
+    "id": 680,
+    "organizationId": 9,
+    "cardTypeId": 8,
+    "parentScoreCardId": 41,
+    "score": 66,
+    "createdBy": "Cori"
+  },
+  {
+    "id": 681,
+    "organizationId": 75,
+    "cardTypeId": 50,
+    "parentScoreCardId": 30,
+    "score": 20,
+    "createdBy": "Irwin"
+  },
+  {
+    "id": 682,
+    "organizationId": 44,
+    "cardTypeId": 12,
+    "parentScoreCardId": 30,
+    "score": 37,
+    "createdBy": "Kathleen"
+  },
+  {
+    "id": 683,
+    "organizationId": 44,
+    "cardTypeId": 54,
+    "parentScoreCardId": 59,
+    "score": 37,
+    "createdBy": "Georas"
+  },
+  {
+    "id": 684,
+    "organizationId": 71,
+    "cardTypeId": 93,
+    "parentScoreCardId": 37,
+    "score": 46,
+    "createdBy": "Wang"
+  },
+  {
+    "id": 685,
+    "organizationId": 58,
+    "cardTypeId": 55,
+    "parentScoreCardId": 41,
+    "score": 99,
+    "createdBy": "Hobie"
+  },
+  {
+    "id": 686,
+    "organizationId": 67,
+    "cardTypeId": 27,
+    "parentScoreCardId": 51,
+    "score": 49,
+    "createdBy": "Redd"
+  },
+  {
+    "id": 687,
+    "organizationId": 46,
+    "cardTypeId": 80,
+    "parentScoreCardId": 41,
+    "score": 93,
+    "createdBy": "Jerrilyn"
+  },
+  {
+    "id": 688,
+    "organizationId": 73,
+    "cardTypeId": 66,
+    "parentScoreCardId": 44,
+    "score": 38,
+    "createdBy": "Constantino"
+  },
+  {
+    "id": 689,
+    "organizationId": 98,
+    "cardTypeId": 54,
+    "parentScoreCardId": 60,
+    "score": 67,
+    "createdBy": "Maude"
+  },
+  {
+    "id": 690,
+    "organizationId": 5,
+    "cardTypeId": 99,
+    "parentScoreCardId": 93,
+    "score": 71,
+    "createdBy": "Veriee"
+  },
+  {
+    "id": 691,
+    "organizationId": 95,
+    "cardTypeId": 96,
+    "parentScoreCardId": 64,
+    "score": 61,
+    "createdBy": "Carlota"
+  },
+  {
+    "id": 692,
+    "organizationId": 66,
+    "cardTypeId": 36,
+    "parentScoreCardId": 43,
+    "score": 9,
+    "createdBy": "Alisha"
+  },
+  {
+    "id": 693,
+    "organizationId": 3,
+    "cardTypeId": 11,
+    "parentScoreCardId": 5,
+    "score": 73,
+    "createdBy": "Madonna"
+  },
+  {
+    "id": 694,
+    "organizationId": 44,
+    "cardTypeId": 83,
+    "parentScoreCardId": 54,
+    "score": 31,
+    "createdBy": "Patience"
+  },
+  {
+    "id": 695,
+    "organizationId": 17,
+    "cardTypeId": 4,
+    "parentScoreCardId": 87,
+    "score": 97,
+    "createdBy": "Murray"
+  },
+  {
+    "id": 696,
+    "organizationId": 97,
+    "cardTypeId": 95,
+    "parentScoreCardId": 8,
+    "score": 51,
+    "createdBy": "Laurice"
+  },
+  {
+    "id": 697,
+    "organizationId": 88,
+    "cardTypeId": 22,
+    "parentScoreCardId": 89,
+    "score": 98,
+    "createdBy": "Frederica"
+  },
+  {
+    "id": 698,
+    "organizationId": 82,
+    "cardTypeId": 6,
+    "parentScoreCardId": 33,
+    "score": 31,
+    "createdBy": "Rayner"
+  },
+  {
+    "id": 699,
+    "organizationId": 61,
+    "cardTypeId": 8,
+    "parentScoreCardId": 77,
+    "score": 42,
+    "createdBy": "Dania"
+  },
+  {
+    "id": 700,
+    "organizationId": 29,
+    "cardTypeId": 38,
+    "parentScoreCardId": 58,
+    "score": 73,
+    "createdBy": "Oswald"
+  },
+  {
+    "id": 701,
+    "organizationId": 42,
+    "cardTypeId": 65,
+    "parentScoreCardId": 74,
+    "score": 86,
+    "createdBy": "Rosabelle"
+  },
+  {
+    "id": 702,
+    "organizationId": 26,
+    "cardTypeId": 66,
+    "parentScoreCardId": 34,
+    "score": 59,
+    "createdBy": "Reggi"
+  },
+  {
+    "id": 703,
+    "organizationId": 60,
+    "cardTypeId": 88,
+    "parentScoreCardId": 93,
+    "score": 80,
+    "createdBy": "Johny"
+  },
+  {
+    "id": 704,
+    "organizationId": 57,
+    "cardTypeId": 71,
+    "parentScoreCardId": 77,
+    "score": 72,
+    "createdBy": "George"
+  },
+  {
+    "id": 705,
+    "organizationId": 93,
+    "cardTypeId": 38,
+    "parentScoreCardId": 12,
+    "score": 96,
+    "createdBy": "Boigie"
+  },
+  {
+    "id": 706,
+    "organizationId": 55,
+    "cardTypeId": 77,
+    "parentScoreCardId": 64,
+    "score": 43,
+    "createdBy": "Melva"
+  },
+  {
+    "id": 707,
+    "organizationId": 82,
+    "cardTypeId": 78,
+    "parentScoreCardId": 9,
+    "score": 63,
+    "createdBy": "Guglielmo"
+  },
+  {
+    "id": 708,
+    "organizationId": 14,
+    "cardTypeId": 34,
+    "parentScoreCardId": 9,
+    "score": 70,
+    "createdBy": "Sumner"
+  },
+  {
+    "id": 709,
+    "organizationId": 13,
+    "cardTypeId": 37,
+    "parentScoreCardId": 53,
+    "score": 64,
+    "createdBy": "Stavro"
+  },
+  {
+    "id": 710,
+    "organizationId": 41,
+    "cardTypeId": 72,
+    "parentScoreCardId": 36,
+    "score": 40,
+    "createdBy": "Cyril"
+  },
+  {
+    "id": 711,
+    "organizationId": 43,
+    "cardTypeId": 81,
+    "parentScoreCardId": 39,
+    "score": 22,
+    "createdBy": "Conrade"
+  },
+  {
+    "id": 712,
+    "organizationId": 39,
+    "cardTypeId": 26,
+    "parentScoreCardId": 78,
+    "score": 66,
+    "createdBy": "Fremont"
+  },
+  {
+    "id": 713,
+    "organizationId": 45,
+    "cardTypeId": 52,
+    "parentScoreCardId": 85,
+    "score": 26,
+    "createdBy": "Darby"
+  },
+  {
+    "id": 714,
+    "organizationId": 24,
+    "cardTypeId": 62,
+    "parentScoreCardId": 91,
+    "score": 81,
+    "createdBy": "Glynnis"
+  },
+  {
+    "id": 715,
+    "organizationId": 62,
+    "cardTypeId": 28,
+    "parentScoreCardId": 76,
+    "score": 12,
+    "createdBy": "Anna"
+  },
+  {
+    "id": 716,
+    "organizationId": 6,
+    "cardTypeId": 4,
+    "parentScoreCardId": 93,
+    "score": 75,
+    "createdBy": "Eleanore"
+  },
+  {
+    "id": 717,
+    "organizationId": 75,
+    "cardTypeId": 2,
+    "parentScoreCardId": 12,
+    "score": 29,
+    "createdBy": "Elbertina"
+  },
+  {
+    "id": 718,
+    "organizationId": 88,
+    "cardTypeId": 26,
+    "parentScoreCardId": 46,
+    "score": 9,
+    "createdBy": "Kellia"
+  },
+  {
+    "id": 719,
+    "organizationId": 16,
+    "cardTypeId": 100,
+    "parentScoreCardId": 80,
+    "score": 61,
+    "createdBy": "Gerrilee"
+  },
+  {
+    "id": 720,
+    "organizationId": 43,
+    "cardTypeId": 7,
+    "parentScoreCardId": 69,
+    "score": 98,
+    "createdBy": "Dorey"
+  },
+  {
+    "id": 721,
+    "organizationId": 9,
+    "cardTypeId": 91,
+    "parentScoreCardId": 60,
+    "score": 98,
+    "createdBy": "Pietra"
+  },
+  {
+    "id": 722,
+    "organizationId": 24,
+    "cardTypeId": 45,
+    "parentScoreCardId": 39,
+    "score": 87,
+    "createdBy": "Netta"
+  },
+  {
+    "id": 723,
+    "organizationId": 75,
+    "cardTypeId": 46,
+    "parentScoreCardId": 79,
+    "score": 25,
+    "createdBy": "Raymond"
+  },
+  {
+    "id": 724,
+    "organizationId": 22,
+    "cardTypeId": 25,
+    "parentScoreCardId": 58,
+    "score": 12,
+    "createdBy": "Lyndsay"
+  },
+  {
+    "id": 725,
+    "organizationId": 41,
+    "cardTypeId": 24,
+    "parentScoreCardId": 13,
+    "score": 15,
+    "createdBy": "Britteny"
+  },
+  {
+    "id": 726,
+    "organizationId": 36,
+    "cardTypeId": 79,
+    "parentScoreCardId": 41,
+    "score": 71,
+    "createdBy": "Jenny"
+  },
+  {
+    "id": 727,
+    "organizationId": 72,
+    "cardTypeId": 55,
+    "parentScoreCardId": 86,
+    "score": 43,
+    "createdBy": "Melany"
+  },
+  {
+    "id": 728,
+    "organizationId": 67,
+    "cardTypeId": 96,
+    "parentScoreCardId": 64,
+    "score": 4,
+    "createdBy": "Silvain"
+  },
+  {
+    "id": 729,
+    "organizationId": 41,
+    "cardTypeId": 47,
+    "parentScoreCardId": 58,
+    "score": 100,
+    "createdBy": "Sherline"
+  },
+  {
+    "id": 730,
+    "organizationId": 71,
+    "cardTypeId": 92,
+    "parentScoreCardId": 22,
+    "score": 23,
+    "createdBy": "Elfie"
+  },
+  {
+    "id": 731,
+    "organizationId": 27,
+    "cardTypeId": 46,
+    "parentScoreCardId": 75,
+    "score": 94,
+    "createdBy": "Bondon"
+  },
+  {
+    "id": 732,
+    "organizationId": 84,
+    "cardTypeId": 29,
+    "parentScoreCardId": 12,
+    "score": 12,
+    "createdBy": "Guglielma"
+  },
+  {
+    "id": 733,
+    "organizationId": 4,
+    "cardTypeId": 4,
+    "parentScoreCardId": 17,
+    "score": 10,
+    "createdBy": "Netti"
+  },
+  {
+    "id": 734,
+    "organizationId": 78,
+    "cardTypeId": 40,
+    "parentScoreCardId": 66,
+    "score": 42,
+    "createdBy": "Torrin"
+  },
+  {
+    "id": 735,
+    "organizationId": 64,
+    "cardTypeId": 77,
+    "parentScoreCardId": 15,
+    "score": 38,
+    "createdBy": "Griff"
+  },
+  {
+    "id": 736,
+    "organizationId": 40,
+    "cardTypeId": 91,
+    "parentScoreCardId": 87,
+    "score": 22,
+    "createdBy": "Clay"
+  },
+  {
+    "id": 737,
+    "organizationId": 29,
+    "cardTypeId": 64,
+    "parentScoreCardId": 55,
+    "score": 36,
+    "createdBy": "Sholom"
+  },
+  {
+    "id": 738,
+    "organizationId": 57,
+    "cardTypeId": 97,
+    "parentScoreCardId": 25,
+    "score": 3,
+    "createdBy": "Gayler"
+  },
+  {
+    "id": 739,
+    "organizationId": 89,
+    "cardTypeId": 63,
+    "parentScoreCardId": 24,
+    "score": 48,
+    "createdBy": "Danna"
+  },
+  {
+    "id": 740,
+    "organizationId": 19,
+    "cardTypeId": 5,
+    "parentScoreCardId": 75,
+    "score": 85,
+    "createdBy": "Jose"
+  },
+  {
+    "id": 741,
+    "organizationId": 76,
+    "cardTypeId": 18,
+    "parentScoreCardId": 41,
+    "score": 10,
+    "createdBy": "Charlotte"
+  },
+  {
+    "id": 742,
+    "organizationId": 56,
+    "cardTypeId": 20,
+    "parentScoreCardId": 2,
+    "score": 53,
+    "createdBy": "Christalle"
+  },
+  {
+    "id": 743,
+    "organizationId": 54,
+    "cardTypeId": 32,
+    "parentScoreCardId": 7,
+    "score": 20,
+    "createdBy": "Mandie"
+  },
+  {
+    "id": 744,
+    "organizationId": 25,
+    "cardTypeId": 49,
+    "parentScoreCardId": 98,
+    "score": 96,
+    "createdBy": "Elianora"
+  },
+  {
+    "id": 745,
+    "organizationId": 79,
+    "cardTypeId": 63,
+    "parentScoreCardId": 87,
+    "score": 57,
+    "createdBy": "Lorene"
+  },
+  {
+    "id": 746,
+    "organizationId": 75,
+    "cardTypeId": 56,
+    "parentScoreCardId": 58,
+    "score": 52,
+    "createdBy": "Oswell"
+  },
+  {
+    "id": 747,
+    "organizationId": 45,
+    "cardTypeId": 71,
+    "parentScoreCardId": 46,
+    "score": 3,
+    "createdBy": "Phylis"
+  },
+  {
+    "id": 748,
+    "organizationId": 65,
+    "cardTypeId": 18,
+    "parentScoreCardId": 66,
+    "score": 98,
+    "createdBy": "Luelle"
+  },
+  {
+    "id": 749,
+    "organizationId": 49,
+    "cardTypeId": 68,
+    "parentScoreCardId": 14,
+    "score": 75,
+    "createdBy": "Veronica"
+  },
+  {
+    "id": 750,
+    "organizationId": 11,
+    "cardTypeId": 87,
+    "parentScoreCardId": 9,
+    "score": 66,
+    "createdBy": "Montgomery"
+  },
+  {
+    "id": 751,
+    "organizationId": 64,
+    "cardTypeId": 47,
+    "parentScoreCardId": 73,
+    "score": 28,
+    "createdBy": "Valentine"
+  },
+  {
+    "id": 752,
+    "organizationId": 98,
+    "cardTypeId": 6,
+    "parentScoreCardId": 94,
+    "score": 53,
+    "createdBy": "Papageno"
+  },
+  {
+    "id": 753,
+    "organizationId": 31,
+    "cardTypeId": 38,
+    "parentScoreCardId": 16,
+    "score": 6,
+    "createdBy": "Ronny"
+  },
+  {
+    "id": 754,
+    "organizationId": 97,
+    "cardTypeId": 31,
+    "parentScoreCardId": 76,
+    "score": 1,
+    "createdBy": "Hieronymus"
+  },
+  {
+    "id": 755,
+    "organizationId": 51,
+    "cardTypeId": 99,
+    "parentScoreCardId": 100,
+    "score": 22,
+    "createdBy": "Porty"
+  },
+  {
+    "id": 756,
+    "organizationId": 56,
+    "cardTypeId": 11,
+    "parentScoreCardId": 21,
+    "score": 5,
+    "createdBy": "Carlita"
+  },
+  {
+    "id": 757,
+    "organizationId": 35,
+    "cardTypeId": 57,
+    "parentScoreCardId": 82,
+    "score": 30,
+    "createdBy": "Burtie"
+  },
+  {
+    "id": 758,
+    "organizationId": 8,
+    "cardTypeId": 22,
+    "parentScoreCardId": 45,
+    "score": 29,
+    "createdBy": "Raffarty"
+  },
+  {
+    "id": 759,
+    "organizationId": 63,
+    "cardTypeId": 33,
+    "parentScoreCardId": 35,
+    "score": 83,
+    "createdBy": "Batsheva"
+  },
+  {
+    "id": 760,
+    "organizationId": 65,
+    "cardTypeId": 53,
+    "parentScoreCardId": 21,
+    "score": 51,
+    "createdBy": "Jenica"
+  },
+  {
+    "id": 761,
+    "organizationId": 73,
+    "cardTypeId": 83,
+    "parentScoreCardId": 70,
+    "score": 39,
+    "createdBy": "Yance"
+  },
+  {
+    "id": 762,
+    "organizationId": 67,
+    "cardTypeId": 46,
+    "parentScoreCardId": 21,
+    "score": 53,
+    "createdBy": "Dinnie"
+  },
+  {
+    "id": 763,
+    "organizationId": 94,
+    "cardTypeId": 68,
+    "parentScoreCardId": 81,
+    "score": 28,
+    "createdBy": "Garfield"
+  },
+  {
+    "id": 764,
+    "organizationId": 10,
+    "cardTypeId": 31,
+    "parentScoreCardId": 80,
+    "score": 86,
+    "createdBy": "Nichole"
+  },
+  {
+    "id": 765,
+    "organizationId": 64,
+    "cardTypeId": 85,
+    "parentScoreCardId": 88,
+    "score": 36,
+    "createdBy": "Felicdad"
+  },
+  {
+    "id": 766,
+    "organizationId": 31,
+    "cardTypeId": 9,
+    "parentScoreCardId": 61,
+    "score": 1,
+    "createdBy": "Moshe"
+  },
+  {
+    "id": 767,
+    "organizationId": 42,
+    "cardTypeId": 95,
+    "parentScoreCardId": 17,
+    "score": 87,
+    "createdBy": "Hazlett"
+  },
+  {
+    "id": 768,
+    "organizationId": 83,
+    "cardTypeId": 100,
+    "parentScoreCardId": 10,
+    "score": 70,
+    "createdBy": "Vlad"
+  },
+  {
+    "id": 769,
+    "organizationId": 86,
+    "cardTypeId": 89,
+    "parentScoreCardId": 31,
+    "score": 100,
+    "createdBy": "Eadith"
+  },
+  {
+    "id": 770,
+    "organizationId": 17,
+    "cardTypeId": 78,
+    "parentScoreCardId": 66,
+    "score": 69,
+    "createdBy": "Albina"
+  },
+  {
+    "id": 771,
+    "organizationId": 6,
+    "cardTypeId": 28,
+    "parentScoreCardId": 33,
+    "score": 11,
+    "createdBy": "Fayre"
+  },
+  {
+    "id": 772,
+    "organizationId": 58,
+    "cardTypeId": 34,
+    "parentScoreCardId": 21,
+    "score": 93,
+    "createdBy": "Dynah"
+  },
+  {
+    "id": 773,
+    "organizationId": 78,
+    "cardTypeId": 85,
+    "parentScoreCardId": 19,
+    "score": 9,
+    "createdBy": "Ag"
+  },
+  {
+    "id": 774,
+    "organizationId": 96,
+    "cardTypeId": 18,
+    "parentScoreCardId": 79,
+    "score": 98,
+    "createdBy": "Selena"
+  },
+  {
+    "id": 775,
+    "organizationId": 12,
+    "cardTypeId": 14,
+    "parentScoreCardId": 20,
+    "score": 19,
+    "createdBy": "Justino"
+  },
+  {
+    "id": 776,
+    "organizationId": 48,
+    "cardTypeId": 51,
+    "parentScoreCardId": 64,
+    "score": 89,
+    "createdBy": "Marcel"
+  },
+  {
+    "id": 777,
+    "organizationId": 13,
+    "cardTypeId": 93,
+    "parentScoreCardId": 51,
+    "score": 95,
+    "createdBy": "Georgeanne"
+  },
+  {
+    "id": 778,
+    "organizationId": 14,
+    "cardTypeId": 3,
+    "parentScoreCardId": 17,
+    "score": 35,
+    "createdBy": "Allix"
+  },
+  {
+    "id": 779,
+    "organizationId": 87,
+    "cardTypeId": 66,
+    "parentScoreCardId": 87,
+    "score": 36,
+    "createdBy": "Jesse"
+  },
+  {
+    "id": 780,
+    "organizationId": 89,
+    "cardTypeId": 59,
+    "parentScoreCardId": 7,
+    "score": 96,
+    "createdBy": "Latia"
+  },
+  {
+    "id": 781,
+    "organizationId": 67,
+    "cardTypeId": 56,
+    "parentScoreCardId": 43,
+    "score": 33,
+    "createdBy": "Lion"
+  },
+  {
+    "id": 782,
+    "organizationId": 23,
+    "cardTypeId": 89,
+    "parentScoreCardId": 72,
+    "score": 18,
+    "createdBy": "Curt"
+  },
+  {
+    "id": 783,
+    "organizationId": 8,
+    "cardTypeId": 46,
+    "parentScoreCardId": 54,
+    "score": 52,
+    "createdBy": "Pattin"
+  },
+  {
+    "id": 784,
+    "organizationId": 64,
+    "cardTypeId": 12,
+    "parentScoreCardId": 84,
+    "score": 43,
+    "createdBy": "Taite"
+  },
+  {
+    "id": 785,
+    "organizationId": 25,
+    "cardTypeId": 81,
+    "parentScoreCardId": 81,
+    "score": 74,
+    "createdBy": "Andriette"
+  },
+  {
+    "id": 786,
+    "organizationId": 9,
+    "cardTypeId": 56,
+    "parentScoreCardId": 36,
+    "score": 55,
+    "createdBy": "Kimberly"
+  },
+  {
+    "id": 787,
+    "organizationId": 42,
+    "cardTypeId": 44,
+    "parentScoreCardId": 50,
+    "score": 27,
+    "createdBy": "Agnola"
+  },
+  {
+    "id": 788,
+    "organizationId": 92,
+    "cardTypeId": 72,
+    "parentScoreCardId": 99,
+    "score": 21,
+    "createdBy": "Freeman"
+  },
+  {
+    "id": 789,
+    "organizationId": 73,
+    "cardTypeId": 52,
+    "parentScoreCardId": 78,
+    "score": 34,
+    "createdBy": "Natassia"
+  },
+  {
+    "id": 790,
+    "organizationId": 5,
+    "cardTypeId": 25,
+    "parentScoreCardId": 25,
+    "score": 95,
+    "createdBy": "Hamlen"
+  },
+  {
+    "id": 791,
+    "organizationId": 83,
+    "cardTypeId": 73,
+    "parentScoreCardId": 21,
+    "score": 39,
+    "createdBy": "Gayleen"
+  },
+  {
+    "id": 792,
+    "organizationId": 31,
+    "cardTypeId": 90,
+    "parentScoreCardId": 14,
+    "score": 61,
+    "createdBy": "Stavros"
+  },
+  {
+    "id": 793,
+    "organizationId": 14,
+    "cardTypeId": 79,
+    "parentScoreCardId": 37,
+    "score": 2,
+    "createdBy": "Carolyn"
+  },
+  {
+    "id": 794,
+    "organizationId": 93,
+    "cardTypeId": 20,
+    "parentScoreCardId": 39,
+    "score": 80,
+    "createdBy": "Udale"
+  },
+  {
+    "id": 795,
+    "organizationId": 3,
+    "cardTypeId": 50,
+    "parentScoreCardId": 63,
+    "score": 36,
+    "createdBy": "Tally"
+  },
+  {
+    "id": 796,
+    "organizationId": 90,
+    "cardTypeId": 61,
+    "parentScoreCardId": 10,
+    "score": 93,
+    "createdBy": "Nora"
+  },
+  {
+    "id": 797,
+    "organizationId": 53,
+    "cardTypeId": 97,
+    "parentScoreCardId": 50,
+    "score": 31,
+    "createdBy": "Estelle"
+  },
+  {
+    "id": 798,
+    "organizationId": 49,
+    "cardTypeId": 80,
+    "parentScoreCardId": 43,
+    "score": 18,
+    "createdBy": "Harman"
+  },
+  {
+    "id": 799,
+    "organizationId": 55,
+    "cardTypeId": 11,
+    "parentScoreCardId": 41,
+    "score": 15,
+    "createdBy": "Cordey"
+  },
+  {
+    "id": 800,
+    "organizationId": 31,
+    "cardTypeId": 95,
+    "parentScoreCardId": 41,
+    "score": 67,
+    "createdBy": "Louisette"
+  },
+  {
+    "id": 801,
+    "organizationId": 18,
+    "cardTypeId": 31,
+    "parentScoreCardId": 90,
+    "score": 21,
+    "createdBy": "Sophie"
+  },
+  {
+    "id": 802,
+    "organizationId": 8,
+    "cardTypeId": 58,
+    "parentScoreCardId": 97,
+    "score": 91,
+    "createdBy": "Birk"
+  },
+  {
+    "id": 803,
+    "organizationId": 71,
+    "cardTypeId": 21,
+    "parentScoreCardId": 21,
+    "score": 80,
+    "createdBy": "Hobey"
+  },
+  {
+    "id": 804,
+    "organizationId": 1,
+    "cardTypeId": 4,
+    "parentScoreCardId": 8,
+    "score": 29,
+    "createdBy": "Fan"
+  },
+  {
+    "id": 805,
+    "organizationId": 83,
+    "cardTypeId": 16,
+    "parentScoreCardId": 20,
+    "score": 6,
+    "createdBy": "Danielle"
+  },
+  {
+    "id": 806,
+    "organizationId": 19,
+    "cardTypeId": 6,
+    "parentScoreCardId": 6,
+    "score": 95,
+    "createdBy": "Kimberlyn"
+  },
+  {
+    "id": 807,
+    "organizationId": 90,
+    "cardTypeId": 42,
+    "parentScoreCardId": 25,
+    "score": 67,
+    "createdBy": "Saxon"
+  },
+  {
+    "id": 808,
+    "organizationId": 32,
+    "cardTypeId": 20,
+    "parentScoreCardId": 92,
+    "score": 33,
+    "createdBy": "Garvin"
+  },
+  {
+    "id": 809,
+    "organizationId": 43,
+    "cardTypeId": 78,
+    "parentScoreCardId": 46,
+    "score": 67,
+    "createdBy": "Randa"
+  },
+  {
+    "id": 810,
+    "organizationId": 70,
+    "cardTypeId": 83,
+    "parentScoreCardId": 25,
+    "score": 36,
+    "createdBy": "Willie"
+  },
+  {
+    "id": 811,
+    "organizationId": 81,
+    "cardTypeId": 69,
+    "parentScoreCardId": 54,
+    "score": 23,
+    "createdBy": "Man"
+  },
+  {
+    "id": 812,
+    "organizationId": 13,
+    "cardTypeId": 31,
+    "parentScoreCardId": 75,
+    "score": 22,
+    "createdBy": "Fabe"
+  },
+  {
+    "id": 813,
+    "organizationId": 2,
+    "cardTypeId": 70,
+    "parentScoreCardId": 85,
+    "score": 43,
+    "createdBy": "Andris"
+  },
+  {
+    "id": 814,
+    "organizationId": 91,
+    "cardTypeId": 26,
+    "parentScoreCardId": 93,
+    "score": 19,
+    "createdBy": "Teressa"
+  },
+  {
+    "id": 815,
+    "organizationId": 2,
+    "cardTypeId": 84,
+    "parentScoreCardId": 13,
+    "score": 39,
+    "createdBy": "Merry"
+  },
+  {
+    "id": 816,
+    "organizationId": 96,
+    "cardTypeId": 55,
+    "parentScoreCardId": 90,
+    "score": 81,
+    "createdBy": "Ivette"
+  },
+  {
+    "id": 817,
+    "organizationId": 9,
+    "cardTypeId": 83,
+    "parentScoreCardId": 97,
+    "score": 12,
+    "createdBy": "Damon"
+  },
+  {
+    "id": 818,
+    "organizationId": 23,
+    "cardTypeId": 26,
+    "parentScoreCardId": 35,
+    "score": 63,
+    "createdBy": "Ellwood"
+  },
+  {
+    "id": 819,
+    "organizationId": 28,
+    "cardTypeId": 33,
+    "parentScoreCardId": 31,
+    "score": 58,
+    "createdBy": "Jemmie"
+  },
+  {
+    "id": 820,
+    "organizationId": 50,
+    "cardTypeId": 84,
+    "parentScoreCardId": 80,
+    "score": 53,
+    "createdBy": "Raffaello"
+  },
+  {
+    "id": 821,
+    "organizationId": 51,
+    "cardTypeId": 4,
+    "parentScoreCardId": 58,
+    "score": 28,
+    "createdBy": "Calida"
+  },
+  {
+    "id": 822,
+    "organizationId": 15,
+    "cardTypeId": 92,
+    "parentScoreCardId": 94,
+    "score": 69,
+    "createdBy": "Garwin"
+  },
+  {
+    "id": 823,
+    "organizationId": 97,
+    "cardTypeId": 53,
+    "parentScoreCardId": 10,
+    "score": 34,
+    "createdBy": "Lilias"
+  },
+  {
+    "id": 824,
+    "organizationId": 72,
+    "cardTypeId": 36,
+    "parentScoreCardId": 50,
+    "score": 43,
+    "createdBy": "Peta"
+  },
+  {
+    "id": 825,
+    "organizationId": 21,
+    "cardTypeId": 26,
+    "parentScoreCardId": 58,
+    "score": 95,
+    "createdBy": "Jonathon"
+  },
+  {
+    "id": 826,
+    "organizationId": 96,
+    "cardTypeId": 53,
+    "parentScoreCardId": 24,
+    "score": 38,
+    "createdBy": "Ralina"
+  },
+  {
+    "id": 827,
+    "organizationId": 34,
+    "cardTypeId": 89,
+    "parentScoreCardId": 14,
+    "score": 62,
+    "createdBy": "Nessi"
+  },
+  {
+    "id": 828,
+    "organizationId": 36,
+    "cardTypeId": 98,
+    "parentScoreCardId": 14,
+    "score": 59,
+    "createdBy": "Mayer"
+  },
+  {
+    "id": 829,
+    "organizationId": 94,
+    "cardTypeId": 77,
+    "parentScoreCardId": 9,
+    "score": 96,
+    "createdBy": "Costanza"
+  },
+  {
+    "id": 830,
+    "organizationId": 14,
+    "cardTypeId": 19,
+    "parentScoreCardId": 56,
+    "score": 61,
+    "createdBy": "Keenan"
+  },
+  {
+    "id": 831,
+    "organizationId": 27,
+    "cardTypeId": 96,
+    "parentScoreCardId": 10,
+    "score": 75,
+    "createdBy": "Conney"
+  },
+  {
+    "id": 832,
+    "organizationId": 28,
+    "cardTypeId": 9,
+    "parentScoreCardId": 16,
+    "score": 40,
+    "createdBy": "Kare"
+  },
+  {
+    "id": 833,
+    "organizationId": 72,
+    "cardTypeId": 87,
+    "parentScoreCardId": 5,
+    "score": 53,
+    "createdBy": "Rita"
+  },
+  {
+    "id": 834,
+    "organizationId": 54,
+    "cardTypeId": 23,
+    "parentScoreCardId": 21,
+    "score": 97,
+    "createdBy": "Otho"
+  },
+  {
+    "id": 835,
+    "organizationId": 55,
+    "cardTypeId": 100,
+    "parentScoreCardId": 60,
+    "score": 34,
+    "createdBy": "Lyndsay"
+  },
+  {
+    "id": 836,
+    "organizationId": 8,
+    "cardTypeId": 33,
+    "parentScoreCardId": 92,
+    "score": 86,
+    "createdBy": "Loy"
+  },
+  {
+    "id": 837,
+    "organizationId": 5,
+    "cardTypeId": 60,
+    "parentScoreCardId": 53,
+    "score": 42,
+    "createdBy": "Alistair"
+  },
+  {
+    "id": 838,
+    "organizationId": 64,
+    "cardTypeId": 44,
+    "parentScoreCardId": 44,
+    "score": 29,
+    "createdBy": "Bailey"
+  },
+  {
+    "id": 839,
+    "organizationId": 79,
+    "cardTypeId": 30,
+    "parentScoreCardId": 60,
+    "score": 51,
+    "createdBy": "Alexio"
+  },
+  {
+    "id": 840,
+    "organizationId": 41,
+    "cardTypeId": 89,
+    "parentScoreCardId": 64,
+    "score": 91,
+    "createdBy": "Myles"
+  },
+  {
+    "id": 841,
+    "organizationId": 67,
+    "cardTypeId": 71,
+    "parentScoreCardId": 79,
+    "score": 93,
+    "createdBy": "Mirilla"
+  },
+  {
+    "id": 842,
+    "organizationId": 87,
+    "cardTypeId": 49,
+    "parentScoreCardId": 95,
+    "score": 69,
+    "createdBy": "Carolus"
+  },
+  {
+    "id": 843,
+    "organizationId": 49,
+    "cardTypeId": 96,
+    "parentScoreCardId": 8,
+    "score": 16,
+    "createdBy": "Si"
+  },
+  {
+    "id": 844,
+    "organizationId": 18,
+    "cardTypeId": 52,
+    "parentScoreCardId": 2,
+    "score": 54,
+    "createdBy": "Borg"
+  },
+  {
+    "id": 845,
+    "organizationId": 99,
+    "cardTypeId": 26,
+    "parentScoreCardId": 33,
+    "score": 91,
+    "createdBy": "Tybi"
+  },
+  {
+    "id": 846,
+    "organizationId": 87,
+    "cardTypeId": 58,
+    "parentScoreCardId": 99,
+    "score": 24,
+    "createdBy": "Zeke"
+  },
+  {
+    "id": 847,
+    "organizationId": 79,
+    "cardTypeId": 58,
+    "parentScoreCardId": 21,
+    "score": 46,
+    "createdBy": "Vin"
+  },
+  {
+    "id": 848,
+    "organizationId": 38,
+    "cardTypeId": 65,
+    "parentScoreCardId": 13,
+    "score": 10,
+    "createdBy": "Dorey"
+  },
+  {
+    "id": 849,
+    "organizationId": 85,
+    "cardTypeId": 88,
+    "parentScoreCardId": 51,
+    "score": 76,
+    "createdBy": "Charmane"
+  },
+  {
+    "id": 850,
+    "organizationId": 87,
+    "cardTypeId": 51,
+    "parentScoreCardId": 74,
+    "score": 92,
+    "createdBy": "Noah"
+  },
+  {
+    "id": 851,
+    "organizationId": 39,
+    "cardTypeId": 93,
+    "parentScoreCardId": 84,
+    "score": 37,
+    "createdBy": "Benyamin"
+  },
+  {
+    "id": 852,
+    "organizationId": 41,
+    "cardTypeId": 85,
+    "parentScoreCardId": 18,
+    "score": 31,
+    "createdBy": "Debbie"
+  },
+  {
+    "id": 853,
+    "organizationId": 86,
+    "cardTypeId": 95,
+    "parentScoreCardId": 78,
+    "score": 43,
+    "createdBy": "Joel"
+  },
+  {
+    "id": 854,
+    "organizationId": 81,
+    "cardTypeId": 89,
+    "parentScoreCardId": 79,
+    "score": 90,
+    "createdBy": "Montague"
+  },
+  {
+    "id": 855,
+    "organizationId": 5,
+    "cardTypeId": 15,
+    "parentScoreCardId": 79,
+    "score": 15,
+    "createdBy": "Flss"
+  },
+  {
+    "id": 856,
+    "organizationId": 23,
+    "cardTypeId": 91,
+    "parentScoreCardId": 24,
+    "score": 73,
+    "createdBy": "Marja"
+  },
+  {
+    "id": 857,
+    "organizationId": 88,
+    "cardTypeId": 78,
+    "parentScoreCardId": 72,
+    "score": 21,
+    "createdBy": "Meryl"
+  },
+  {
+    "id": 858,
+    "organizationId": 52,
+    "cardTypeId": 69,
+    "parentScoreCardId": 4,
+    "score": 76,
+    "createdBy": "Eddy"
+  },
+  {
+    "id": 859,
+    "organizationId": 21,
+    "cardTypeId": 55,
+    "parentScoreCardId": 12,
+    "score": 79,
+    "createdBy": "June"
+  },
+  {
+    "id": 860,
+    "organizationId": 29,
+    "cardTypeId": 95,
+    "parentScoreCardId": 64,
+    "score": 69,
+    "createdBy": "Aldin"
+  },
+  {
+    "id": 861,
+    "organizationId": 1,
+    "cardTypeId": 14,
+    "parentScoreCardId": 88,
+    "score": 33,
+    "createdBy": "Waldon"
+  },
+  {
+    "id": 862,
+    "organizationId": 25,
+    "cardTypeId": 76,
+    "parentScoreCardId": 40,
+    "score": 65,
+    "createdBy": "Andriana"
+  },
+  {
+    "id": 863,
+    "organizationId": 10,
+    "cardTypeId": 9,
+    "parentScoreCardId": 33,
+    "score": 10,
+    "createdBy": "Basilius"
+  },
+  {
+    "id": 864,
+    "organizationId": 85,
+    "cardTypeId": 41,
+    "parentScoreCardId": 33,
+    "score": 76,
+    "createdBy": "Teri"
+  },
+  {
+    "id": 865,
+    "organizationId": 1,
+    "cardTypeId": 45,
+    "parentScoreCardId": 5,
+    "score": 79,
+    "createdBy": "Mandi"
+  },
+  {
+    "id": 866,
+    "organizationId": 31,
+    "cardTypeId": 80,
+    "parentScoreCardId": 30,
+    "score": 31,
+    "createdBy": "Marisa"
+  },
+  {
+    "id": 867,
+    "organizationId": 85,
+    "cardTypeId": 83,
+    "parentScoreCardId": 48,
+    "score": 73,
+    "createdBy": "Addia"
+  },
+  {
+    "id": 868,
+    "organizationId": 46,
+    "cardTypeId": 1,
+    "parentScoreCardId": 24,
+    "score": 44,
+    "createdBy": "Mariann"
+  },
+  {
+    "id": 869,
+    "organizationId": 65,
+    "cardTypeId": 9,
+    "parentScoreCardId": 21,
+    "score": 77,
+    "createdBy": "Benito"
+  },
+  {
+    "id": 870,
+    "organizationId": 35,
+    "cardTypeId": 21,
+    "parentScoreCardId": 15,
+    "score": 62,
+    "createdBy": "Eimile"
+  },
+  {
+    "id": 871,
+    "organizationId": 16,
+    "cardTypeId": 44,
+    "parentScoreCardId": 58,
+    "score": 94,
+    "createdBy": "Margaret"
+  },
+  {
+    "id": 872,
+    "organizationId": 23,
+    "cardTypeId": 84,
+    "parentScoreCardId": 87,
+    "score": 21,
+    "createdBy": "Maribel"
+  },
+  {
+    "id": 873,
+    "organizationId": 75,
+    "cardTypeId": 37,
+    "parentScoreCardId": 36,
+    "score": 93,
+    "createdBy": "Danyelle"
+  },
+  {
+    "id": 874,
+    "organizationId": 95,
+    "cardTypeId": 58,
+    "parentScoreCardId": 42,
+    "score": 79,
+    "createdBy": "Izak"
+  },
+  {
+    "id": 875,
+    "organizationId": 84,
+    "cardTypeId": 61,
+    "parentScoreCardId": 60,
+    "score": 44,
+    "createdBy": "Laina"
+  },
+  {
+    "id": 876,
+    "organizationId": 57,
+    "cardTypeId": 45,
+    "parentScoreCardId": 54,
+    "score": 61,
+    "createdBy": "Shauna"
+  },
+  {
+    "id": 877,
+    "organizationId": 27,
+    "cardTypeId": 34,
+    "parentScoreCardId": 16,
+    "score": 36,
+    "createdBy": "Modestia"
+  },
+  {
+    "id": 878,
+    "organizationId": 51,
+    "cardTypeId": 82,
+    "parentScoreCardId": 43,
+    "score": 80,
+    "createdBy": "Timofei"
+  },
+  {
+    "id": 879,
+    "organizationId": 95,
+    "cardTypeId": 71,
+    "parentScoreCardId": 32,
+    "score": 56,
+    "createdBy": "Fania"
+  },
+  {
+    "id": 880,
+    "organizationId": 93,
+    "cardTypeId": 84,
+    "parentScoreCardId": 70,
+    "score": 94,
+    "createdBy": "Giavani"
+  },
+  {
+    "id": 881,
+    "organizationId": 60,
+    "cardTypeId": 89,
+    "parentScoreCardId": 92,
+    "score": 100,
+    "createdBy": "Caron"
+  },
+  {
+    "id": 882,
+    "organizationId": 2,
+    "cardTypeId": 48,
+    "parentScoreCardId": 48,
+    "score": 48,
+    "createdBy": "Kit"
+  },
+  {
+    "id": 883,
+    "organizationId": 18,
+    "cardTypeId": 18,
+    "parentScoreCardId": 46,
+    "score": 65,
+    "createdBy": "Ardella"
+  },
+  {
+    "id": 884,
+    "organizationId": 74,
+    "cardTypeId": 7,
+    "parentScoreCardId": 20,
+    "score": 82,
+    "createdBy": "Zachariah"
+  },
+  {
+    "id": 885,
+    "organizationId": 52,
+    "cardTypeId": 22,
+    "parentScoreCardId": 64,
+    "score": 75,
+    "createdBy": "Mercy"
+  },
+  {
+    "id": 886,
+    "organizationId": 56,
+    "cardTypeId": 90,
+    "parentScoreCardId": 17,
+    "score": 40,
+    "createdBy": "Christie"
+  },
+  {
+    "id": 887,
+    "organizationId": 68,
+    "cardTypeId": 65,
+    "parentScoreCardId": 42,
+    "score": 39,
+    "createdBy": "Cacilie"
+  },
+  {
+    "id": 888,
+    "organizationId": 30,
+    "cardTypeId": 14,
+    "parentScoreCardId": 100,
+    "score": 62,
+    "createdBy": "Derby"
+  },
+  {
+    "id": 889,
+    "organizationId": 4,
+    "cardTypeId": 4,
+    "parentScoreCardId": 25,
+    "score": 27,
+    "createdBy": "Margarethe"
+  },
+  {
+    "id": 890,
+    "organizationId": 52,
+    "cardTypeId": 76,
+    "parentScoreCardId": 83,
+    "score": 64,
+    "createdBy": "Valerye"
+  },
+  {
+    "id": 891,
+    "organizationId": 1,
+    "cardTypeId": 1,
+    "parentScoreCardId": 14,
+    "score": 10,
+    "createdBy": "Tommi"
+  },
+  {
+    "id": 892,
+    "organizationId": 35,
+    "cardTypeId": 62,
+    "parentScoreCardId": 65,
+    "score": 96,
+    "createdBy": "Bird"
+  },
+  {
+    "id": 893,
+    "organizationId": 27,
+    "cardTypeId": 78,
+    "parentScoreCardId": 96,
+    "score": 10,
+    "createdBy": "Jessa"
+  },
+  {
+    "id": 894,
+    "organizationId": 31,
+    "cardTypeId": 85,
+    "parentScoreCardId": 86,
+    "score": 98,
+    "createdBy": "Itch"
+  },
+  {
+    "id": 895,
+    "organizationId": 73,
+    "cardTypeId": 59,
+    "parentScoreCardId": 77,
+    "score": 92,
+    "createdBy": "Cody"
+  },
+  {
+    "id": 896,
+    "organizationId": 62,
+    "cardTypeId": 84,
+    "parentScoreCardId": 34,
+    "score": 52,
+    "createdBy": "Hugibert"
+  },
+  {
+    "id": 897,
+    "organizationId": 92,
+    "cardTypeId": 49,
+    "parentScoreCardId": 12,
+    "score": 14,
+    "createdBy": "Lilyan"
+  },
+  {
+    "id": 898,
+    "organizationId": 40,
+    "cardTypeId": 91,
+    "parentScoreCardId": 10,
+    "score": 3,
+    "createdBy": "Kare"
+  },
+  {
+    "id": 899,
+    "organizationId": 79,
+    "cardTypeId": 83,
+    "parentScoreCardId": 54,
+    "score": 4,
+    "createdBy": "Arte"
+  },
+  {
+    "id": 900,
+    "organizationId": 33,
+    "cardTypeId": 81,
+    "parentScoreCardId": 54,
+    "score": 54,
+    "createdBy": "Shara"
+  },
+  {
+    "id": 901,
+    "organizationId": 21,
+    "cardTypeId": 77,
+    "parentScoreCardId": 35,
+    "score": 5,
+    "createdBy": "Cathee"
+  },
+  {
+    "id": 902,
+    "organizationId": 71,
+    "cardTypeId": 74,
+    "parentScoreCardId": 21,
+    "score": 90,
+    "createdBy": "Cash"
+  },
+  {
+    "id": 903,
+    "organizationId": 55,
+    "cardTypeId": 6,
+    "parentScoreCardId": 97,
+    "score": 65,
+    "createdBy": "Mamie"
+  },
+  {
+    "id": 904,
+    "organizationId": 20,
+    "cardTypeId": 35,
+    "parentScoreCardId": 71,
+    "score": 27,
+    "createdBy": "Ami"
+  },
+  {
+    "id": 905,
+    "organizationId": 38,
+    "cardTypeId": 41,
+    "parentScoreCardId": 13,
+    "score": 93,
+    "createdBy": "Fields"
+  },
+  {
+    "id": 906,
+    "organizationId": 36,
+    "cardTypeId": 51,
+    "parentScoreCardId": 88,
+    "score": 22,
+    "createdBy": "Odella"
+  },
+  {
+    "id": 907,
+    "organizationId": 65,
+    "cardTypeId": 71,
+    "parentScoreCardId": 25,
+    "score": 3,
+    "createdBy": "Eveline"
+  },
+  {
+    "id": 908,
+    "organizationId": 70,
+    "cardTypeId": 99,
+    "parentScoreCardId": 3,
+    "score": 66,
+    "createdBy": "Harrison"
+  },
+  {
+    "id": 909,
+    "organizationId": 21,
+    "cardTypeId": 96,
+    "parentScoreCardId": 49,
+    "score": 55,
+    "createdBy": "Tybie"
+  },
+  {
+    "id": 910,
+    "organizationId": 28,
+    "cardTypeId": 41,
+    "parentScoreCardId": 55,
+    "score": 2,
+    "createdBy": "Nate"
+  },
+  {
+    "id": 911,
+    "organizationId": 7,
+    "cardTypeId": 56,
+    "parentScoreCardId": 39,
+    "score": 77,
+    "createdBy": "Tricia"
+  },
+  {
+    "id": 912,
+    "organizationId": 62,
+    "cardTypeId": 20,
+    "parentScoreCardId": 29,
+    "score": 2,
+    "createdBy": "Isidor"
+  },
+  {
+    "id": 913,
+    "organizationId": 97,
+    "cardTypeId": 46,
+    "parentScoreCardId": 22,
+    "score": 49,
+    "createdBy": "Danya"
+  },
+  {
+    "id": 914,
+    "organizationId": 32,
+    "cardTypeId": 67,
+    "parentScoreCardId": 77,
+    "score": 55,
+    "createdBy": "Lannie"
+  },
+  {
+    "id": 915,
+    "organizationId": 3,
+    "cardTypeId": 70,
+    "parentScoreCardId": 94,
+    "score": 11,
+    "createdBy": "Blane"
+  },
+  {
+    "id": 916,
+    "organizationId": 88,
+    "cardTypeId": 55,
+    "parentScoreCardId": 33,
+    "score": 61,
+    "createdBy": "Ephrem"
+  },
+  {
+    "id": 917,
+    "organizationId": 71,
+    "cardTypeId": 17,
+    "parentScoreCardId": 75,
+    "score": 1,
+    "createdBy": "Ryun"
+  },
+  {
+    "id": 918,
+    "organizationId": 24,
+    "cardTypeId": 82,
+    "parentScoreCardId": 86,
+    "score": 25,
+    "createdBy": "Tova"
+  },
+  {
+    "id": 919,
+    "organizationId": 52,
+    "cardTypeId": 93,
+    "parentScoreCardId": 10,
+    "score": 43,
+    "createdBy": "Kendal"
+  },
+  {
+    "id": 920,
+    "organizationId": 61,
+    "cardTypeId": 46,
+    "parentScoreCardId": 36,
+    "score": 30,
+    "createdBy": "Aldwin"
+  },
+  {
+    "id": 921,
+    "organizationId": 81,
+    "cardTypeId": 71,
+    "parentScoreCardId": 17,
+    "score": 78,
+    "createdBy": "Bertie"
+  },
+  {
+    "id": 922,
+    "organizationId": 49,
+    "cardTypeId": 5,
+    "parentScoreCardId": 70,
+    "score": 54,
+    "createdBy": "Leighton"
+  },
+  {
+    "id": 923,
+    "organizationId": 20,
+    "cardTypeId": 65,
+    "parentScoreCardId": 6,
+    "score": 24,
+    "createdBy": "Mattie"
+  },
+  {
+    "id": 924,
+    "organizationId": 45,
+    "cardTypeId": 21,
+    "parentScoreCardId": 79,
+    "score": 31,
+    "createdBy": "Aprilette"
+  },
+  {
+    "id": 925,
+    "organizationId": 12,
+    "cardTypeId": 52,
+    "parentScoreCardId": 100,
+    "score": 82,
+    "createdBy": "Kyrstin"
+  },
+  {
+    "id": 926,
+    "organizationId": 8,
+    "cardTypeId": 10,
+    "parentScoreCardId": 71,
+    "score": 42,
+    "createdBy": "Frans"
+  },
+  {
+    "id": 927,
+    "organizationId": 41,
+    "cardTypeId": 57,
+    "parentScoreCardId": 72,
+    "score": 66,
+    "createdBy": "Sawyer"
+  },
+  {
+    "id": 928,
+    "organizationId": 23,
+    "cardTypeId": 7,
+    "parentScoreCardId": 82,
+    "score": 67,
+    "createdBy": "Cordi"
+  },
+  {
+    "id": 929,
+    "organizationId": 54,
+    "cardTypeId": 43,
+    "parentScoreCardId": 90,
+    "score": 27,
+    "createdBy": "Briney"
+  },
+  {
+    "id": 930,
+    "organizationId": 65,
+    "cardTypeId": 2,
+    "parentScoreCardId": 95,
+    "score": 18,
+    "createdBy": "Ingrid"
+  },
+  {
+    "id": 931,
+    "organizationId": 19,
+    "cardTypeId": 21,
+    "parentScoreCardId": 26,
+    "score": 47,
+    "createdBy": "Kyla"
+  },
+  {
+    "id": 932,
+    "organizationId": 21,
+    "cardTypeId": 37,
+    "parentScoreCardId": 60,
+    "score": 90,
+    "createdBy": "Moses"
+  },
+  {
+    "id": 933,
+    "organizationId": 27,
+    "cardTypeId": 91,
+    "parentScoreCardId": 33,
+    "score": 15,
+    "createdBy": "Janenna"
+  },
+  {
+    "id": 934,
+    "organizationId": 39,
+    "cardTypeId": 95,
+    "parentScoreCardId": 56,
+    "score": 21,
+    "createdBy": "Glynda"
+  },
+  {
+    "id": 935,
+    "organizationId": 45,
+    "cardTypeId": 22,
+    "parentScoreCardId": 77,
+    "score": 1,
+    "createdBy": "Buddie"
+  },
+  {
+    "id": 936,
+    "organizationId": 53,
+    "cardTypeId": 50,
+    "parentScoreCardId": 68,
+    "score": 37,
+    "createdBy": "Onfre"
+  },
+  {
+    "id": 937,
+    "organizationId": 83,
+    "cardTypeId": 47,
+    "parentScoreCardId": 15,
+    "score": 19,
+    "createdBy": "Adelaide"
+  },
+  {
+    "id": 938,
+    "organizationId": 49,
+    "cardTypeId": 66,
+    "parentScoreCardId": 50,
+    "score": 65,
+    "createdBy": "Jessi"
+  },
+  {
+    "id": 939,
+    "organizationId": 85,
+    "cardTypeId": 77,
+    "parentScoreCardId": 96,
+    "score": 42,
+    "createdBy": "Sterne"
+  },
+  {
+    "id": 940,
+    "organizationId": 75,
+    "cardTypeId": 1,
+    "parentScoreCardId": 70,
+    "score": 46,
+    "createdBy": "Yasmin"
+  },
+  {
+    "id": 941,
+    "organizationId": 56,
+    "cardTypeId": 53,
+    "parentScoreCardId": 62,
+    "score": 32,
+    "createdBy": "Alphonse"
+  },
+  {
+    "id": 942,
+    "organizationId": 91,
+    "cardTypeId": 78,
+    "parentScoreCardId": 56,
+    "score": 84,
+    "createdBy": "Carole"
+  },
+  {
+    "id": 943,
+    "organizationId": 15,
+    "cardTypeId": 36,
+    "parentScoreCardId": 30,
+    "score": 52,
+    "createdBy": "Berri"
+  },
+  {
+    "id": 944,
+    "organizationId": 65,
+    "cardTypeId": 23,
+    "parentScoreCardId": 8,
+    "score": 33,
+    "createdBy": "Jessika"
+  },
+  {
+    "id": 945,
+    "organizationId": 50,
+    "cardTypeId": 30,
+    "parentScoreCardId": 60,
+    "score": 27,
+    "createdBy": "Pate"
+  },
+  {
+    "id": 946,
+    "organizationId": 34,
+    "cardTypeId": 97,
+    "parentScoreCardId": 59,
+    "score": 65,
+    "createdBy": "Nevsa"
+  },
+  {
+    "id": 947,
+    "organizationId": 55,
+    "cardTypeId": 79,
+    "parentScoreCardId": 22,
+    "score": 63,
+    "createdBy": "Shel"
+  },
+  {
+    "id": 948,
+    "organizationId": 92,
+    "cardTypeId": 37,
+    "parentScoreCardId": 98,
+    "score": 76,
+    "createdBy": "Patrizio"
+  },
+  {
+    "id": 949,
+    "organizationId": 94,
+    "cardTypeId": 50,
+    "parentScoreCardId": 86,
+    "score": 37,
+    "createdBy": "Coralie"
+  },
+  {
+    "id": 950,
+    "organizationId": 98,
+    "cardTypeId": 72,
+    "parentScoreCardId": 61,
+    "score": 84,
+    "createdBy": "Lowrance"
+  },
+  {
+    "id": 951,
+    "organizationId": 60,
+    "cardTypeId": 85,
+    "parentScoreCardId": 26,
+    "score": 20,
+    "createdBy": "Alan"
+  },
+  {
+    "id": 952,
+    "organizationId": 24,
+    "cardTypeId": 91,
+    "parentScoreCardId": 71,
+    "score": 10,
+    "createdBy": "Bea"
+  },
+  {
+    "id": 953,
+    "organizationId": 51,
+    "cardTypeId": 27,
+    "parentScoreCardId": 68,
+    "score": 50,
+    "createdBy": "Nat"
+  },
+  {
+    "id": 954,
+    "organizationId": 86,
+    "cardTypeId": 89,
+    "parentScoreCardId": 2,
+    "score": 25,
+    "createdBy": "Sabra"
+  },
+  {
+    "id": 955,
+    "organizationId": 20,
+    "cardTypeId": 92,
+    "parentScoreCardId": 85,
+    "score": 10,
+    "createdBy": "Sissy"
+  },
+  {
+    "id": 956,
+    "organizationId": 43,
+    "cardTypeId": 32,
+    "parentScoreCardId": 52,
+    "score": 1,
+    "createdBy": "Ingrid"
+  },
+  {
+    "id": 957,
+    "organizationId": 78,
+    "cardTypeId": 71,
+    "parentScoreCardId": 99,
+    "score": 47,
+    "createdBy": "Valene"
+  },
+  {
+    "id": 958,
+    "organizationId": 64,
+    "cardTypeId": 23,
+    "parentScoreCardId": 45,
+    "score": 10,
+    "createdBy": "Etti"
+  },
+  {
+    "id": 959,
+    "organizationId": 20,
+    "cardTypeId": 20,
+    "parentScoreCardId": 66,
+    "score": 77,
+    "createdBy": "Janina"
+  },
+  {
+    "id": 960,
+    "organizationId": 31,
+    "cardTypeId": 45,
+    "parentScoreCardId": 37,
+    "score": 2,
+    "createdBy": "Bertine"
+  },
+  {
+    "id": 961,
+    "organizationId": 63,
+    "cardTypeId": 25,
+    "parentScoreCardId": 100,
+    "score": 63,
+    "createdBy": "Kassey"
+  },
+  {
+    "id": 962,
+    "organizationId": 43,
+    "cardTypeId": 46,
+    "parentScoreCardId": 46,
+    "score": 88,
+    "createdBy": "Ado"
+  },
+  {
+    "id": 963,
+    "organizationId": 29,
+    "cardTypeId": 67,
+    "parentScoreCardId": 96,
+    "score": 69,
+    "createdBy": "Cally"
+  },
+  {
+    "id": 964,
+    "organizationId": 100,
+    "cardTypeId": 30,
+    "parentScoreCardId": 70,
+    "score": 90,
+    "createdBy": "Zahara"
+  },
+  {
+    "id": 965,
+    "organizationId": 60,
+    "cardTypeId": 66,
+    "parentScoreCardId": 57,
+    "score": 43,
+    "createdBy": "Philip"
+  },
+  {
+    "id": 966,
+    "organizationId": 28,
+    "cardTypeId": 7,
+    "parentScoreCardId": 23,
+    "score": 51,
+    "createdBy": "Gibb"
+  },
+  {
+    "id": 967,
+    "organizationId": 79,
+    "cardTypeId": 87,
+    "parentScoreCardId": 7,
+    "score": 55,
+    "createdBy": "Danny"
+  },
+  {
+    "id": 968,
+    "organizationId": 38,
+    "cardTypeId": 51,
+    "parentScoreCardId": 91,
+    "score": 28,
+    "createdBy": "Artie"
+  },
+  {
+    "id": 969,
+    "organizationId": 6,
+    "cardTypeId": 87,
+    "parentScoreCardId": 77,
+    "score": 26,
+    "createdBy": "Leilah"
+  },
+  {
+    "id": 970,
+    "organizationId": 67,
+    "cardTypeId": 55,
+    "parentScoreCardId": 86,
+    "score": 87,
+    "createdBy": "Nat"
+  },
+  {
+    "id": 971,
+    "organizationId": 7,
+    "cardTypeId": 51,
+    "parentScoreCardId": 42,
+    "score": 37,
+    "createdBy": "Mile"
+  },
+  {
+    "id": 972,
+    "organizationId": 41,
+    "cardTypeId": 28,
+    "parentScoreCardId": 32,
+    "score": 72,
+    "createdBy": "Constantia"
+  },
+  {
+    "id": 973,
+    "organizationId": 27,
+    "cardTypeId": 65,
+    "parentScoreCardId": 13,
+    "score": 4,
+    "createdBy": "Duffy"
+  },
+  {
+    "id": 974,
+    "organizationId": 53,
+    "cardTypeId": 46,
+    "parentScoreCardId": 93,
+    "score": 86,
+    "createdBy": "Louisette"
+  },
+  {
+    "id": 975,
+    "organizationId": 17,
+    "cardTypeId": 8,
+    "parentScoreCardId": 81,
+    "score": 88,
+    "createdBy": "Minette"
+  },
+  {
+    "id": 976,
+    "organizationId": 43,
+    "cardTypeId": 97,
+    "parentScoreCardId": 45,
+    "score": 6,
+    "createdBy": "Roy"
+  },
+  {
+    "id": 977,
+    "organizationId": 6,
+    "cardTypeId": 86,
+    "parentScoreCardId": 95,
+    "score": 50,
+    "createdBy": "Illa"
+  },
+  {
+    "id": 978,
+    "organizationId": 32,
+    "cardTypeId": 35,
+    "parentScoreCardId": 35,
+    "score": 68,
+    "createdBy": "Dorice"
+  },
+  {
+    "id": 979,
+    "organizationId": 68,
+    "cardTypeId": 60,
+    "parentScoreCardId": 50,
+    "score": 81,
+    "createdBy": "Allyson"
+  },
+  {
+    "id": 980,
+    "organizationId": 49,
+    "cardTypeId": 64,
+    "parentScoreCardId": 99,
+    "score": 60,
+    "createdBy": "Cinda"
+  },
+  {
+    "id": 981,
+    "organizationId": 16,
+    "cardTypeId": 67,
+    "parentScoreCardId": 10,
+    "score": 90,
+    "createdBy": "Harbert"
+  },
+  {
+    "id": 982,
+    "organizationId": 60,
+    "cardTypeId": 93,
+    "parentScoreCardId": 53,
+    "score": 7,
+    "createdBy": "Angus"
+  },
+  {
+    "id": 983,
+    "organizationId": 33,
+    "cardTypeId": 28,
+    "parentScoreCardId": 67,
+    "score": 22,
+    "createdBy": "Corabel"
+  },
+  {
+    "id": 984,
+    "organizationId": 49,
+    "cardTypeId": 98,
+    "parentScoreCardId": 59,
+    "score": 85,
+    "createdBy": "Burk"
+  },
+  {
+    "id": 985,
+    "organizationId": 100,
+    "cardTypeId": 56,
+    "parentScoreCardId": 13,
+    "score": 27,
+    "createdBy": "Jehanna"
+  },
+  {
+    "id": 986,
+    "organizationId": 40,
+    "cardTypeId": 68,
+    "parentScoreCardId": 4,
+    "score": 37,
+    "createdBy": "Natka"
+  },
+  {
+    "id": 987,
+    "organizationId": 20,
+    "cardTypeId": 63,
+    "parentScoreCardId": 47,
+    "score": 34,
+    "createdBy": "Alyss"
+  },
+  {
+    "id": 988,
+    "organizationId": 82,
+    "cardTypeId": 46,
+    "parentScoreCardId": 33,
+    "score": 69,
+    "createdBy": "Bibi"
+  },
+  {
+    "id": 989,
+    "organizationId": 26,
+    "cardTypeId": 86,
+    "parentScoreCardId": 65,
+    "score": 49,
+    "createdBy": "Oralie"
+  },
+  {
+    "id": 990,
+    "organizationId": 24,
+    "cardTypeId": 2,
+    "parentScoreCardId": 31,
+    "score": 75,
+    "createdBy": "Alvie"
+  },
+  {
+    "id": 991,
+    "organizationId": 39,
+    "cardTypeId": 40,
+    "parentScoreCardId": 96,
+    "score": 78,
+    "createdBy": "Cassi"
+  },
+  {
+    "id": 992,
+    "organizationId": 11,
+    "cardTypeId": 92,
+    "parentScoreCardId": 35,
+    "score": 88,
+    "createdBy": "Andrey"
+  },
+  {
+    "id": 993,
+    "organizationId": 17,
+    "cardTypeId": 66,
+    "parentScoreCardId": 87,
+    "score": 64,
+    "createdBy": "Lyndsie"
+  },
+  {
+    "id": 994,
+    "organizationId": 29,
+    "cardTypeId": 5,
+    "parentScoreCardId": 2,
+    "score": 8,
+    "createdBy": "Adolf"
+  },
+  {
+    "id": 995,
+    "organizationId": 76,
+    "cardTypeId": 71,
+    "parentScoreCardId": 33,
+    "score": 29,
+    "createdBy": "Josiah"
+  },
+  {
+    "id": 996,
+    "organizationId": 21,
+    "cardTypeId": 37,
+    "parentScoreCardId": 47,
+    "score": 93,
+    "createdBy": "Salvidor"
+  },
+  {
+    "id": 997,
+    "organizationId": 35,
+    "cardTypeId": 10,
+    "parentScoreCardId": 2,
+    "score": 20,
+    "createdBy": "Donella"
+  },
+  {
+    "id": 998,
+    "organizationId": 98,
+    "cardTypeId": 22,
+    "parentScoreCardId": 82,
+    "score": 64,
+    "createdBy": "Aldric"
+  },
+  {
+    "id": 999,
+    "organizationId": 21,
+    "cardTypeId": 97,
+    "parentScoreCardId": 9,
+    "score": 27,
+    "createdBy": "Alair"
+  },
+  {
+    "id": 1000,
+    "organizationId": 58,
+    "cardTypeId": 42,
+    "parentScoreCardId": 36,
+    "score": 56,
+    "createdBy": "Der"
+  }
+]
