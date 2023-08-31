@@ -12,6 +12,7 @@ import BeardCrumb from './components/beardcrumb/BeardCrumb';
 import ScorBordForms from './components/Scorbord/ScorBordForms';
 import ScrolltoTop from './healpers/components/ScrolltoTop';
 import MultiPurposeTable from './components/Table/MultiPurposeTable';
+import data from './Data/mok.json'
 // Import the custom hook as a named import
 import useResizeeffect from './useResizeeffect';
 import ApexScatterChart from './components/Chart/ApexScatterChart';
@@ -45,7 +46,6 @@ function App() {
       clearInterval(interval);
     };
   }, [Width, handleMainResize, secoundaryWidth]);
-
   return (
     <div className="!min-h-screen bg-[#bac2c8] dark:bg-[#202020]">
       <Router>
@@ -61,7 +61,7 @@ function App() {
             {/* <ScorBordForms /> */}
           </div>
           <div className="flex w-full flex-col gap-4">
-            {<MultiPurposeTable data={null} />
+            {<MultiPurposeTable data={data} />
             /*<ApexScatterChart /> */}
           </div>
           <div>

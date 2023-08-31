@@ -1,9 +1,30 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import MeasureDetailsForm from '../Scorbord/components/MeasureDetailsForm'
 import Icon from '../icon'
 import CreateTypes from '../Scorbord/components/CreateTypes'
+import { Divider } from '@mui/material'
 const MultiPurposeTable = ({ data = null }) => {
+    const [page, setPage] = useState(1);
+    const [rowsPerPage, setRowsPerPage] = useState(5);
+    const [tabledata, setTabledata] = useState([]);
+    const [rowCount, setRowCount] = useState(0);
+    const pagecount = Math.ceil(rowCount / rowsPerPage);
+    const pagination = () => {
+        if (data !== null) {
+            setRowCount(data.length);
+            console.log(rowCount);
+            setTabledata(data.slice((page - 1) * rowsPerPage, page * rowsPerPage));
+        }
+    }
+    const changepage=(newpage)=>{
+        setPage(newpage);
+        setTabledata(data.slice((newpage - 1) * rowsPerPage, newpage * rowsPerPage));
+    }
+    useEffect(() => {
+        pagination()
+    }, [pagination]);
+    console.log(data.length)
     return (
         <>
             <div className="relative overflow-x-auto shadow-md sm:rounded-lg w-full">
@@ -22,37 +43,49 @@ const MultiPurposeTable = ({ data = null }) => {
                             <thead className="text-xs text-gray-950 bg-gray-300 uppercase dark:bg-[#292929] dark:text-gray-200">
                                 <tr>
                                     <th scope="col" className="px-6 py-3">
-                                        Product name
+                                        Product Id
                                     </th>
                                     <th scope="col" className="px-6 py-3">
-                                        Color
+                                        Organization Id
                                     </th>
                                     <th scope="col" className="px-6 py-3">
-                                        Category
+                                        Card Type Id
                                     </th>
                                     <th scope="col" className="px-6 py-3">
-                                        Price
+                                        Parent Score CardId
+                                    </th>
+                                    <th scope="col" className="px-6 py-3">
+                                        score
+                                    </th>
+                                    <th scope="col" className="px-6 py-3">
+                                        Created By
                                     </th>
                                     <th scope="col" className="px-0 py-3">
                                         <span className="sr-only">Actions</span>
                                     </th>
                                 </tr>
                             </thead>
-                            {data.map((item) => (
+                            {tabledata.map((item) => (
                                 <tr className="bg-white border-b dark:bg-[#434343] dark:border-[#383838] dark:hover:bg-[#333333] text-gray-900 dark:text-white hover:bg-gray-200">
                                     <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                        Apple MacBook Pro 17"
+                                        {item.id}
                                     </th>
                                     <td className="px-6 py-4">
-                                        Silver
+                                        {item.organizationId}
                                     </td>
                                     <td className="px-6 py-4">
-                                        Laptop
+                                        {item.cardTypeId}
                                     </td>
                                     <td className="px-6 py-4">
-                                        $2999
+                                        {item.parentScoreCardId}
                                     </td>
-                                    <td>
+                                    <td className="px-6 py-4">
+                                        {item.score}
+                                    </td>
+                                    <td className="px-6 py-4">
+                                        {item.createdBy}
+                                    </td>
+                                    <td className='px-0 py-3'>
                                         <button id="apple-imac-27-dropdown-button" data-dropdown-toggle="apple-imac-27-dropdown" className="inline-flex items-center text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 p-1.5 dark:hover-bg-gray-800 text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none dark:text-gray-400 dark:hover:text-gray-100" type="button">
                                             <Icon icon="pepicons-pop:dots-y" />
                                         </button>
@@ -75,12 +108,72 @@ const MultiPurposeTable = ({ data = null }) => {
                                         </div>
                                     </td>
                                 </tr>
-
                             ))}
                         </>
                     ) : null}
-
                 </table>
+                <Divider className='w-full border-b-gray-600 dark:border-b-gray-300' />
+                <nav class="flex w-full flex-col md:flex-row justify-between items-start md:items-center space-y-3 md:space-y-0 p-4  text-gray-900 bg-white dark:text-white dark:bg-[#434343]" aria-label="Table navigation">
+                    <span class="text-sm font-normal text-gray-500 dark:text-gray-400 ">
+                        Showing <span class="font-semibold text-gray-900 dark:text-white " id='items'> {(page - 1) * rowsPerPage} - {page * rowsPerPage} </span> of <span class="font-semibold text-gray-900 dark:text-white" id='totalpage'> {rowCount} </span></span>
+                    <ul class="inline-flex items-stretch -space-x-px">
+                        <li>
+                            <Link to="#" aria-current="page" class="flex items-center justify-center h-full py-1.5 px-3 ml-0 text-gray-500 bg-gray-300 rounded-l-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+                                <span class="sr-only">Previous</span>
+                                <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </Link>
+                        </li>
+                        <li>
+                            <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</Link>
+                        </li>
+                        {page != 1 ? (
+                            <li>
+                                <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">...</Link>
+                            </li>
+                        ) : null}
+                        {page!=1?(
+                            <>
+                                <li>
+                                    <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">{page}</Link>
+                                </li>
+                                <li>
+                                    <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" onClick={changepage(page+1)}>{page+1}</Link>
+                                </li>
+                            </>
+                        ):(
+                            <>
+                                    <li>
+                                        <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" onClick={changepage(2)}>2</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" onClick={changepage(3)}>3</Link>
+                                    </li>
+                            </>
+                        )}
+                        {pagecount > 3 ? (
+                            <>
+                                {page != pagecount ? (
+                                    <li>
+                                        <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">...</Link>
+                                    </li>
+                                ) : null}
+                                <li>
+                                    <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" onClick={changepage(pagecount)}>{pagecount}</Link>
+                                </li>
+                            </>
+                        ) : null}
+                        <li>
+                            <Link to="#" class="flex items-center justify-center h-full py-1.5 px-3 leading-tight text-gray-500 bg-gray-300 rounded-r-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+                                <span class="sr-only">Next</span>
+                                <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
+                                </svg>
+                            </Link>
+                        </li>
+                    </ul>
+                </nav>
             </div>
             <div id="createProductModal" tabIndex="-1" aria-hidden="true" className="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
                 <div className="relative p-4 w-full max-w-2xl max-h-full">
@@ -116,7 +209,7 @@ const MultiPurposeTable = ({ data = null }) => {
                             </svg>
                             <h3 className="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Are you sure you want to delete this product?</h3>
                             <button data-modal-toggle="deleteModal" type="button" className="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2">Yes, I'm sure</button>
-                            <button data-modal-toggle="deleteModal" type="button" className="text-gray-500 bg-white hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">No, cancel</button>
+                            <button data-modal-toggle="deleteModal" type="button" className="text-gray-500 bg-gray-300 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">No, cancel</button>
                         </div>
                     </div>
                 </div>
