@@ -23,7 +23,7 @@ const MultiPurposeTable = ({ data = null }) => {
     }
     useEffect(() => {
         pagination()
-    }, [pagination]);
+    }, [pagination, page]);
     return (
         <>
             <div className="relative overflow-x-auto shadow-md sm:rounded-lg w-full">
@@ -39,7 +39,7 @@ const MultiPurposeTable = ({ data = null }) => {
                     </caption>
                     {data !== null ? (
                         <>
-                            <thead className="text-xs text-gray-950 bg-gray-300 uppercase dark:bg-[#292929] dark:text-gray-200">
+                            <thead className="text-xs text-gray-950 bg-gray-200 uppercase dark:bg-[#292929] dark:text-gray-200">
                                 <tr>
                                     <th scope="col" className="px-6 py-3">
                                         Product Id
@@ -115,24 +115,24 @@ const MultiPurposeTable = ({ data = null }) => {
                 {data !== null ? (
                     <>
                         <Divider className='w-full border-b-gray-600 dark:border-b-gray-300' />
-                        <nav class="flex w-full flex-col md:flex-row justify-between items-start md:items-center space-y-3 md:space-y-0 p-4  text-gray-900 bg-white dark:text-white dark:bg-[#434343]" aria-label="Table navigation">
-                            <span class="text-sm font-normal text-gray-500 dark:text-gray-400 ">
-                                Showing <span class="font-semibold text-gray-900 dark:text-white " id='items'> {(page - 1) * rowsPerPage} - {page * rowsPerPage} </span> of <span class="font-semibold text-gray-900 dark:text-white" id='totalpage'> {rowCount} </span></span>
-                            <ul class="inline-flex items-stretch -space-x-px">
+                        <nav className="flex w-full flex-col md:flex-row justify-between items-start md:items-center space-y-3 md:space-y-0 p-4  text-gray-900 bg-white dark:text-white dark:bg-[#434343]" aria-label="Table navigation">
+                            <span className="text-sm font-normal text-gray-500 dark:text-gray-400 ">
+                                Showing <span className="font-semibold text-gray-900 dark:text-white " id='items'> {page < 2 ? ((page - 1) * rowsPerPage):(((page - 1) * rowsPerPage)+1)} - {page * rowsPerPage} </span> of <span className="font-semibold text-gray-900 dark:text-white" id='totalpage'> {rowCount} </span></span>
+                            <ul className="inline-flex items-stretch -space-x-px">
                                 <li>
-                                    <Link to="#" aria-current="page" class="flex items-center justify-center h-full py-1.5 px-3 ml-0 text-gray-500 bg-gray-300 rounded-l-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
-                                        <span class="sr-only">Previous</span>
-                                        <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <Link to="#" aria-current="page" className="flex items-center justify-center h-full py-1.5 px-3 ml-0 text-gray-500 bg-gray-200 rounded-l-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" onClick={() => (page>1)?changepage(page - 1):null}>
+                                        <span className="sr-only">Previous</span>
+                                        <svg className="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
                                         </svg>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">1</Link>
+                                    <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${page == 1 ?`!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white`:null}`} onClick={() => changepage(1)}>1</Link>
                                 </li>
-                                {page != 1 ? (
+                                {page > 2 ? (
                                     <li>
-                                        <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">...</Link>
+                                        <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`}>...</Link>
                                     </li>
                                 ) : null}
                                 {page != 1 ? (
@@ -140,30 +140,55 @@ const MultiPurposeTable = ({ data = null }) => {
                                         {page >= pagecount - 1 ? (
                                             <>
                                                 <li>
-                                                    <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">{page-1}</Link>
+                                                    <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page - 2)}>{page - 2}</Link>
                                                 </li>
                                                 <li>
-                                                    <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" onClick={changepage(page)}>{page}</Link>
+                                                    <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page - 1)}>{page - 1}</Link>
                                                 </li>
+                                                {page===pagecount ? null : (
+                                                    <>
+                                                        <li>
+                                                            <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-600 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-600 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white !bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white`}>{page}</Link>
+                                                        </li>
+                                                    </>
+                                                )}
                                             </>
                                         ) : (
                                             <>
-                                                <li>
-                                                    <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">{page}</Link>
-                                                </li>
-                                                <li>
-                                                    <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" onClick={changepage(page + 1)}>{page + 1}</Link>
-                                                </li>
+                                                {page > 3 ? (<>
+                                                    <li>
+                                                        <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page - 1)}>{page - 1}</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-600 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-600 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white !bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white`}>{page}</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page + 1)}>{page + 1}</Link>
+                                                    </li>
+                                                </>) : (<>
+                                                    <li>
+                                                        <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-600 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white !bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white`}>{page}</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page + 1)}>{page + 1}</Link>
+                                                    </li>
+                                                    <li>
+                                                        <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page + 2)}>{page + 2}</Link>
+                                                    </li>
+                                                </>)}
                                             </>
                                         )}
                                     </>
                                 ) : (
                                     <>
                                         <li>
-                                            <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" onClick={changepage(2)}>2</Link>
+                                                <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white${page == 2 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(2)}>2</Link>
                                         </li>
                                         <li>
-                                            <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" onClick={changepage(3)}>3</Link>
+                                                <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${page == 3 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(3)}>3</Link>
+                                        </li>
+                                        <li>
+                                                <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${page == 4 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(4)}>4</Link>
                                         </li>
                                     </>
                                 )}
@@ -171,18 +196,18 @@ const MultiPurposeTable = ({ data = null }) => {
                                     <>
                                         {page != pagecount && page < pagecount - 1 ? (
                                             <li>
-                                                <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">...</Link>
+                                                <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`}>...</Link>
                                             </li>
                                         ) : null}
                                         <li>
-                                            <Link to="#" class="flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-300 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" onClick={changepage(pagecount)}>{pagecount}</Link>
+                                            <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${(page==pagecount)?`!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white`:null}`} onClick={() => changepage(pagecount)}>{pagecount}</Link>
                                         </li>
                                     </>
                                 ) : null}
                                 <li>
-                                    <Link to="#" class="flex items-center justify-center h-full py-1.5 px-3 leading-tight text-gray-500 bg-gray-300 rounded-r-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
-                                        <span class="sr-only">Next</span>
-                                        <svg class="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <Link to="#" className={`flex items-center justify-center h-full py-1.5 px-3 leading-tight text-gray-500 bg-gray-200 rounded-r-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => (page < pagecount)?changepage(page + 1):null}>
+                                        <span className="sr-only">Next</span>
+                                        <svg className="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                                         </svg>
                                     </Link>
@@ -227,18 +252,18 @@ const MultiPurposeTable = ({ data = null }) => {
                             </svg>
                             <h3 className="mb-5 text-lg font-normal text-gray-500 dark:text-gray-400">Are you sure you want to delete this product?</h3>
                             <button data-modal-toggle="deleteModal" type="button" className="text-white bg-red-600 hover:bg-red-800 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm inline-flex items-center px-5 py-2.5 text-center mr-2">Yes, I'm sure</button>
-                            <button data-modal-toggle="deleteModal" type="button" className="text-gray-500 bg-gray-300 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">No, cancel</button>
+                            <button data-modal-toggle="deleteModal" type="button" className="text-gray-500 bg-gray-200 hover:bg-gray-100 focus:ring-4 focus:outline-none focus:ring-gray-200 rounded-lg border border-gray-200 text-sm font-medium px-5 py-2.5 hover:text-gray-900 focus:z-10 dark:bg-gray-700 dark:text-gray-300 dark:border-gray-500 dark:hover:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-600">No, cancel</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="updateProductModal" class="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full w-1/2 bg-[#bac2c8] dark:bg-[#292929] grid gap-4" tabIndex="-1" aria-labelledby="drawer-right-label">
-                <h1 id="drawer-right-label" class="inline-flex items-center mb-4 text-base font-semibold text-black dark:text-white">Update Score Card</h1>
-                <button type="button" data-drawer-hide="updateProductModal" aria-controls="updateProductModal" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 right-2.5 inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white" >
-                    <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
+            <div id="updateProductModal" className="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full w-1/2 bg-[#bac2c8] dark:bg-[#292929] grid gap-4" tabIndex="-1" aria-labelledby="drawer-right-label">
+                <h1 id="drawer-right-label" className="inline-flex items-center mb-4 text-base font-semibold text-black dark:text-white">Update Score Card</h1>
+                <button type="button" data-drawer-hide="updateProductModal" aria-controls="updateProductModal" className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 right-2.5 inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white" >
+                    <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                     </svg>
-                    <span class="sr-only">Close menu</span>
+                    <span className="sr-only">Close menu</span>
                 </button>
 
                 <MeasureDetailsForm />
