@@ -9,13 +9,13 @@ const Login = () => {
     const [type, setType] = React.useState('password');
     const [show, setShow] = React.useState('mdi:eye-off-outline');
     const handleClick = () => {
-        if(type === 'password'){
+        if (type === 'password') {
             let newType = 'text';
             let newShow = 'mdi:eye-outline';
             setType(newType);
             setShow(newShow);
         }
-        else{   
+        else {
             let newType = 'password';
             let newShow = 'mdi:eye-off-outline';
             setType(newType);
@@ -26,16 +26,18 @@ const Login = () => {
         const storedDarkMode = localStorage.getItem('darkMode');
         const newNightMode = JSON.parse(storedDarkMode);
         if (newNightMode) {
+            document.documentElement.classList.add('dark');
             logo.current = logo_dark;
         }
         else {
+            document.documentElement.classList.remove('dark');
             logo.current = logo_lite;
         }
     }, [logo, toggle]);
 
     return (
-        <>
-            <div className="flex relative bg-[#bac2c8] dark:bg-[#202020] items-center justify-center my-12">
+        <div className='flex justify-center !items-center bg-[#bac2c8] dark:bg-[#202020] min-h-screen min-w-full'>
+            <div className="flex relative bg-[#bac2c8] dark:bg-[#202020] items-center justify-center">
                 <div className="flex max-w-[26rem] relative justify-center items-center z-10 authentication-basic">
                     <div className=" rounded-lg bg-white dark:bg-[#434343] py-4 px-4">
                         {/* <!-- Login --> */}
@@ -50,7 +52,7 @@ const Login = () => {
                                     </Link>
                                 </div>
                                 {/* <!-- /Logo --> */}
-                                <h4 className="text-2xl flex flex-col justify-center items-center font-bold text-black dark:text-white mb-1 pt-2">Welcome to<br/> <span className=' uppercase text-[#00FFE6]'>Stratelevate dynamics</span></h4>
+                                <h4 className="text-2xl flex flex-col justify-center items-center font-bold text-black dark:text-white mb-1 pt-2">Welcome to<br /> <span className=' uppercase text-[#00FFE6]'>Stratelevate dynamics</span></h4>
                                 <p className="mb-4 text-gray-500">Please sign-in to your account and start the adventure</p>
 
                                 <form id="formAuthentication" className="mb-3" action="#" method="POST">
@@ -126,7 +128,7 @@ const Login = () => {
                 </div>
             </div>
 
-        </>
+        </div>
     )
 }
 

@@ -4,7 +4,12 @@ import MeasureField from './MeasureField'
 import MeasuerOwners from './MeasuerOwners'
 import MeasureUpdaters from './MeasureUpdaters'
 import { Divider } from '@mui/material'
+import '@subrotosaha/notification/style.css'
+import notification from "@subrotosaha/notification";
 const MeasureDetailsForm = () => {
+    const submitButton = () => {
+        notification.notify.success('Successfully Added');
+    }
     return (
         <div className='w-full grid gap-4'>
             <section className="bg-white dark:bg-[#434343] rounded-lg">
@@ -16,7 +21,7 @@ const MeasureDetailsForm = () => {
                             <div>
                                 <label htmlFor="category" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Scoring Type</label>
                                 <select id="category" className="bg-gray-100 border-2 border-2-gray-600 text-gray-900 text-sm rounded-lg focus:ring-primary-500 placeholder-gray-600 focus:border-2-primary-500 block w-full p-2.5 dark:bg-[#292929] dark:border-2-gray-600 dark:placeholder-gray-200 dark:text-white dark:focus:ring-primary-500 dark:focus:border-2-primary-500" defaultValue="">
-                                    <option  disabled value=''>Select Type</option>
+                                    <option disabled value=''>Select Type</option>
                                     <option value="TV">Option 1</option>
                                     <option value="PC">Option 2</option>
                                     <option value="GA">Option 3</option>
@@ -26,7 +31,7 @@ const MeasureDetailsForm = () => {
                             <div>
                                 <label htmlFor="Calender" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Calender</label>
                                 <select id="Calender" className="bg-gray-100 border-2 border-2-gray-600 text-gray-900 text-sm rounded-lg focus:ring-primary-500 placeholder-gray-600 focus:border-2-primary-500 block w-full p-2.5 dark:bg-[#292929] dark:border-2-gray-600 dark:placeholder-gray-200 dark:text-white dark:focus:ring-primary-500 dark:focus:border-2-primary-500" defaultValue="">
-                                    <option  disabled value=''>Select Type</option>
+                                    <option disabled value=''>Select Type</option>
                                     <option value="TV">Option 1</option>
                                     <option value="PC">Option 2</option>
                                     <option value="GA">Option 3</option>
@@ -36,7 +41,7 @@ const MeasureDetailsForm = () => {
                             <div>
                                 <label htmlFor="Data-Type" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Data Type</label>
                                 <select id="Data-Type" className="bg-gray-100 border-2 border-2-gray-600 text-gray-900 text-sm rounded-lg focus:ring-primary-500 placeholder-gray-600 focus:border-2-primary-500 block w-full p-2.5 dark:bg-[#292929] dark:border-2-gray-600 dark:placeholder-gray-200 dark:text-white dark:focus:ring-primary-500 dark:focus:border-2-primary-500" defaultValue="">
-                                    <option  disabled value=''>Select Type</option>
+                                    <option disabled value=''>Select Type</option>
                                     <option value="TV">Option 1</option>
                                     <option value="PC">Option 2</option>
                                     <option value="GA">Option 3</option>
@@ -106,7 +111,7 @@ const MeasureDetailsForm = () => {
                                 <Dropzone />
                             </div>
                             <div className="flex justify-end items-center col-span-2">
-                                <button type="button" className="inline-flex justify-center items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center w-1/4 text-white bg-primary-700 dark:bg-gray-950 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800">
+                                <button type="button" className="inline-flex justify-center items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center w-1/4 text-white bg-primary-700 dark:bg-gray-950 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800" onClick={() => submitButton()}>
                                     Save
                                 </button>
                             </div>
@@ -116,8 +121,8 @@ const MeasureDetailsForm = () => {
                 </div>
             </section>
             <MeasureField />
-            <MeasuerOwners/>   
-            <MeasureUpdaters/> 
+            <MeasuerOwners />
+            <MeasureUpdaters />
         </div>
     )
 

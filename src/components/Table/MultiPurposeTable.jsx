@@ -13,7 +13,6 @@ const MultiPurposeTable = ({ data = null }) => {
     const pagination = () => {
         if (data !== null) {
             setRowCount(data.length);
-            console.log(rowCount);
             setTabledata(data.slice((page - 1) * rowsPerPage, page * rowsPerPage));
         }
     }
@@ -21,6 +20,7 @@ const MultiPurposeTable = ({ data = null }) => {
         setPage(newpage);
         setTabledata(data.slice((newpage - 1) * rowsPerPage, newpage * rowsPerPage));
     }
+    
     useEffect(() => {
         pagination()
     }, [pagination, page]);
@@ -64,8 +64,9 @@ const MultiPurposeTable = ({ data = null }) => {
                                     </th>
                                 </tr>
                             </thead>
+                            <tbody>
                             {tabledata.map((item) => (
-                                <tr className="bg-white border-b dark:bg-[#434343] dark:border-[#383838] dark:hover:bg-[#333333] text-gray-900 dark:text-white hover:bg-gray-200">
+                                <tr className="bg-white border-b dark:bg-[#434343] dark:border-[#383838] dark:hover:bg-[#333333] text-gray-900 dark:text-white hover:bg-gray-200" key={item.id}>
                                     <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                                         {item.id}
                                     </th>
@@ -108,7 +109,7 @@ const MultiPurposeTable = ({ data = null }) => {
                                     </td>
                                 </tr>
                             ))}
-
+                            </tbody>
                         </>
                     ) : null}
                 </table>
