@@ -43,6 +43,25 @@
   text-anchor: middle !important;
   @apply !fill-black dark:!fill-white;
 }
+.undefined svg .value-text text {
+  text-shadow: none !important;
+  @apply !fill-black dark:!fill-white;
+}
+.undefined svg .pointer path {
+  @apply !fill-black dark:!fill-white;
+}
+
+.undefined svg .marker text {
+  text-shadow: none !important;
+  @apply !fill-black dark:!fill-white;
+}
+
+.undefined svg .mark-value text {
+  text-shadow: none !important;
+  font-size: 12px !important;
+  text-anchor: middle !important;
+  @apply !fill-black dark:!fill-white;
+}
 
 .apexcharts-text{
   @apply !fill-black dark:!fill-white;

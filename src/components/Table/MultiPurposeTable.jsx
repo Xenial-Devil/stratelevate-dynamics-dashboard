@@ -4,7 +4,9 @@ import MeasureDetailsForm from '../Scorbord/components/MeasureDetailsForm'
 import Icon from '../icon'
 import CreateTypes from '../Scorbord/components/CreateTypes'
 import { Divider } from '@mui/material'
-const MultiPurposeTable = ({ data = null }) => {
+const MultiPurposeTable = ({ data = null, headers = null }) => {
+    const dir = document.documentElement.getAttribute('dir');
+    const keynames = data != null ? Object.keys(data[0]) : null;
     const [page, setPage] = useState(1);
     const [rowsPerPage, setRowsPerPage] = useState(5);
     const [tabledata, setTabledata] = useState([]);
@@ -20,7 +22,7 @@ const MultiPurposeTable = ({ data = null }) => {
         setPage(newpage);
         setTabledata(data.slice((newpage - 1) * rowsPerPage, newpage * rowsPerPage));
     }
-    
+
     useEffect(() => {
         pagination()
     }, [pagination, page]);
@@ -41,74 +43,60 @@ const MultiPurposeTable = ({ data = null }) => {
                         <>
                             <thead className="text-xs text-gray-950 bg-gray-200 uppercase dark:bg-[#292929] dark:text-gray-200">
                                 <tr>
-                                    <th scope="col" className="px-6 py-3">
-                                        Product Id
-                                    </th>
-                                    <th scope="col" className="px-6 py-3">
-                                        Organization Id
-                                    </th>
-                                    <th scope="col" className="px-6 py-3">
-                                        Card Type Id
-                                    </th>
-                                    <th scope="col" className="px-6 py-3">
-                                        Parent Score CardId
-                                    </th>
-                                    <th scope="col" className="px-6 py-3">
-                                        score
-                                    </th>
-                                    <th scope="col" className="px-6 py-3">
-                                        Created By
-                                    </th>
+                                    {headers != null ? (
+                                        <>
+                                            {headers.map((header) => (
+                                                <th scope="col" className="px-6 py-3">
+                                                    {header}
+                                                </th>
+                                            ))}
+                                        </>
+                                    ) : (<>
+                                        {keynames.map((keyname) => (
+                                            <th scope="col" className="px-6 py-3">
+                                                {keyname}
+                                            </th>
+                                        ))}
+                                    </>
+                                    )}
                                     <th scope="col" className="px-0 py-3">
                                         <span className="sr-only">Actions</span>
                                     </th>
                                 </tr>
                             </thead>
                             <tbody>
-                            {tabledata.map((item) => (
-                                <tr className="bg-white border-b dark:bg-[#434343] dark:border-[#383838] dark:hover:bg-[#333333] text-gray-900 dark:text-white hover:bg-gray-200" key={item.id}>
-                                    <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                                        {item.id}
-                                    </th>
-                                    <td className="px-6 py-4">
-                                        {item.organizationId}
-                                    </td>
-                                    <td className="px-6 py-4">
-                                        {item.cardTypeId}
-                                    </td>
-                                    <td className="px-6 py-4">
-                                        {item.parentScoreCardId}
-                                    </td>
-                                    <td className="px-6 py-4">
-                                        {item.score}
-                                    </td>
-                                    <td className="px-6 py-4">
-                                        {item.createdBy}
-                                    </td>
-                                    <td className='px-0 py-3'>
-                                        <button id="apple-imac-27-dropdown-button" data-dropdown-toggle="apple-imac-27-dropdown" className="inline-flex items-center text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 p-1.5 dark:hover-bg-gray-800 text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none dark:text-gray-400 dark:hover:text-gray-100" type="button">
-                                            <Icon icon="pepicons-pop:dots-y" />
-                                        </button>
-                                        <div id="apple-imac-27-dropdown" className="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-[#292929] dark:divide-gray-600">
-                                            <ul className="py-1 text-sm" aria-labelledby="apple-imac-27-dropdown-button">
-                                                <li>
-                                                    <button type="button" data-drawer-target="updateProductModal" data-drawer-show="updateProductModal" data-drawer-placement="right" aria-controls="updateProductModal" className="flex w-full items-center py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-gray-700 dark:text-gray-200">
-                                                        <Icon icon="akar-icons:edit" className="mr-2" />
-                                                        Edit
-                                                    </button>
-                                                </li>
+                                {tabledata.map((item) => (
+                                    <tr className="bg-white border-b dark:bg-[#434343] dark:border-[#383838] dark:hover:bg-[#333333] text-gray-900 dark:text-white hover:bg-gray-200" key={item.id}>
 
-                                                <li>
-                                                    <button type="button" data-modal-target="deleteModal" data-modal-toggle="deleteModal" className="flex w-full items-center py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 text-red-500 dark:hover:text-red-400">
-                                                        <Icon icon="material-symbols:delete" className="mr-2" color="#ef4444" />
-                                                        Delete
-                                                    </button>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </td>
-                                </tr>
-                            ))}
+                                        {keynames.map((keyname) => (
+                                            <td className="px-6 py-4">
+                                                {item[keyname]}
+                                            </td>
+                                        ))}
+                                        <td className='px-0 py-3'>
+                                            <button id="apple-imac-27-dropdown-button" data-dropdown-toggle="apple-imac-27-dropdown" className="inline-flex items-center text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 p-1.5 dark:hover-bg-gray-800 text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none dark:text-gray-400 dark:hover:text-gray-100" type="button">
+                                                <Icon icon="pepicons-pop:dots-y" />
+                                            </button>
+                                            <div id="apple-imac-27-dropdown" className="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-[#292929] dark:divide-gray-600">
+                                                <ul className="py-1 text-sm" aria-labelledby="apple-imac-27-dropdown-button">
+                                                    <li>
+                                                        <button type="button" data-drawer-target="updateProductModal" data-drawer-show="updateProductModal" data-drawer-placement={dir == 'ltr' ? 'right' : 'left'} aria-controls="updateProductModal" className="flex w-full items-center py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white text-gray-700 dark:text-gray-200">
+                                                            <Icon icon="akar-icons:edit" className="mr-2" />
+                                                            Edit
+                                                        </button>
+                                                    </li>
+
+                                                    <li>
+                                                        <button type="button" data-modal-target="deleteModal" data-modal-toggle="deleteModal" className="flex w-full items-center py-2 px-4 hover:bg-gray-100 dark:hover:bg-gray-600 text-red-500 dark:hover:text-red-400">
+                                                            <Icon icon="material-symbols:delete" className="mr-2" color="#ef4444" />
+                                                            Delete
+                                                        </button>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                ))}
                             </tbody>
                         </>
                     ) : null}
@@ -118,18 +106,18 @@ const MultiPurposeTable = ({ data = null }) => {
                         <Divider className='w-full border-b-gray-600 dark:border-b-gray-300' />
                         <nav className="flex w-full flex-col md:flex-row justify-between items-start md:items-center space-y-3 md:space-y-0 p-4  text-gray-900 bg-white dark:text-white dark:bg-[#434343]" aria-label="Table navigation">
                             <span className="text-sm font-normal text-gray-500 dark:text-gray-400 ">
-                                Showing <span className="font-semibold text-gray-900 dark:text-white " id='items'> {page < 2 ? ((page - 1) * rowsPerPage):(((page - 1) * rowsPerPage)+1)} - {page * rowsPerPage} </span> of <span className="font-semibold text-gray-900 dark:text-white" id='totalpage'> {rowCount} </span></span>
+                                Showing <span className="font-semibold text-gray-900 dark:text-white " id='items'> {page < 2 ? ((page - 1) * rowsPerPage) : (((page - 1) * rowsPerPage) + 1)} - {rowCount > (page * rowsPerPage) ? (page * rowsPerPage) : rowCount} </span> of <span className="font-semibold text-gray-900 dark:text-white" id='totalpage'> {rowCount} </span></span>
                             <ul className="inline-flex items-stretch -space-x-px">
                                 <li>
-                                    <Link to="#" aria-current="page" className="flex items-center justify-center h-full py-1.5 px-3 ml-0 text-gray-500 bg-gray-200 rounded-l-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white" onClick={() => (page>1)?changepage(page - 1):null}>
+                                    <Link to="#" aria-current="page" className={`flex items-center justify-center h-full py-1.5 px-3 ml-0 text-gray-500 bg-gray-200 ${dir == 'ltr' ? 'rounded-l-lg' : 'rounded-r-lg'} border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => (page > 1) ? changepage(page - 1) : null}>
                                         <span className="sr-only">Previous</span>
-                                        <svg className="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <svg className={`w-5 h-5 ${dir == 'ltr' ? '' : 'rotate-180'}`} aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" d="M12.707 5.293a1 1 0 010 1.414L9.414 10l3.293 3.293a1 1 0 01-1.414 1.414l-4-4a1 1 0 010-1.414l4-4a1 1 0 011.414 0z" clip-rule="evenodd" />
                                         </svg>
                                     </Link>
                                 </li>
                                 <li>
-                                    <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${page == 1 ?`!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white`:null}`} onClick={() => changepage(1)}>1</Link>
+                                    <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${page == 1 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(1)}>1</Link>
                                 </li>
                                 {page > 2 ? (
                                     <li>
@@ -138,7 +126,7 @@ const MultiPurposeTable = ({ data = null }) => {
                                 ) : null}
                                 {page != 1 ? (
                                     <>
-                                        {page >= pagecount - 1 ? (
+                                        {page >= pagecount - 1 && pagecount > 2 ? (
                                             <>
                                                 <li>
                                                     <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page - 2)}>{page - 2}</Link>
@@ -146,7 +134,7 @@ const MultiPurposeTable = ({ data = null }) => {
                                                 <li>
                                                     <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page - 1)}>{page - 1}</Link>
                                                 </li>
-                                                {page===pagecount ? null : (
+                                                {page === pagecount ? null : (
                                                     <>
                                                         <li>
                                                             <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-600 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-gray-600 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white !bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white`}>{page}</Link>
@@ -167,30 +155,63 @@ const MultiPurposeTable = ({ data = null }) => {
                                                         <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page + 1)}>{page + 1}</Link>
                                                     </li>
                                                 </>) : (<>
-                                                    <li>
-                                                        <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-600 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white !bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white`}>{page}</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page + 1)}>{page + 1}</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page + 2)}>{page + 2}</Link>
-                                                    </li>
+                                                    {pagecount == 2 ? (<>
+                                                        <li>
+                                                            <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${page == 2 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(page)}>{page}</Link>
+                                                        </li>
+                                                    </>) : null}
+                                                    {pagecount == 3 ? (<>
+                                                        <li>
+                                                            <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page - 1)}>{page - 1}</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${page == 3 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(page)}>{page}</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page + 1)}>{page + 1}</Link>
+                                                        </li>
+                                                    </>) : null}
+                                                    {pagecount >= 3 ? (<>
+                                                        <li>
+                                                            <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white !bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white`} onClick={() => changepage(page)}>{page}</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page + 1)}>{page + 1}</Link>
+                                                        </li>
+                                                        <li>
+                                                            <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => changepage(page + 2)}>{page + 2}</Link>
+                                                        </li>
+                                                    </>) : null}
                                                 </>)}
                                             </>
                                         )}
                                     </>
                                 ) : (
                                     <>
-                                        <li>
+                                        {pagecount == 2 ? (<>
+                                            <li>
                                                 <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white${page == 2 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(2)}>2</Link>
-                                        </li>
-                                        <li>
-                                                <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${page == 3 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(3)}>3</Link>
-                                        </li>
-                                        <li>
-                                                <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${page == 4 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(4)}>4</Link>
-                                        </li>
+                                            </li>
+                                        </>) : null}
+                                        {pagecount == 3 ? (<>
+                                            <li>
+                                                <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white${page == 2 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(2)}>2</Link>
+                                            </li>
+                                            <li>
+                                                <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white${page == 3 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(3)}>3</Link>
+                                            </li>
+                                        </>) : null}
+                                        {pagecount >= 4 ? (<>
+                                            <li>
+                                                <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white${page == 2 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(2)}>2</Link>
+                                            </li>
+                                            <li>
+                                                <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white${page == 3 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(3)}>3</Link>
+                                            </li>
+                                            <li>
+                                                <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white${page == 4 ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(4)}>4</Link>
+                                            </li>
+                                        </>) : null}
                                     </>
                                 )}
                                 {pagecount > 3 ? (
@@ -201,14 +222,14 @@ const MultiPurposeTable = ({ data = null }) => {
                                             </li>
                                         ) : null}
                                         <li>
-                                            <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${(page==pagecount)?`!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white`:null}`} onClick={() => changepage(pagecount)}>{pagecount}</Link>
+                                            <Link to="#" className={`flex items-center justify-center text-sm py-2 px-3 leading-tight text-gray-500 bg-gray-200 border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white ${(page == pagecount) ? `!bg-gray-400 !text-black dark:!bg-gray-600 dark:!text-white` : null}`} onClick={() => changepage(pagecount)}>{pagecount}</Link>
                                         </li>
                                     </>
                                 ) : null}
                                 <li>
-                                    <Link to="#" className={`flex items-center justify-center h-full py-1.5 px-3 leading-tight text-gray-500 bg-gray-200 rounded-r-lg border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => (page < pagecount)?changepage(page + 1):null}>
+                                    <Link to="#" className={`flex items-center justify-center h-full py-1.5 px-3 leading-tight text-gray-500 bg-gray-200 ${dir == 'ltr' ? 'rounded-r-lg' : 'rounded-l-lg'} border border-gray-300 hover:bg-gray-100 hover:text-gray-700 dark:bg-[#292929] dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white`} onClick={() => (page < pagecount) ? changepage(page + 1) : null}>
                                         <span className="sr-only">Next</span>
-                                        <svg className="w-5 h-5" aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                        <svg className={`w-5 h-5 ${dir == 'ltr' ? '' : 'rotate-180'}`} aria-hidden="true" fill="currentColor" viewbox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                             <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd" />
                                         </svg>
                                     </Link>
@@ -226,7 +247,7 @@ const MultiPurposeTable = ({ data = null }) => {
                         {/* <!-- Modal header --> */}
                         <div className="flex justify-between items-center pb-4 rounded-t border-b dark:border-gray-600">
                             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">Add New</h3>
-                            <button type="button" className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-target="createProductModal" data-modal-toggle="createProductModal">
+                            <button type="button" className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-target="createProductModal" data-modal-toggle="createProductModal">
                                 <svg aria-hidden="true" className="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
                                 </svg>
@@ -258,9 +279,9 @@ const MultiPurposeTable = ({ data = null }) => {
                     </div>
                 </div>
             </div>
-            <div id="updateProductModal" className="fixed top-0 right-0 z-40 h-screen p-4 overflow-y-auto transition-transform translate-x-full w-1/2 bg-[#bac2c8] dark:bg-[#292929] grid gap-4" tabIndex="-1" aria-labelledby="drawer-right-label">
+            <div id="updateProductModal" className={`fixed top-0 ${dir == 'ltr' ? 'right-0' : 'left-0'} z-40 h-screen p-4 overflow-y-auto transition-transform ${dir == 'ltr' ? 'translate-x-full' : '-translate-x-full'} w-1/2 bg-[#bac2c8] dark:bg-[#292929] grid gap-4`} tabIndex="-1" aria-labelledby="drawer-right-label">
                 <h1 id="drawer-right-label" className="inline-flex items-center mb-4 text-base font-semibold text-black dark:text-white">Update Score Card</h1>
-                <button type="button" data-drawer-hide="updateProductModal" aria-controls="updateProductModal" className="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 right-2.5 inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white" >
+                <button type="button" data-drawer-hide="updateProductModal" aria-controls="updateProductModal" className={`text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm w-8 h-8 absolute top-2.5 ${dir == 'ltr' ? 'right-2.5' : 'left-2.5'} inline-flex items-center justify-center dark:hover:bg-gray-600 dark:hover:text-white`} >
                     <svg className="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6" />
                     </svg>

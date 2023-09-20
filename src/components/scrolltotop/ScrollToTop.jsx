@@ -2,11 +2,11 @@
 import Zoom from '@mui/material/Zoom'
 import { styled } from '@mui/material/styles'
 import useScrollTrigger from '@mui/material/useScrollTrigger'
-
+const dir = document.documentElement.getAttribute('dir');
 const ScrollToTopStyled = styled('div')(({ theme }) => ({
     zIndex: 15,
     position: 'fixed',
-    right: theme.spacing(4),
+    [dir === 'ltr' ? 'right':'left']: theme.spacing(4),
     bottom: theme.spacing(4)
 }))
 

@@ -5,7 +5,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import Sidebar from './components/sidebar/sidebar';
 import SimpleGaugeChart from './components/Chart/SimpleGaugeChart';
 import HorizontalBarChart from './components/Chart/HorizontalBarChart';
-//import AdvanceTable from './components/Table/AdvanceTable';
+import AdvanceTable from './components/Table/AdvanceTable';
 import Navbar from './components/nabvar/Navbar';
 //import AriaChart from './components/Chart/AriaChart';
 import BeardCrumb from './components/beardcrumb/BeardCrumb';
@@ -25,10 +25,11 @@ import AppCalendar from './Pages/apps/calendar';
 import MiniCalendar from './components/calendar/MiniCalendar';
 function App() {
   const [randomValue, setRandomValue] = useState(0);
+  const dir = document.documentElement.getAttribute('dir');
   // Use the custom hook to get the values
   const { Width, phoneWidth, mainLeft, mainrotate, windowSize, dynamicTitle, secoundaryWidth, display, handleResize, menucollups, submenucollups, submenuexpand, updateTitle, handleMainResize } = useResizeeffect();
   const mainstyles = {
-    marginLeft: `${mainLeft}rem`,
+    [dir === 'rtl' ? 'marginRight' : 'marginLeft']: `${mainLeft}rem`,
     position: 'relative',
     overflowX: 'hidden',
   };
@@ -36,6 +37,7 @@ function App() {
     marginLeft: `${mainLeft}rem`,
   }
   useEffect(() => {
+    document.documentElement.setAttribute('dir', 'ltr');
     window.addEventListener('load', handleMainResize);
     const interval = setInterval(() => {
       const randomInt = Math.floor(Math.random() * 99) + 1;
@@ -61,7 +63,7 @@ function App() {
             {/* <ScorBordForms /> */}
           </div>
           <div className="flex w-full flex-col gap-4">
-            {<MultiPurposeTable data={data} />
+            {<MultiPurposeTable data={data} headers={['id', 'organizationId', 'cardTypeId', 'parentScoreCardId', 'score','createdBy']}/>
             /*<ApexScatterChart /> */}
           </div>
           <div>
@@ -71,7 +73,10 @@ function App() {
             {/* <ForgotPassword/> */}
           </div>
           <div className='flex justify-center items-center'>
-            <MiniCalendar />
+            { <MiniCalendar /> }
+          </div>
+          <div className='flex justify-center items-center'>
+            <AdvanceTable />
           </div>
           <div className='flex justify-center items-center'>
             {/* <ResetPassword/> */}

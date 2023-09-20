@@ -5,7 +5,7 @@ import "./MiniCalendar.css"
 const MiniCalendar = () => {
     return (
         <div className="flex justify-center">
-            <Flatpickr options={{ minDate: "today", enableTime: true, inline: true, monthSelectorType: 'static' }} />
+            <Flatpickr options={{ minDate: "today", inline: true, monthSelectorType: 'static', mode: 'multiple' }} />
         </div>
     )
 }

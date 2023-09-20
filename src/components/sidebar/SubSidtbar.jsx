@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const SubSidtbar = ({ secondarySidebarStyles, secondarySidebar, submenucollups }) => {
+    const dir = document.documentElement.getAttribute('dir');
     return (
         <>
             <aside id="sub_sidebar" style={secondarySidebarStyles} className={secondarySidebar} aria-label="Sidebar">
@@ -181,7 +182,7 @@ const SubSidtbar = ({ secondarySidebarStyles, secondarySidebar, submenucollups }
                         <span className='text-xs'>Edit</span>
                     </div>
                     <div className="flex flex-2 text-white !py-2 fill-white justify-center items-center">
-                        <svg xmlns="http://www.w3.org/2000/svg" onClick={submenucollups} id="Secoundery_menu_collaps" viewBox="0 0 24 24" className="flex w-5 h-5 transition duration-75 text-gray-400 group-hover:text-white" fill="currentColor"><path d="m4.431 12.822 13 9A1 1 0 0 0 19 21V3a1 1 0 0 0-1.569-.823l-13 9a1.003 1.003 0 0 0 0 1.645z"></path></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" onClick={submenucollups} id="Secoundery_menu_collaps" viewBox="0 0 24 24" className={`flex w-5 h-5 transition duration-75 text-gray-400 group-hover:text-white ${dir=='ltr'?'':'rotate-180'}`} fill="currentColor"><path d="m4.431 12.822 13 9A1 1 0 0 0 19 21V3a1 1 0 0 0-1.569-.823l-13 9a1.003 1.003 0 0 0 0 1.645z"></path></svg>
                     </div>
                 </footer>
             </aside>
