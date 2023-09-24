@@ -1,7 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   darkMode: 'class',
-  content: ["./src/**/*.{html,js,jsx,ts,tsx}",],
+  content: ["./src/**/*.{html,js,jsx,ts,tsx}",
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
+],
   theme: {
     extend: {
       colors: {
@@ -25,6 +27,6 @@ module.exports = {
       // => @media (min-width: 1536px) { ... }
     }
   },
-  plugins: [require('tailwind-scrollbar'), require("tailwind-scrollbar-variants"), require('tailwindcss-rtl'),],
+  plugins: [require('tailwind-scrollbar'), require("tailwind-scrollbar-variants"), require('tailwindcss-rtl'), require('flowbite/plugin'),],
 }
 

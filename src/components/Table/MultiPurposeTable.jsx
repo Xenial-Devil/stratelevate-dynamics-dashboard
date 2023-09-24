@@ -74,7 +74,7 @@ const MultiPurposeTable = ({ data = null, headers = null }) => {
                                             </td>
                                         ))}
                                         <td className='px-0 py-3'>
-                                            <button id="apple-imac-27-dropdown-button" data-dropdown-toggle="apple-imac-27-dropdown" className="inline-flex items-center text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 p-1.5 dark:hover-bg-gray-800 text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none dark:text-gray-400 dark:hover:text-gray-100" type="button">
+                                             <button id="apple-imac-27-dropdown-button" data-dropdown-toggle="apple-imac-27-dropdown" className="inline-flex items-center text-sm font-medium hover:bg-gray-100 dark:hover:bg-gray-700 p-1.5 dark:hover-bg-gray-800 text-center text-gray-500 hover:text-gray-800 rounded-lg focus:outline-none dark:text-gray-400 dark:hover:text-gray-100" type="button">
                                                 <Icon icon="pepicons-pop:dots-y" />
                                             </button>
                                             <div id="apple-imac-27-dropdown" className="hidden z-10 w-44 bg-white rounded divide-y divide-gray-100 shadow dark:bg-[#292929] dark:divide-gray-600">
@@ -93,7 +93,8 @@ const MultiPurposeTable = ({ data = null, headers = null }) => {
                                                         </button>
                                                     </li>
                                                 </ul>
-                                            </div>
+                                            </div> 
+                                            
                                         </td>
                                     </tr>
                                 ))}
