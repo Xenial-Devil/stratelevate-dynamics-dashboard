@@ -151,3 +151,6 @@
 .MuiInputBase-colorPrimary{
   @apply !border-gray-500 dark:!border-gray-400;
 }
+div[modal-backdrop]{
+  @apply !hidden !bg-transparent dark:!bg-transparent !inset-0 !-z-50;
+}
