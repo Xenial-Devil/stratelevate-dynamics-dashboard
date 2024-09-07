@@ -129,9 +129,9 @@ const ApexScatterChart = () => {
   }
 
   return (
-    <Card className='!bg-white dark:!bg-[#434343]'>
+    <Card className='dark:bg-[#434343]'>
       <CardHeader
-        title='Scatter Charts' className='!text-gray-700 dark:!text-white'
+        title='Scatter Charts' className='dark:text-white'
         sx={{
           flexDirection: ['column', 'row'],
           alignItems: ['flex-start', 'center'],
@@ -139,10 +139,10 @@ const ApexScatterChart = () => {
           '& .MuiCardHeader-content': { mb: [2, 0] }
         }}
         action={
-          <ToggleButtonGroup exclusive value={active} onChange={handleActive} className='  dark:!text-white'>
-            <ToggleButton value='daily' className='!text-gray-700 dark:!text-white !border-gray-800 dark:!border-gray-400'>Daily</ToggleButton>
-            <ToggleButton value='monthly' className='!text-gray-700 dark:!text-white !border-gray-800 dark:!border-gray-400'>Monthly</ToggleButton>
-            <ToggleButton value='yearly' className='!text-gray-700 dark:!text-white !border-gray-800 dark:!border-gray-400'>Yearly</ToggleButton>
+          <ToggleButtonGroup exclusive value={active} onChange={handleActive} className='dark:text-white'>
+            <ToggleButton value='daily' className='dark:text-white'>Daily</ToggleButton>
+            <ToggleButton value='monthly' className='dark:text-white'>Monthly</ToggleButton>
+            <ToggleButton value='yearly' className='dark:text-white'>Yearly</ToggleButton>
           </ToggleButtonGroup>
         }
       />

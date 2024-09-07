@@ -10,7 +10,7 @@ const UserControll = () => {
       </button>
           <div className="z-50 hidden my-4 text-base list-none divide-y rounded-lg shadow bg-[#1C1C1C] divide-gray-600" id="user-dropdown">
               <div className="px-4 py-3">
-                  <span className="block text-sm text-white">Subroto Saha</span>
+                  <span className="block text-sm text-white">Admin</span>
                   <span className="block text-sm  truncate text-gray-400">subroto@beri.com.bd</span>
               </div>
               <ul className="py-2" aria-labelledby="user-menu-button">

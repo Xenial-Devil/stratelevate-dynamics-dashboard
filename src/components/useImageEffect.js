@@ -16,12 +16,12 @@ const useImageEffect = () => {
         if (newNightMode) {
             document.documentElement.classList.add('dark');
             image.current = dayimg;
-            logo.current = logo_dark;
+            logo.current = logo_lite;
             setTooltip("Lite Mode")
         } else {
             document.documentElement.classList.remove('dark');
             image.current = nightimg;
-            logo.current = logo_lite;
+            logo.current = logo_dark;
             setTooltip("Dark Mode")
         }
     }

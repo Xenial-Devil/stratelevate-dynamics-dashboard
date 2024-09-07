@@ -2,9 +2,9 @@
 import { forwardRef } from 'react'
 
 // ** MUI Imports
-import { styled, useTheme } from '@mui/material/styles'
+import { styled } from '@mui/material/styles'
 import TextField from '@mui/material/TextField'
-import DefaultPalette from '../customtheme';
+
 const TextFieldStyled = styled(TextField)(({ theme }) => ({
   alignItems: 'flex-start',
   '& .MuiInputLabel-root': {
@@ -13,11 +13,11 @@ const TextFieldStyled = styled(TextField)(({ theme }) => ({
     position: 'relative',
     marginBottom: theme.spacing(1),
     fontSize: theme.typography.body2.fontSize,
-    color: `${theme.palette.text.primary} `
+    color: `${theme.palette.text.primary} !important`
   },
   '& .MuiInputBase-root': {
     borderRadius: 8,
-    backgroundColor: 'transparent ',
+    backgroundColor: 'transparent !important',
     border: `1px solid rgba(${theme.palette.customColors.main}, 0.2)`,
     transition: theme.transitions.create(['border-color', 'box-shadow'], {
       duration: theme.transitions.duration.shorter
@@ -62,10 +62,10 @@ const TextFieldStyled = styled(TextField)(({ theme }) => ({
       }
     },
     '&.Mui-disabled': {
-      backgroundColor: `${theme.palette.action.selected} `
+      backgroundColor: `${theme.palette.action.selected} !important`
     },
     '& .MuiInputAdornment-root': {
-      marginTop: '0 '
+      marginTop: '0 !important'
     }
   },
   '& .MuiInputBase-input': {
@@ -108,26 +108,26 @@ const TextFieldStyled = styled(TextField)(({ theme }) => ({
 
   // ** For Autocomplete
   '& .MuiAutocomplete-input': {
-    paddingLeft: '6px ',
-    paddingTop: '7.5px ',
-    paddingBottom: '7.5px ',
+    paddingLeft: '6px !important',
+    paddingTop: '7.5px !important',
+    paddingBottom: '7.5px !important',
     '&.MuiInputBase-inputSizeSmall': {
-      paddingLeft: '6px ',
-      paddingTop: '2.5px ',
-      paddingBottom: '2.5px '
+      paddingLeft: '6px !important',
+      paddingTop: '2.5px !important',
+      paddingBottom: '2.5px !important'
     }
   },
   '& .MuiAutocomplete-inputRoot': {
-    paddingTop: '8px ',
-    paddingLeft: '8px ',
-    paddingBottom: '8px ',
+    paddingTop: '8px !important',
+    paddingLeft: '8px !important',
+    paddingBottom: '8px !important',
     '&:not(.MuiInputBase-sizeSmall).MuiInputBase-adornedStart': {
-      paddingLeft: '13px '
+      paddingLeft: '13px !important'
     },
     '&.MuiInputBase-sizeSmall': {
-      paddingTop: '5px ',
-      paddingLeft: '5px ',
-      paddingBottom: '5px ',
+      paddingTop: '5px !important',
+      paddingLeft: '5px !important',
+      paddingBottom: '5px !important',
       '& .MuiAutocomplete-tag': {
         margin: 2,
         height: 22
@@ -150,16 +150,15 @@ const TextFieldStyled = styled(TextField)(({ theme }) => ({
   '& + .react-datepicker__close-icon': {
     top: 11,
     '&:after': {
-      fontSize: '1.6rem '
+      fontSize: '1.6rem !important'
     }
   }
 }))
 
 const CustomTextField = forwardRef((props, ref) => {
   // ** Props
-  const { size = 'small', InputLabelProps, mood, ...rest } = props
-  const theme = useTheme();
-  theme.palette = DefaultPalette(mood, '');
+  const { size = 'small', InputLabelProps, ...rest } = props
+
   return (
     <TextFieldStyled
       size={size}

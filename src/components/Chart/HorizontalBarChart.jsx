@@ -41,7 +41,6 @@ const options = {
         position: 'bottom',
         categories: ['Jan', "Feb", "Mar", "Apr"],
         tickPlacement: 'on',
-
         tooltip: {
             enabled: false,
             formatter: function (val) {

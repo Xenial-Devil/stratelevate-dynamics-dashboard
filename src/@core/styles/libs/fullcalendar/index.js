@@ -3,10 +3,10 @@ import { styled } from '@mui/material/styles'
 import Box from '@mui/material/Box'
 
 // ** Hooks Imports
-import useBgColor from '../../../hooks/useBgColor'
+import useBgColor from 'src/@core/hooks/useBgColor'
 
 // ** utilities
-import { hexToRGBA } from '../../../utils/hex-to-rgba'
+import { hexToRGBA } from 'src/@core/utils/hex-to-rgba'
 
 const CalendarWrapper = styled(Box)(({ theme }) => {
   // ** Hook

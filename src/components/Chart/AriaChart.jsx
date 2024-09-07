@@ -38,6 +38,14 @@ const series = [{
 }, {
     name: 'series2',
     data: [11, 32, 45, 32, 34, 52, 41]
+},
+{
+    name: 'series3',
+    data: [20, 50, 87, 100, 134, 120, 200]
+},
+{
+    name: 'series4',
+    data: [10, 30, 80, 70, 90, 120, 220]
 }]
 
 const AriaChart = () => {
