@@ -1,0 +1,43 @@
+.tagify {
+    --tags-disabled-bg: #4872ddb3;
+    --tags-border-color: transparent;
+    --tags-hover-border-color: #0678ea;
+    --tags-focus-border-color: #3595f6;
+    --tag-border-radius: 3px;
+    --tag-bg: rgb(60, 128, 238);
+    --tag-hover: #0678ea;;
+    --tag-text-color: white;
+    --tag-text-color--edit: white;
+    --tag-pad: 0.3em 0.5em;
+    --tag-inset-shadow-size: 1.1em;
+    --tag-invalid-color: #e75d5d;
+    --tag-invalid-bg: rgba(184, 94, 94, 0.615);
+    --tag-remove-bg: rgb(193, 95, 95);
+    --tag-remove-btn-color: white;
+    --tag-remove-btn-bg: none;
+    --tag-remove-btn-bg--hover: #f92222;
+    --input-color: inherit;
+    --tag--min-width: 1ch;
+    --tag--max-width: auto;
+    --tag-hide-transition: 0.3s;
+    --placeholder-color: rgb(142, 142, 142);
+    --placeholder-color-focus:rgba(142,142,142, 0.25);
+    --loader-size: .8em;
+    --readonly-striped: 1;
+}
+.tags-input {
+    @apply !w-full !bg-gray-50 !border !border-gray-300 !text-gray-900 !text-sm rounded-lg focus:ring-blue-500 focus:!border-blue-500 !block dark:!bg-[#292929] dark:!border-gray-600 dark:!placeholder-gray-400 dark:!text-white dark:focus:!ring-blue-500 dark:focus:!border-blue-500 !p-0 !m-0;
+}
+
+.tags-input .tagify {
+    @apply !border-none !w-full !text-gray-900 dark:!text-white;
+}
+
+.tags-input .tagify__input {
+    @apply !w-full !bg-transparent !text-gray-900 dark:!text-white;
+    @apply before:!text-gray-900 dark:before:!text-white;
+}
+
+.tags-input .tagify .tagify__tag {
+    @apply !text-white !bg-blue-500 rounded-md;
+}

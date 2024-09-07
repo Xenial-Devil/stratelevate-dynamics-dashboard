@@ -1,0 +1,11 @@
+/* src/css/fonts.css */
+
+@font-face {
+    font-family: 'Diodrum Arabic Semibold';
+    src: url('../fonts/alfont_com_AlFont_com_DiodrumArabic-Bold-1.ttf') format('truetype'),
+         url('../fonts/alfont_com_AlFont_com_DiodrumArabic-Bold-1.ttf') format('truetype'),
+         url('../fonts/alfont_com_AlFont_com_DiodrumArabic-Semibold-1.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
